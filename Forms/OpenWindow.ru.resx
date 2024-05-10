@@ -20604,7 +20604,10 @@
     <value>Yu Gothic UI, 13.8pt</value>
   </data>
   <data name="LogInButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>331, 526</value>
+    <value>520, 526</value>
+  </data>
+  <data name="LogInButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 55</value>
   </data>
   <data name="LogInButton.Text" xml:space="preserve">
     <value>ВОЙТИ</value>
@@ -20641,5 +20644,17 @@
   </data>
   <data name="LanguageComboBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>172, 39</value>
+  </data>
+  <data name="LoginVKButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 13.8pt</value>
+  </data>
+  <data name="LoginVKButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 526</value>
+  </data>
+  <data name="LoginVKButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 55</value>
+  </data>
+  <data name="LoginVKButton.Text" xml:space="preserve">
+    <value>АВТОРИЗОВАТЬСЯ ЧЕРЕЗ ВК</value>
   </data>
 </root>

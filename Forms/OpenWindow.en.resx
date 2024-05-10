@@ -20594,6 +20594,12 @@
   <data name="LogInButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>Yu Gothic UI, 13.8pt</value>
   </data>
+  <data name="LogInButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>441, 532</value>
+  </data>
+  <data name="LogInButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 55</value>
+  </data>
   <data name="LogInButton.Text" xml:space="preserve">
     <value>LOG IN</value>
   </data>
@@ -20628,10 +20634,19 @@
   <data name="LanguageComboBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>172, 39</value>
   </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 29</value>
+  <data name="LoginVKButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
   </data>
-  <data name="button1.Text" xml:space="preserve">
-    <value>button1</value>
+  <data name="LoginVKButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 13.8pt</value>
+  </data>
+  <data name="LoginVKButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 532</value>
+  </data>
+  <data name="LoginVKButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 55</value>
+  </data>
+  <data name="LoginVKButton.Text" xml:space="preserve">
+    <value>LOG IN VIA VK</value>
   </data>
 </root>

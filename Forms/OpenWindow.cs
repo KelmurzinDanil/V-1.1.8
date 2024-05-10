@@ -129,7 +129,7 @@ namespace design
             Design();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void LoginVKButton_Click(object sender, EventArgs e)
         {
             var vkApi = new WebAuto();
             if (vkApi.Authorize())
