@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace DB_993.Classes
+﻿namespace DB_993.Classes
 {
     /// <summary>
     /// Класс представляет модель данных для хранения рекомендаций или оценок недвижимости.

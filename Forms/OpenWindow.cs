@@ -1,11 +1,6 @@
 ﻿using DB_993.Classes;
 using DB_993.Forms;
 using DB_993.Resourse;
-using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using System.Windows.Forms;
 namespace design
 {
     /// <summary>
@@ -134,7 +129,7 @@ namespace design
             var vkApi = new WebAuto();
             if (vkApi.Authorize())
             {
-                var mWin = new MainWindow(vkApi);
+                var mWin = new EmailUser(vkApi);
                 mWin.Show();
             }
         }

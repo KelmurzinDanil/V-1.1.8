@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace DB_993.Classes
+﻿namespace DB_993.Classes
 {
     public class Compilation
     {

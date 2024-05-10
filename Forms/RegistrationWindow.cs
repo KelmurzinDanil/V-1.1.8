@@ -1,11 +1,7 @@
 ﻿using DB_993.Classes;
+using DB_993.Forms;
 using DB_993.Resourse;
-using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using System.Text.RegularExpressions;
-using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 namespace design
 {
     /// <summary>
@@ -51,44 +47,22 @@ namespace design
         }
         private void RegistrationButton_Click(object sender, EventArgs e)
         {
+
             if (string.IsNullOrWhiteSpace(NameRegText.Text) || string.IsNullOrWhiteSpace(LoginRegText.Text) || string.IsNullOrWhiteSpace(PasswordRegText.Text))
             {
                 MessageBox.Show(RegistrationWindowLocal.FieldsTextReg);
                 return;
             }
-
-            using (var context = new DB_993.Classes.ApplicationContextBD())
+            var editInput = new EditInput();
+            if (editInput.CheckLogin(LoginRegText.Text) && LoginRegText.Text.Contains("@mail.ru"))
             {
-                var existingUser = context.Users.FirstOrDefault(user => user.Email == LoginRegText.Text);
-                if (existingUser != null)
-                {
-                    MessageBox.Show(RegistrationWindowLocal.EmailTextReg);
-                    return;
-                }
-                var editInput = new EditInput();
-                if (editInput.CheckLogin(LoginRegText.Text))
-                {
-                    HashPassword heshPassword = new HashPassword();
-                    var newUser = new User
-                    {
-                        Name = NameRegText.Text,
-                        Email = LoginRegText.Text,
-                        Password = heshPassword.GetPassword(PasswordRegText.Text)
-                    };
-
-                    context.Users.Add(newUser);
-                    context.SaveChanges();
-
-                    MessageBox.Show(RegistrationWindowLocal.RegText);
-                    MainWindow mainWindow = new MainWindow(LoginRegText.Text);
-                    mainWindow.ShowDialog();
-                }
-                else
-                {
-                    MessageBox.Show("Неправильный формат почты");
-                }
+                var check = new CheckСodeForm(LoginRegText.Text, PasswordRegText.Text, NameRegText.Text);
+            check.Show();
             }
-
+            else
+            {
+                MessageBox.Show("Неправильный формат почты. Потча должна быть обязательно с \"@mail.ru\" ");
+            }
         }
     }
 }

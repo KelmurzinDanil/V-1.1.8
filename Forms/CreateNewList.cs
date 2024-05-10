@@ -1,6 +1,4 @@
 ﻿using DB_993.Classes;
-using System;
-using System.Windows.Forms;
 namespace design
 {
     /// <summary>

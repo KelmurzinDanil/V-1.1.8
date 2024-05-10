@@ -1,12 +1,7 @@
 ﻿using DB_993.Classes;
 using DB_993.Forms;
 using DB_993.Resourse;
-using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using System.Text.RegularExpressions;
-using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 namespace design
 {
     /// <summary>
@@ -79,7 +74,7 @@ namespace design
         {
             string[] profile = WebAuto.GetMyProfile();
             NameText.Text = profile[0] + " " + profile[1];
-            EmailText.Text = profile[2];  
+            EmailText.Text = Email_;
         }
         private void LoadUserData()
         {
@@ -120,7 +115,7 @@ namespace design
                 }
                 var user = context.Users.FirstOrDefault(user => user.Email == Email_);
                 var editInput = new EditInput();
-                if (editInput.CheckLogin(EmailText.Text))
+                if (editInput.CheckLogin(EmailText.Text) && Email_!.Contains("@mail.ru"))
                 {
                     if (user != null)
                     {
@@ -136,11 +131,11 @@ namespace design
                 }
                 else
                 {
-                    MessageBox.Show("Неправильный формат почты");
+                    MessageBox.Show("Неправильный формат почты. Потча должна быть обязательно с \"@mail.ru\" ");
                 }
 
             }
         }
-        
+
     }
 }

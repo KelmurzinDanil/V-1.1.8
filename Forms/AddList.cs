@@ -1,9 +1,4 @@
 ﻿using DB_993.Classes;
-using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using System.Windows.Forms;
 
 namespace design
 {
@@ -43,7 +38,7 @@ namespace design
         {
             Text1.Parent = Picture4;
             Text1.BackColor = Color.Transparent;
-            
+
         }
         public void FillComboBox()
         {

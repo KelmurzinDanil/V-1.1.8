@@ -1,12 +1,6 @@
 ﻿using DB_993.Classes;
-using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using System.Net.Mail;
 using System.Net;
-using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.Window;
+using System.Net.Mail;
 namespace design
 {
     /// <summary>
@@ -41,7 +35,7 @@ namespace design
                 else
                 {
                     var listGeneral = context.Realtys.OrderByDescending(o => o.Mark).ToList();
-                    if(listGeneral != null)
+                    if (listGeneral != null)
                     {
                         FillListRealty(listGeneral);
                     }
@@ -73,11 +67,11 @@ namespace design
             {
                 try
                 {
-                    MailAddress from = new MailAddress("testikovich77@mail.ru", "ООО ДДД");
-                    MailAddress to = new MailAddress(Email);
-                    MailMessage m = new MailMessage(from, to);
+                    var from = new MailAddress("testikovich77@mail.ru", "ООО ДДД");
+                    var to = new MailAddress(Email);
+                    var m = new MailMessage(from, to);
                     List<Realty> realty;
-                    if(IdComp == 0)
+                    if (IdComp == 0)
                     {
                         realty = context.Realtys.OrderByDescending(o => o.Mark).ToList();
                     }
@@ -105,14 +99,14 @@ namespace design
                     m.Subject = "Подборка";
                     m.Body = $"<h2>{messegeText}</h2>";
                     m.IsBodyHtml = true;
-                    SmtpClient smtp = new SmtpClient("smtp.mail.ru", 587);
+                    var smtp = new SmtpClient("smtp.mail.ru", 587);
                     smtp.Credentials = new NetworkCredential("testikovich77@mail.ru", "SS9rxQxQp63Yhi1jgXvx");
                     smtp.EnableSsl = true;
                     smtp.Send(m);
                 }
                 catch
                 {
-                    MessageBox.Show("Произошла ошибка");
+                    MessageBox.Show("Произошла ошибка. Возможно ваша почта не существует");
                 }
             }
         }

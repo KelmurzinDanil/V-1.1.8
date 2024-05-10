@@ -1,10 +1,5 @@
 ﻿using DB_993.Classes;
 using DB_993.Resourse;
-using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using System.Windows.Forms;
 
 namespace design
 {
@@ -18,17 +13,17 @@ namespace design
         {
             InitializeComponent();
             LoadData();
-            
+
         }
         public BlackList(int idRealty)
         {
             IdRealryForFav = idRealty;
             FillTableFavourites();
             InitializeComponent();
-            
+
         }
 
-       
+
         private void FillTableFavourites()
         {
             using (var context = new ApplicationContextBD())

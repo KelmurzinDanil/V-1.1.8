@@ -1,10 +1,4 @@
 ﻿using DB_993.Classes;
-using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 namespace design
 
 {
@@ -49,7 +43,7 @@ namespace design
 
                 for (int i = 1; i < listComp.Count; i++)
                 {
-                    var listViewComp = new ListViewItem(new string[] {string.Empty, listComp[i]!.Name!.ToString()! });
+                    var listViewComp = new ListViewItem(new string[] { string.Empty, listComp[i]!.Name!.ToString()! });
                     Dict.Add(listComp[i].Id, listComp[i].Name!);
                     listViewComp.ImageIndex = i;
                     CompList.Items.Add(listViewComp);
