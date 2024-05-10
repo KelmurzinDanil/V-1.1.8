@@ -92,10 +92,9 @@ namespace DB_993.Forms
             JObject o = JObject.Parse(json);
             JArray response = (JArray)o["response"]!;
             
-            string[] profile = new string[3];
+            string[] profile = new string[2];
             profile[0] = (string)response[0]["first_name"]!;
             profile[1] = (string)response[0]["last_name"]!;
-            profile[2] = (string)response[0]["email"]!;
             return profile;
         }
     }

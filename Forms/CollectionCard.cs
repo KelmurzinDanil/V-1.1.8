@@ -28,26 +28,43 @@ namespace design
         {
             using (var context = new ApplicationContextBD())
             {
-                var imageList = new ImageList();
-                imageList.ImageSize = new Size(100, 100);
-                var listRealty = context.Compilations.Where(w => w.Id == IdComp).Select(u => u.Realtys).FirstOrDefault();
-                if (listRealty != null)
+                if (IdComp != 0)
                 {
-                    for (int i = 0; i < listRealty!.Count; i++)
+                    var imageList = new ImageList();
+                    imageList.ImageSize = new Size(100, 100);
+                    var listRealty = context.Compilations.Where(w => w.Id == IdComp).Select(u => u.Realtys).FirstOrDefault();
+                    if (listRealty != null)
                     {
-                        imageList.Images.Add(new Bitmap(listRealty[i].PhotoRealty!));
+                        FillListRealty(listRealty);
                     }
-                    ListRealtyComp.SmallImageList = imageList;
-
-                    for (int i = 0; i < listRealty.Count; i++)
+                }
+                else
+                {
+                    var listGeneral = context.Realtys.OrderByDescending(o => o.Mark).ToList();
+                    if(listGeneral != null)
                     {
-                        var listViewItem = new ListViewItem(new string[] { string.Empty, listRealty[i].Price.ToString()!,
-                        listRealty[i].Address!, listRealty[i].NameRealty!});
-                        listViewItem.ImageIndex = i;
-                        ListRealtyComp.Items.Add(listViewItem);
+                        FillListRealty(listGeneral);
                     }
                 }
 
+            }
+        }
+        public void FillListRealty(List<Realty> listRealty)
+        {
+            var imageList = new ImageList();
+            imageList.ImageSize = new Size(100, 100);
+            for (int i = 0; i < listRealty!.Count; i++)
+            {
+                imageList.Images.Add(new Bitmap(listRealty[i].PhotoRealty!));
+            }
+            ListRealtyComp.SmallImageList = imageList;
+
+            for (int i = 0; i < listRealty.Count; i++)
+            {
+                var listViewItem = new ListViewItem(new string[] { string.Empty, listRealty[i].Price.ToString()!,
+                            listRealty[i].Address!, listRealty[i].NameRealty!});
+                listViewItem.ImageIndex = i;
+                ListRealtyComp.Items.Add(listViewItem);
             }
         }
         private void EditButton_Click(object sender, EventArgs e)
@@ -59,7 +76,15 @@ namespace design
                     MailAddress from = new MailAddress("testikovich77@mail.ru", "ООО ДДД");
                     MailAddress to = new MailAddress(Email);
                     MailMessage m = new MailMessage(from, to);
-                    var realty = context.Compilations.Where(w => w.Id == IdComp).Select(u => u.Realtys).FirstOrDefault();
+                    List<Realty> realty;
+                    if(IdComp == 0)
+                    {
+                        realty = context.Realtys.OrderByDescending(o => o.Mark).ToList();
+                    }
+                    else
+                    {
+                        realty = context.Compilations.Where(w => w.Id == IdComp).Select(u => u.Realtys).FirstOrDefault()!;
+                    }
                     string textComp = String.Empty;
                     string messegeText = String.Empty;
                     string imagePath = String.Empty;

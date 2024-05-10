@@ -41,7 +41,13 @@ namespace design
                     imageList.Images.Add(new Bitmap(listRealty[i].PhotoRealty!));
                 }
                 CompList.SmallImageList = imageList;
-                for (int i = 0; i < listComp.Count; i++)
+
+                var listGeneral = context.Realtys.OrderByDescending(o => o.Mark).First();
+                var listViewCompGeneral = new ListViewItem(new string[] { string.Empty, "Общая подборка" });
+                listViewCompGeneral.ImageIndex = 0;
+                CompList.Items.Add(listViewCompGeneral);
+
+                for (int i = 1; i < listComp.Count; i++)
                 {
                     var listViewComp = new ListViewItem(new string[] {string.Empty, listComp[i]!.Name!.ToString()! });
                     Dict.Add(listComp[i].Id, listComp[i].Name!);
@@ -55,7 +61,7 @@ namespace design
             ListView.SelectedIndexCollection indices = CompList.SelectedIndices;
             if (indices.Count > 0)
             {
-                var cCard = new CollectionCard(indices[0] + 1, Email);
+                var cCard = new CollectionCard(indices[0], Email);
                 cCard.Show();
             }
         }

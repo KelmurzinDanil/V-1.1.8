@@ -295,7 +295,7 @@ namespace design
         private void AddButton_Click(object sender, EventArgs e)
         {
             var addList = new AddList();
-            addList.ShowDialog();
+            addList.Show();
         }
 
         private void FormMyRecommendationButton_Click(object sender, EventArgs e)
@@ -408,7 +408,7 @@ namespace design
         private void button1_Click(object sender, EventArgs e)
         {
             var addList = new AddList(IdRealryForFavBlMark, Email);
-            addList.ShowDialog();
+            addList.Show();
         }
         private void MyCollectionsButton_Click(object sender, EventArgs e)
         {
