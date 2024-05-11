@@ -1,5 +1,7 @@
 ﻿using DB_993.Classes;
 using DB_993.Resourse;
+using Microsoft.VisualBasic.ApplicationServices;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace design
 {
@@ -9,6 +11,7 @@ namespace design
         /// Класс используется для добавления объектов в черный список, отображения информации об объектах и удаления объекта из черного списка.
         /// </summary>
         public int IdRealryForFav { get; set; }
+        public string? Email {  get; set; }
         public BlackList()
         {
             InitializeComponent();
@@ -39,7 +42,8 @@ namespace design
                 }
                 var newBL = new BlackListTable
                 {
-                    Realtys = { context!.Realtys!.FirstOrDefault(fav => fav!.Id == IdRealryForFav)! }
+                    Realtys = { context!.Realtys!.FirstOrDefault(fav => fav!.Id == IdRealryForFav)! },
+                    EmailUser = Email
                 };
                 context.BlackLists.Add(newBL);
                 context.SaveChanges();
@@ -51,7 +55,12 @@ namespace design
             {
                 var imageList = new ImageList();
                 imageList.ImageSize = new Size(100, 100);
-                var listRealty = context.BlackLists.Select(u => u.Realtys).SingleOrDefault();
+                var listFav = context.BlackLists.Where(w => w.EmailUser == Email).Select(u => u.Id).ToList();
+                var listRealty = new List<Realty>();
+                for (int i = 0; i < listFav.Count; i++)
+                {
+                    listRealty.Add(context.Realtys.FirstOrDefault(f => f.BlackListId == listFav[i])!);
+                }
                 if (listRealty != null)
                 {
                     for (int i = 0; i < listRealty!.Count; i++)

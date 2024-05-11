@@ -137,8 +137,7 @@ namespace design
                     var userVK = context.Users.FirstOrDefault(f => f.VkId == int.Parse(profile[2]));
                     if (userVK == null)
                     {
-                        this.Visible = false;
-                        var mWin = new EmailUser(vkApi);
+                        var mWin = new EmailUser(vkApi, this);
                         mWin.Show();
                         
                     }
