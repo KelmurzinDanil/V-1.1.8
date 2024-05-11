@@ -127,9 +127,9 @@ namespace design
 
         private void SaveButton_Click(object sender, EventArgs e)
         {
-            MarkInDb();
-            MessageBox.Show(MarkWindowLocal.MarkText);
             this.Close();
+            MarkInDb();
+            MessageBox.Show(MarkWindowLocal.MarkText);         
         }
 
         private void CancelButton_Click(object sender, EventArgs e)

@@ -32,6 +32,7 @@ namespace DB_993.Forms
                 if (TextBoxEmail.Text != String.Empty && patern.CheckPattern(TextBoxEmail.Text) && TextBoxEmail.Text.Contains("@mail.ru"))
                 {
                     var ccf = new CheckСodeForm(TextBoxEmail.Text, WebAuto);
+                    this.Close();
                     ccf.Show();
                 }
                 else

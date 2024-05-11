@@ -7,6 +7,7 @@ namespace design
     /// </summary>
     public partial class TestSecondWindow : Form
     {
+        MainWindow MainWindow { get; set; }
         string? Email { get; set; }
         string? PurposeCombo { get; set; }
         string? RealtyCombo { get; set; }
@@ -23,7 +24,7 @@ namespace design
             Design();
             Email = email;
         }
-        public TestSecondWindow(string townCombo, string realtyCombo, string purposeCombo, string email)
+        public TestSecondWindow(string townCombo, string realtyCombo, string purposeCombo, string email, MainWindow main)
         {
             InitializeComponent();
             Design();
@@ -32,6 +33,7 @@ namespace design
             RealtyCombo = realtyCombo;
             PurposeCombo = purposeCombo;
             FillPicture();
+            MainWindow = main;
         }
 
         public TestSecondWindow(string townCombo, string realtyCombo, string purposeCombo)
@@ -490,6 +492,8 @@ namespace design
                 }
                 GetRecommendation getRecommendation = new GetRecommendation(listH);
                 MainWindow mainWindow = new MainWindow(getRecommendation, Email!);
+                this.Close();
+                MainWindow.Close();
                 mainWindow.Show();
             }
 

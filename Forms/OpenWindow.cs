@@ -88,7 +88,7 @@ namespace design
                 MessageBox.Show(OpenWindowLocal.FieldsText);
                 return;
             }
-            HashPassword heshPassword = new HashPassword();
+            var heshPassword = new HashPassword();
             using (var context = new DB_993.Classes.ApplicationContextBD())
             {
                 var user = context.Users.FirstOrDefault(user => user.Email == LoginTextAutho.Text
@@ -100,6 +100,7 @@ namespace design
                 }
 
                 MessageBox.Show(OpenWindowLocal.AccountText);
+                this.Visible = false;
                 var mainWindow = new MainWindow(LoginTextAutho.Text);
                 mainWindow.ShowDialog();
                 this.Hide();
@@ -136,11 +137,14 @@ namespace design
                     var userVK = context.Users.FirstOrDefault(f => f.VkId == int.Parse(profile[2]));
                     if (userVK == null)
                     {
+                        this.Visible = false;
                         var mWin = new EmailUser(vkApi);
                         mWin.Show();
+                        
                     }
                     else if (userVK != null)
                     {
+                        this.Visible = false;
                         var mWin = new MainWindow(userVK!.Email!);
                         mWin.Show();
                     }

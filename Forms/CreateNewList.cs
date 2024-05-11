@@ -45,6 +45,7 @@ namespace design
                 context.Compilations.Add(newCompilation);
                 context.SaveChanges();
             }
+            this.Close();
 
         }
     }

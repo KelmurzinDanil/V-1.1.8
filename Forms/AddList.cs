@@ -65,8 +65,8 @@ namespace design
                         realty!.CompilationId = Dict.Keys.First(f => Dict[f] == CollectionsCombo.Text);
                         context.SaveChanges();
                     }
-
                 }
+                this.Close();
             }
         }
 

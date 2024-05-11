@@ -6,6 +6,7 @@ namespace design
     /// </summary>
     public partial class TestFirstWindow : Form
     {
+        MainWindow MainWindow {  get; set; } // Нужно чтобы потом закрыть форму
         string? Email { get; set; }
         public TestFirstWindow()
         {
@@ -13,11 +14,12 @@ namespace design
             Design();
 
         }
-        public TestFirstWindow(string email)
+        public TestFirstWindow(string email, MainWindow mainWindow)
         {
             InitializeComponent();
             Design();
             Email = email;
+            MainWindow = mainWindow;
         }
 
         /// <summary>
@@ -42,7 +44,8 @@ namespace design
                 MessageBox.Show(TestFirstWindowLocal.TestFirstWindowText);
                 return;
             }
-            TestSecondWindow testSecondWindow = new TestSecondWindow(TownCombo.Text, RealtyCombo.Text, PurposeCombo.Text, Email!);
+            TestSecondWindow testSecondWindow = new TestSecondWindow(TownCombo.Text, RealtyCombo.Text, PurposeCombo.Text, Email!, MainWindow);
+            this.Close();
             testSecondWindow.Show();
         }
 
