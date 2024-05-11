@@ -496,7 +496,6 @@ namespace design
                 MainWindow.Close();
                 mainWindow.Show();
             }
-
         }
     }
 }

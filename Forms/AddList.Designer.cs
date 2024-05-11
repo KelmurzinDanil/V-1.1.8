@@ -62,7 +62,7 @@
             // 
             resources.ApplyResources(CreateCollectionButton, "CreateCollectionButton");
             CreateCollectionButton.BackColor = Color.Gainsboro;
-            CreateCollectionButton.ForeColor = SystemColors.ActiveCaptionText;
+            CreateCollectionButton.ForeColor = SystemColors.ControlText;
             CreateCollectionButton.Name = "CreateCollectionButton";
             CreateCollectionButton.UseVisualStyleBackColor = false;
             CreateCollectionButton.Click += CreateCollectionButton_Click;

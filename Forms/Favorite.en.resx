@@ -121,7 +121,7 @@
   <data name="Picture6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAx0AAANSCAYAAAAAl6MqAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DgAACw4BQL7hQQAA/7JJREFUeF7svXVzXNfWr3s+z603O7EtVrUa1CQoMUOJGUrMUqnEaKlkgYWGMrNd
+        DAAACwwBP0AiyAAA/7JJREFUeF7svXVzXNfWr3s+z603O7EtVrUa1CQoMUOJGUrMUqnEaKlkgYWGMrNd
         ZqYys122Y8fhpML5ved+gfsbc/WSWu2W7WQn79n73P3HU3Ot1atbDQvGozHHnP/r5v5p6Nw6MPNhHNzs
         Abcd4vPJ7UMzq7hzeLPCc13n7pHZNbl31INjc29x/9j8Kh4cX3iLhycWvfLo5GpWbT8lLCkentqCB6e2
         km24f2oH7p3egW8fXsQvn97CL6/u4qdP7+Dn1/fJA/z46X38+Oo+fuL6j/LYa+EOfnp1Cz+8vIVvn13F
@@ -24118,6 +24118,18 @@
   </data>
   <data name="BlackListButton.Text" xml:space="preserve">
     <value>CLEAN FAVORITE</value>
+  </data>
+  <data name="PhotoList.Text" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="PriceList.Text" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="AddressList.Text" xml:space="preserve">
+    <value>Adress</value>
+  </data>
+  <data name="NameList.Text" xml:space="preserve">
+    <value>Name</value>
   </data>
   <data name="listView1.Location" type="System.Drawing.Point, System.Drawing">
     <value>30, 42</value>

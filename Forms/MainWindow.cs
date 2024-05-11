@@ -398,11 +398,13 @@ namespace design
             next.SetToolTip(StraightButton, MainWindowLocal.FollowRecommendationText);
             ToolTip back = new ToolTip();
             back.SetToolTip(BackButton, MainWindowLocal.PreviousRecommendationText);
+            ToolTip list = new ToolTip();
+            list.SetToolTip(MyCollectionsButton, MainWindowLocal.ListText);
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var addList = new AddList(IdRealryForFavBlMark, Email);
+            var addList = new AddList(IdRealryForFavBlMark, Email!);
             addList.Show();
         }
         private void MyCollectionsButton_Click(object sender, EventArgs e)

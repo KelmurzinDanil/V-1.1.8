@@ -117,31 +117,120 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="BlackListButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 64</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="PriceList.Width" type="System.Int32, mscorlib">
+    <value>220</value>
+  </data>
+  <data name="&gt;&gt;ProfileButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="PhotoList.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ProfileButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Picture6.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;MyListsButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="FavButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="ProfileButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Favorite</value>
   </data>
-  <data name="ProfileButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="&gt;&gt;FavButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FavButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Picture6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
+  </data>
+  <data name="MyListsButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="FavButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 64</value>
+  </data>
+  <data name="&gt;&gt;listView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="listView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>729, 507</value>
+  </data>
+  <data name="PhotoList.Text" xml:space="preserve">
+    <value>Изображение</value>
+  </data>
+  <data name="&gt;&gt;NameList.Name" xml:space="preserve">
+    <value>NameList</value>
+  </data>
+  <data name="&gt;&gt;NameList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ProfileButton.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;MyListsButton.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="NameList.Text" xml:space="preserve">
+    <value>Название</value>
   </data>
-  <data name="&gt;&gt;PriceList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 20</value>
   </data>
-  <data name="&gt;&gt;MyListsButton.Name" xml:space="preserve">
-    <value>MyListsButton</value>
+  <data name="MyListsButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 64</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="MyListsButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>574, 13</value>
+  <data name="&gt;&gt;BlackListButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="listView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 129</value>
+  </data>
+  <data name="ProfileButton.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="FavButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="AddressList.Text" xml:space="preserve">
+    <value>Адрес</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="FavButton.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="MyListsButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>791, 670</value>
+  </data>
+  <data name="BlackListButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;Picture6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlackListButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Picture6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>797, 850</value>
+  </data>
+  <data name="ProfileButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 13</value>
   </data>
   <data name="BlackListButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -179,12 +268,17 @@
         QmCC
 </value>
   </data>
-  <data name="&gt;&gt;AddressList.Name" xml:space="preserve">
-    <value>AddressList</value>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="FavButton.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+  <data name="&gt;&gt;FavButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BlackListButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>472, 13</value>
+  </data>
+  <data name="&gt;&gt;MyListsButton.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="Picture6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -19735,36 +19829,62 @@
         QkeQVkF8djGmy+ZU1zHGp1loKUK/GcdoUQCxaH8aU6NtyP8BETIbVPdYIKQAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="&gt;&gt;FavButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;MyListsButton.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="BlackListButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 64</value>
+  <data name="Picture6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-5, 0</value>
+  </data>
+  <data name="&gt;&gt;PriceList.Name" xml:space="preserve">
+    <value>PriceList</value>
+  </data>
+  <data name="MyListsButton.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;AddressList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlackListButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;PhotoList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listView1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Picture6.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="listView1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;listView1.Name" xml:space="preserve">
+    <value>listView1</value>
   </data>
   <data name="&gt;&gt;Picture6.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="Picture6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+  <data name="&gt;&gt;BlackListButton.Name" xml:space="preserve">
+    <value>BlackListButton</value>
   </data>
-  <data name="&gt;&gt;FavButton.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="BlackListButton.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
+  <data name="MyListsButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>574, 13</value>
   </data>
-  <data name="&gt;&gt;PhotoList.Name" xml:space="preserve">
-    <value>PhotoList</value>
+  <data name="&gt;&gt;Picture6.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="PhotoList.Width" type="System.Int32, mscorlib">
-    <value>120</value>
+  <data name="AddressList.Width" type="System.Int32, mscorlib">
+    <value>260</value>
   </data>
-  <data name="&gt;&gt;ProfileButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;MyListsButton.Name" xml:space="preserve">
+    <value>MyListsButton</value>
   </data>
-  <data name="ProfileButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 64</value>
+  <data name="&gt;&gt;ProfileButton.Name" xml:space="preserve">
+    <value>ProfileButton</value>
   </data>
   <data name="FavButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -19796,8 +19916,14 @@
         M+Pm5n9mF2vGrExMOwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="PriceList.Text" xml:space="preserve">
-    <value>Цена</value>
+  <data name="&gt;&gt;ProfileButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddressList.Name" xml:space="preserve">
+    <value>AddressList</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="ProfileButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -19828,166 +19954,40 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANCMh4dfnHo7jXRdawkAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="AddressList.Text" xml:space="preserve">
-    <value>Адрес</value>
-  </data>
-  <data name="FavButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 64</value>
-  </data>
-  <data name="MyListsButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;Picture6.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="Picture6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-5, 0</value>
-  </data>
-  <data name="ProfileButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="Picture6.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
-  </data>
-  <data name="ProfileButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>141, 13</value>
+  <data name="FavButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 13</value>
   </data>
   <data name="NameList.Width" type="System.Int32, mscorlib">
     <value>120</value>
   </data>
-  <data name="&gt;&gt;BlackListButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="listView1.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="FavButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>248, 13</value>
-  </data>
-  <data name="&gt;&gt;FavButton.Name" xml:space="preserve">
-    <value>FavButton</value>
-  </data>
-  <data name="listView1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>729, 507</value>
-  </data>
-  <data name="PriceList.Width" type="System.Int32, mscorlib">
-    <value>220</value>
-  </data>
-  <data name="&gt;&gt;PhotoList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;listView1.Name" xml:space="preserve">
-    <value>listView1</value>
-  </data>
-  <data name="&gt;&gt;ProfileButton.Name" xml:space="preserve">
-    <value>ProfileButton</value>
-  </data>
-  <data name="&gt;&gt;Picture6.Name" xml:space="preserve">
-    <value>Picture6</value>
-  </data>
-  <data name="Picture6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>797, 850</value>
-  </data>
-  <data name="&gt;&gt;AddressList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="MyListsButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 64</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 20</value>
-  </data>
-  <data name="&gt;&gt;listView1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="NameList.Text" xml:space="preserve">
-    <value>Название</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ProfileButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;NameList.Name" xml:space="preserve">
-    <value>NameList</value>
-  </data>
-  <data name="BlackListButton.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="Picture6.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="&gt;&gt;listView1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;listView1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NameList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;PriceList.Name" xml:space="preserve">
-    <value>PriceList</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="&gt;&gt;BlackListButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>791, 670</value>
-  </data>
-  <data name="&gt;&gt;BlackListButton.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;MyListsButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="BlackListButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>472, 13</value>
-  </data>
-  <data name="AddressList.Width" type="System.Int32, mscorlib">
-    <value>260</value>
-  </data>
-  <data name="ProfileButton.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+  <data name="&gt;&gt;PhotoList.Name" xml:space="preserve">
+    <value>PhotoList</value>
   </data>
   <data name="Picture6.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;FavButton.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;FavButton.Name" xml:space="preserve">
+    <value>FavButton</value>
   </data>
-  <data name="MyListsButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+  <data name="&gt;&gt;Picture6.Name" xml:space="preserve">
+    <value>Picture6</value>
   </data>
-  <data name="&gt;&gt;MyListsButton.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="ProfileButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 64</value>
   </data>
-  <data name="&gt;&gt;Picture6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;listView1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="listView1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>30, 129</value>
+  <data name="&gt;&gt;PriceList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="BlackListButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+  <data name="PriceList.Text" xml:space="preserve">
+    <value>Цена</value>
   </data>
-  <data name="PhotoList.Text" xml:space="preserve">
-    <value>Изображение</value>
-  </data>
-  <data name="MyListsButton.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
-  </data>
-  <data name="&gt;&gt;BlackListButton.Name" xml:space="preserve">
-    <value>BlackListButton</value>
-  </data>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
-    <value>ru</value>
-  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>en</value>
   </metadata>
 </root>

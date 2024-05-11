@@ -117,100 +117,101 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="CollectionNameText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 108</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Picture5.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="&gt;&gt;Text2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="CreateCollectionButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft JhengHei UI Light, 13.8pt</value>
+  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Text2.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 20</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Picture5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>750, 249</value>
-  </data>
-  <data name="&gt;&gt;CreateCollectionButton.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;CollectionNameText.Name" xml:space="preserve">
-    <value>CollectionNameText</value>
-  </data>
-  <data name="CollectionNameText.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Text2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 49</value>
-  </data>
-  <data name="Picture5.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="CreateCollectionButton.Text" xml:space="preserve">
-    <value>СОЗДАТЬ
-
-</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="&gt;&gt;CollectionNameText.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="CollectionNameText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>382, 48</value>
-  </data>
-  <data name="&gt;&gt;Text1.Name" xml:space="preserve">
-    <value>Text1</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CreateCollectionButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="CreateCollectionButton.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;Text1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="Text2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Constantia, 18pt</value>
-  </data>
-  <data name="&gt;&gt;Text2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="Picture5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-2, 0</value>
-  </data>
-  <data name="Text2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>89, 108</value>
-  </data>
   <data name="Text1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Constantia, 19.8pt</value>
+  </data>
+  <data name="CollectionNameText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="CollectionNameText.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
   </data>
   <data name="Text1.Size" type="System.Drawing.Size, System.Drawing">
     <value>453, 59</value>
   </data>
-  <data name="CollectionNameText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>296, 108</value>
+  <data name="CreateCollectionButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 178</value>
   </data>
-  <data name="CollectionNameText.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
+  <data name="&gt;&gt;CreateCollectionButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CreateCollectionButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CollectionNameText.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Text1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Text2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 108</value>
+  </data>
+  <data name="CreateCollectionButton.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;Picture5.Name" xml:space="preserve">
+    <value>Picture5</value>
+  </data>
+  <data name="CollectionNameText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>382, 48</value>
+  </data>
+  <data name="&gt;&gt;Picture5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Picture5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-2, 0</value>
   </data>
   <data name="Text2.Text" xml:space="preserve">
     <value>Название
 
 </value>
   </data>
-  <data name="Text1.Text" xml:space="preserve">
-    <value>Создать новую подборку</value>
+  <data name="&gt;&gt;Text1.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="CollectionNameText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+  <data name="Text2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 49</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>CreateNewList</value>
+  </data>
+  <data name="&gt;&gt;CollectionNameText.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Picture5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Text1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 20</value>
+  </data>
+  <data name="&gt;&gt;Text2.Name" xml:space="preserve">
+    <value>Text2</value>
   </data>
   <data name="&gt;&gt;CreateCollectionButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -218,59 +219,73 @@
   <data name="&gt;&gt;CollectionNameText.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;Text2.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="CreateCollectionButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Text2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Constantia, 18pt</value>
   </data>
-  <data name="Picture5.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
+  <data name="CreateCollectionButton.Text" xml:space="preserve">
+    <value>СОЗДАТЬ
+
+</value>
   </data>
   <data name="&gt;&gt;CollectionNameText.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;Picture5.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="&gt;&gt;CollectionNameText.Name" xml:space="preserve">
+    <value>CollectionNameText</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>CreateNewList</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="CreateCollectionButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;Picture5.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Picture5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Picture5.Name" xml:space="preserve">
-    <value>Picture5</value>
+  <data name="&gt;&gt;Text1.Name" xml:space="preserve">
+    <value>Text1</value>
   </data>
   <data name="Text1.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="CreateCollectionButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft JhengHei UI Light, 13.8pt</value>
+  <data name="&gt;&gt;Picture5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;Text1.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;Picture5.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="Text1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>174, 31</value>
-  </data>
-  <data name="Picture5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>753, 248</value>
-  </data>
-  <data name="CreateCollectionButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>750, 249</value>
+  </data>
+  <data name="&gt;&gt;Text2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Text2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="CreateCollectionButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 48</value>
   </data>
   <data name="&gt;&gt;CreateCollectionButton.Name" xml:space="preserve">
     <value>CreateCollectionButton</value>
   </data>
-  <data name="CreateCollectionButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>262, 178</value>
+  <data name="CreateCollectionButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="CreateCollectionButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Picture5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>753, 248</value>
+  </data>
+  <data name="Text1.Text" xml:space="preserve">
+    <value>Создать новую подборку</value>
+  </data>
+  <data name="Text1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 31</value>
   </data>
   <data name="Picture5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -7469,25 +7484,10 @@
         gg==
 </value>
   </data>
-  <data name="&gt;&gt;Text2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CreateCollectionButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Text1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="CreateCollectionButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 48</value>
-  </data>
-  <data name="&gt;&gt;Text2.Name" xml:space="preserve">
-    <value>Text2</value>
-  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>en</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
-    <value>ru</value>
   </metadata>
 </root>

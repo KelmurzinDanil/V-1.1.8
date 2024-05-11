@@ -41,6 +41,36 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>BlackListLocal.resx</DependentUpon>
     </Compile>
+    <Compile Update="Resourse\CheckCodeLocal.en.Designer.cs">
+      <DependentUpon>CheckCodeLocal.en.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Resourse\CheckCodeLocal.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CheckCodeLocal.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resourse\CreateNewListLocal.en.Designer.cs">
+      <DependentUpon>CreateNewListLocal.en.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Resourse\CreateNewListLocal.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CreateNewListLocal.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resourse\EmailUserLocal.en.Designer.cs">
+      <DependentUpon>EmailUserLocal.en.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Resourse\EmailUserLocal.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EmailUserLocal.resx</DependentUpon>
+    </Compile>
     <Compile Update="Resourse\FavoriteLocal.en.Designer.cs">
       <DependentUpon>FavoriteLocal.en.resx</DependentUpon>
       <DesignTime>True</DesignTime>
@@ -135,6 +165,30 @@
     <EmbeddedResource Update="Resourse\BlackListLocal.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>BlackListLocal.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resourse\CheckCodeLocal.en.resx">
+      <LastGenOutput>CheckCodeLocal.en.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resourse\CheckCodeLocal.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CheckCodeLocal.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resourse\CreateNewListLocal.en.resx">
+      <LastGenOutput>CreateNewListLocal.en.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resourse\CreateNewListLocal.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CreateNewListLocal.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resourse\EmailUserLocal.en.resx">
+      <LastGenOutput>EmailUserLocal.en.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resourse\EmailUserLocal.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>EmailUserLocal.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Update="Resourse\FavoriteLocal.en.resx">
       <LastGenOutput>FavoriteLocal.en.Designer.cs</LastGenOutput>

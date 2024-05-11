@@ -60,7 +60,7 @@ namespace design
             }
             else
             {
-                MessageBox.Show("Неправильный формат почты. Потча должна быть обязательно с \"@mail.ru\" ");
+                MessageBox.Show(RegistrationWindowLocal.FormatEmailText);
             }
         }
     }

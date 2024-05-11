@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CheckСodeForm));
             Okbtn = new Button();
             TextBoxCode = new TextBox();
             labelCheckForm = new Label();
@@ -35,40 +36,31 @@
             // 
             // Okbtn
             // 
-            Okbtn.Location = new Point(291, 119);
+            resources.ApplyResources(Okbtn, "Okbtn");
+            Okbtn.BackColor = Color.Gainsboro;
+            Okbtn.ForeColor = SystemColors.ControlText;
             Okbtn.Name = "Okbtn";
-            Okbtn.Size = new Size(94, 29);
-            Okbtn.TabIndex = 5;
-            Okbtn.Text = "Ок";
-            Okbtn.UseVisualStyleBackColor = true;
+            Okbtn.UseVisualStyleBackColor = false;
             // 
             // TextBoxCode
             // 
-            TextBoxCode.Location = new Point(12, 73);
+            resources.ApplyResources(TextBoxCode, "TextBoxCode");
             TextBoxCode.Name = "TextBoxCode";
-            TextBoxCode.Size = new Size(373, 27);
-            TextBoxCode.TabIndex = 4;
             TextBoxCode.TextChanged += TextBoxCode_TextChanged;
             // 
             // labelCheckForm
             // 
-            labelCheckForm.AutoSize = true;
-            labelCheckForm.Location = new Point(12, 10);
+            resources.ApplyResources(labelCheckForm, "labelCheckForm");
             labelCheckForm.Name = "labelCheckForm";
-            labelCheckForm.Size = new Size(350, 20);
-            labelCheckForm.TabIndex = 3;
-            labelCheckForm.Text = "Вам на почту был вышлен код. Введите его сюда";
             // 
             // CheckСodeForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(397, 159);
             Controls.Add(Okbtn);
             Controls.Add(TextBoxCode);
             Controls.Add(labelCheckForm);
             Name = "CheckСodeForm";
-            Text = "CheckСodeForm";
             ResumeLayout(false);
             PerformLayout();
         }

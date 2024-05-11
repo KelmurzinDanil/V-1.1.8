@@ -126,6 +126,9 @@
   <data name="FollowRecommendationText" xml:space="preserve">
     <value>Following recommendation</value>
   </data>
+  <data name="ListText" xml:space="preserve">
+    <value>My selections</value>
+  </data>
   <data name="MainWindowBlackListText" xml:space="preserve">
     <value>Blacklist</value>
   </data>

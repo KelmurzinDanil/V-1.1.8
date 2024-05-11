@@ -126,6 +126,9 @@
   <data name="FollowRecommendationText" xml:space="preserve">
     <value>Следующая рекомендация</value>
   </data>
+  <data name="ListText" xml:space="preserve">
+    <value>Мои подборки</value>
+  </data>
   <data name="MainWindowBlackListText" xml:space="preserve">
     <value>Чёрный список</value>
   </data>

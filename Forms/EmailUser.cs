@@ -37,7 +37,7 @@ namespace DB_993.Forms
                 }
                 else
                 {
-                    MessageBox.Show("Неправильный формат почты. Потча должна быть обязательно с \"@mail.ru\" ");
+                    MessageBox.Show(EmailUserLocal.EmailUserText);
                 }
             }
         }

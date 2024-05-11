@@ -88,6 +88,15 @@ namespace DB_993.Resourse {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Мои подборки.
+        /// </summary>
+        internal static string ListText {
+            get {
+                return ResourceManager.GetString("ListText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Чёрный список.
         /// </summary>
         internal static string MainWindowBlackListText {

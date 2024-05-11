@@ -70,6 +70,15 @@ namespace DB_993.Resourse {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Неправильный формат почты. Потча должна быть обязательно с \&quot;@mail.ru\.
+        /// </summary>
+        internal static string EmailPText {
+            get {
+                return ResourceManager.GetString("EmailPText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Пользователь с такой электронной почтой уже существует..
         /// </summary>
         internal static string EmailTextProfile {

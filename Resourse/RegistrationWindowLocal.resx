@@ -123,6 +123,9 @@
   <data name="FieldsTextReg" xml:space="preserve">
     <value>Заполните все поля.</value>
   </data>
+  <data name="FormatEmailText" xml:space="preserve">
+    <value>Неправильный формат почты. Потча должна быть обязательно с \"@mail.ru\</value>
+  </data>
   <data name="RegText" xml:space="preserve">
     <value>Регистрация прошла успешно!</value>
   </data>

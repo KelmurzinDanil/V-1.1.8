@@ -121,7 +121,7 @@
   <data name="Picture7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAx0AAANSCAYAAAAAl6MqAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DgAACw4BQL7hQQAA/7JJREFUeF7svfV/G1m29f38Wc/MdCcxW5bMtmzLsi2DzMzMzMzMFGMMYeZ0Ot1h
+        DAAACwwBP0AiyAAA/7JJREFUeF7svfV/G1m29f38Wc/MdCcxW5bMtmzLsi2DzMzMzMzMFGMMYeZ0Ot1h
         6iTN3TPTNHCH7rPetY8kx3E7TQPv3Dv9w/pUqVQqlapOVa2v9tln/5+bG2Ow6e09urU5vq/e2ZrYIy7b
         HrPoKOf36N2jE7h9bHJf3Tk+pXR7j+6c2F93T05bNfOK7p2aVbp/enFHD84c3tHDs7u1tKNH55aVHp9f
         2dGT86sWXeD8xWU8ubSEx9TDyyt4eGkd9y9t4cmN8/jLbz/B//vyS/z1i6/xt69+jz9/8Xv86cvf4c9f
@@ -15541,6 +15541,9 @@
   <data name="Text1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
+  <data name="CompList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>639, 708</value>
+  </data>
   <data name="PhotoFirst.Text" xml:space="preserve">
     <value>Фото</value>
   </data>
@@ -15553,8 +15556,5 @@
   </data>
   <data name="NameList.Width" type="System.Int32, mscorlib">
     <value>350</value>
-  </data>
-  <data name="CompList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>639, 708</value>
   </data>
 </root>

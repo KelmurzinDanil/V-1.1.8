@@ -123,6 +123,9 @@
   <data name="FieldsTextReg" xml:space="preserve">
     <value>Fill in all the fields.</value>
   </data>
+  <data name="FormatEmailText" xml:space="preserve">
+    <value>The mail format is incorrect. The mail must be from \"@mail.ru \</value>
+  </data>
   <data name="RegText" xml:space="preserve">
     <value>Registration was successful!</value>
   </data>

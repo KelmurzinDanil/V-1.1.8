@@ -120,6 +120,9 @@
   <data name="DataTextProfile" xml:space="preserve">
     <value>The data has been saved successfully!</value>
   </data>
+  <data name="EmailPText" xml:space="preserve">
+    <value>The mail format is incorrect. The patch must necessarily be with \"@mail.ru \</value>
+  </data>
   <data name="EmailTextProfile" xml:space="preserve">
     <value>A user with such an email already exists.</value>
   </data>

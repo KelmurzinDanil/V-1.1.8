@@ -121,7 +121,7 @@
   <data name="Picture8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABP8AAAN7CAYAAAA6GD8bAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EgAACxIB0t1+/AAA/7JJREFUeF7snWd3G0mStd///wN2uyV6EiQ8cOC99444IOi9JyVK5JGLdrPz3htV
+        EQAACxEBf2RfkQAA/7JJREFUeF7snWd3G0mStd///wN2uyV6EiQ8cOC99444IOi9JyVK5JGLdrPz3htV
         BUdQonpGMz27/HAPPFCVlRmZ8SAy4v/dHHZlUrfPUm+gN0cbT+rtiPj4doomPzNNo98zXf3n6/jrujve
         /LZOHuvdV7X1tE4f6/3ptqmdR3pn6Wxb3p0/V3i/ahfaV7053Ze7i2O5v76QXz/cy99/+SJ/+2Lof+QX
         +Zv8Kn9Af5PfRsTHU/TLf7b+55ffXvQX0LRr8xz9z79Qg9/9FY9/5TFjrKgEY0HkD44hwRjCePr980f5
@@ -27853,10 +27853,10 @@
 </value>
   </data>
   <data name="Text1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Yu Gothic UI Semilight, 19.800001pt</value>
+    <value>Yu Gothic UI Semilight, 17.800001pt</value>
   </data>
   <data name="Text1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>979, 58</value>
+    <value>1010, 58</value>
   </data>
   <data name="Text1.Text" xml:space="preserve">
     <value>SELECT AT LEAST 3 OBLECTS(SELECT WITH THE RIGHT MOUSE BUTTON)

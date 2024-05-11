@@ -120,6 +120,9 @@
   <data name="DataTextProfile" xml:space="preserve">
     <value>Данные успешно сохранены!</value>
   </data>
+  <data name="EmailPText" xml:space="preserve">
+    <value>Неправильный формат почты. Потча должна быть обязательно с \"@mail.ru\</value>
+  </data>
   <data name="EmailTextProfile" xml:space="preserve">
     <value>Пользователь с такой электронной почтой уже существует.</value>
   </data>

@@ -73,7 +73,7 @@ namespace DB_993.Forms
                 }
                 context.Users.Add(newUser);
                 context.SaveChanges();
-                MessageBox.Show(RegistrationWindowLocal.RegText);
+                MessageBox.Show(CheckCodeLocal.CheckCodeText);
                 var mainWindow = new MainWindow(Email);
                 mainWindow.Show();
             }

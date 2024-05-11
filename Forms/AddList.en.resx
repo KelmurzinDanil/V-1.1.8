@@ -121,7 +121,7 @@
   <data name="Picture4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAsUAAAD/CAYAAAAZtav6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EgAACxIB0t1+/AAA/7JJREFUeF7s/fV7HNe+Nfqu/+nc55x7n3efvfeCLArHQbOd2DHEzMwok2RmyxYz
+        EAAACxABrSO9dQAA/7JJREFUeF7s/fV7HNe+Nfqu/+nc55x7n3efvfeCLArHQbOd2DHEzMwok2RmyxYz
         M6MlS7ZYMohlmWSQmccdY1ZVd3WrZcteSVbe/eaH8XSru9VqnPWpr7415x+WTvgrlMXjPsCS8R+Y00Vj
         /4yV3/8DuxaPwamtsxC2Yx5iQhYj8eByJBxYhsyT65EduhFZpzagImEPbrWk4eWNUqbEJy+uF+NZfxGe
         Xi3Ao55cPOzOwf3ObAx2ZOLulXTcuczolLnL87dbUzHQkoKbzcm43pCAqxdi0Vsbje6aaHRVR3nSURWB
@@ -5353,10 +5353,10 @@
     <value>Yu Gothic UI Semilight, 19.800001pt</value>
   </data>
   <data name="Text1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>140, 71</value>
+    <value>155, 71</value>
   </data>
   <data name="Text1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>141, 59</value>
+    <value>141, 49</value>
   </data>
   <data name="Text1.Text" xml:space="preserve">
     <value>Add to</value>
@@ -5381,7 +5381,10 @@
     <value>NoControl</value>
   </data>
   <data name="CreateCollectionButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>187, 148</value>
+    <value>46, 155</value>
+  </data>
+  <data name="CreateCollectionButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 55</value>
   </data>
   <data name="CreateCollectionButton.Text" xml:space="preserve">
     <value>CREATE</value>
@@ -5390,13 +5393,25 @@
     <value>Yu Gothic UI, 13.8pt</value>
   </data>
   <data name="AddCollectionBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>440, 148</value>
+    <value>457, 155</value>
   </data>
   <data name="AddCollectionBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>204, 55</value>
   </data>
   <data name="AddCollectionBtn.Text" xml:space="preserve">
     <value>ADD</value>
+  </data>
+  <data name="DeleteComp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 13.8pt</value>
+  </data>
+  <data name="DeleteComp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>255, 155</value>
+  </data>
+  <data name="DeleteComp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 55</value>
+  </data>
+  <data name="DeleteComp.Text" xml:space="preserve">
+    <value>DELETE</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>707, 250</value>

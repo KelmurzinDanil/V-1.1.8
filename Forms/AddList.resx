@@ -117,196 +117,252 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;ChooseButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Picture4.Name" xml:space="preserve">
-    <value>Picture4</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CreateCollectionButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="AddFavButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 41</value>
-  </data>
-  <data name="&gt;&gt;AddFavButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="AddCollectionBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>AddList</value>
-  </data>
-  <data name="&gt;&gt;DeleteComp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="CreateCollectionButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 55</value>
-  </data>
-  <data name="Text1.Text" xml:space="preserve">
-    <value>Добавить в 
-</value>
+  <data name="AddCollectionBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 358</value>
   </data>
   <data name="CollectionsCombo.Size" type="System.Drawing.Size, System.Drawing">
     <value>169, 45</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>707, 474</value>
+  <data name="Text1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 49</value>
   </data>
-  <data name="&gt;&gt;Picture4.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="&gt;&gt;Text1.Name" xml:space="preserve">
+    <value>Text1</value>
+  </data>
+  <data name="&gt;&gt;Text1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Picture4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
   </data>
-  <data name="CollectionsCombo.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;Picture4.Parent" xml:space="preserve">
+  <data name="&gt;&gt;AddFavButton.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="Picture4.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="CreateCollectionButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft JhengHei UI Light, 13.8pt</value>
   </data>
-  <data name="&gt;&gt;CreateCollectionButton.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="CollectionsCombo.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Constantia, 18pt</value>
-  </data>
-  <data name="CreateCollectionButton.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
+  <data name="&gt;&gt;ChooseButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Text1.Size" type="System.Drawing.Size, System.Drawing">
     <value>453, 59</value>
   </data>
-  <data name="Text1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>65, 49</value>
+  <data name="&gt;&gt;ChooseButton.Name" xml:space="preserve">
+    <value>ChooseButton</value>
   </data>
-  <data name="DeleteComp.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
+  <data name="AddFavButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
-  <data name="ChooseButton.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 20</value>
+  <data name="&gt;&gt;Picture4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;DeleteComp.Name" xml:space="preserve">
     <value>DeleteComp</value>
   </data>
-  <data name="ChooseButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Constantia, 18pt</value>
+  <data name="Picture4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, -2</value>
   </data>
-  <data name="&gt;&gt;ChooseButton.Name" xml:space="preserve">
-    <value>ChooseButton</value>
+  <data name="&gt;&gt;Picture4.Name" xml:space="preserve">
+    <value>Picture4</value>
   </data>
-  <data name="ChooseButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="&gt;&gt;CollectionsCombo.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;CollectionsCombo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="Text1.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;ChooseButton.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;Text1.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="CreateCollectionButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
+  <data name="Text1.Text" xml:space="preserve">
+    <value>Добавить в 
+</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
   </data>
+  <data name="CollectionsCombo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 20</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="DeleteComp.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="CollectionsCombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>349, 228</value>
+  </data>
+  <data name="&gt;&gt;Text1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Text1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CreateCollectionButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ChooseButton.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;CollectionsCombo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="DeleteComp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 155</value>
+  </data>
+  <data name="&gt;&gt;AddCollectionBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;AddFavButton.Name" xml:space="preserve">
+    <value>AddFavButton</value>
+  </data>
+  <data name="ChooseButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 41</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DeleteComp.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CreateCollectionButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 55</value>
+  </data>
+  <data name="CollectionsCombo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Constantia, 18pt</value>
+  </data>
+  <data name="&gt;&gt;Picture4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>AddList</value>
+  </data>
+  <data name="AddCollectionBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="AddFavButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 41</value>
+  </data>
+  <data name="AddFavButton.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;ChooseButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CreateCollectionButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="CreateCollectionButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>427, 354</value>
+  </data>
+  <data name="&gt;&gt;AddCollectionBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="AddFavButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Constantia, 18pt</value>
+  </data>
+  <data name="Picture4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Picture4.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;CollectionsCombo.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="&gt;&gt;CollectionsCombo.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;AddCollectionBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="CollectionsCombo.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;DeleteComp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>415, 359</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateCollectionButton.Name" xml:space="preserve">
+    <value>CreateCollectionButton</value>
+  </data>
+  <data name="&gt;&gt;CreateCollectionButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Text1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Constantia, 19.8pt</value>
+  </data>
+  <data name="ChooseButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;AddCollectionBtn.Name" xml:space="preserve">
+    <value>AddCollectionBtn</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CreateCollectionButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>707, 474</value>
+  </data>
+  <data name="&gt;&gt;CreateCollectionButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;AddFavButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ChooseButton.Text" xml:space="preserve">
+    <value>Выбрать</value>
+  </data>
+  <data name="Text1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;CollectionsCombo.Name" xml:space="preserve">
+    <value>CollectionsCombo</value>
+  </data>
+  <data name="Picture4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>709, 476</value>
+  </data>
+  <data name="ChooseButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 229</value>
+  </data>
+  <data name="Picture4.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="AddFavButton.Text" xml:space="preserve">
+    <value>"Избранное"</value>
+  </data>
+  <data name="CreateCollectionButton.Text" xml:space="preserve">
+    <value>СОЗДАТЬ
+
+</value>
+  </data>
   <data name="AddFavButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>136, 139</value>
+  </data>
+  <data name="&gt;&gt;ChooseButton.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="CreateCollectionButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
   </data>
   <data name="AddFavButton.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="AddFavButton.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="AddFavButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="&gt;&gt;AddFavButton.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="AddCollectionBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>65, 358</value>
-  </data>
-  <data name="&gt;&gt;CreateCollectionButton.Name" xml:space="preserve">
-    <value>CreateCollectionButton</value>
-  </data>
-  <data name="ChooseButton.Text" xml:space="preserve">
-    <value>Выбрать</value>
-  </data>
-  <data name="CollectionsCombo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="&gt;&gt;AddCollectionBtn.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="AddFavButton.Text" xml:space="preserve">
-    <value>"Избранное"</value>
-  </data>
-  <data name="&gt;&gt;AddFavButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Picture4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;AddFavButton.Name" xml:space="preserve">
-    <value>AddFavButton</value>
-  </data>
-  <data name="&gt;&gt;AddCollectionBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Text1.Name" xml:space="preserve">
-    <value>Text1</value>
-  </data>
-  <data name="&gt;&gt;Text1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;DeleteComp.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="Picture4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>709, 476</value>
-  </data>
-  <data name="CreateCollectionButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>427, 354</value>
-  </data>
-  <data name="&gt;&gt;CollectionsCombo.Name" xml:space="preserve">
-    <value>CollectionsCombo</value>
-  </data>
-  <data name="Picture4.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
   </data>
   <data name="Picture4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -8512,81 +8568,25 @@
         C4rn2f8HfN6bqgiqhPEAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="Text1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Constantia, 19.8pt</value>
+  <data name="&gt;&gt;AddFavButton.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
-  <data name="&gt;&gt;CreateCollectionButton.Type" xml:space="preserve">
+  <data name="&gt;&gt;DeleteComp.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="CreateCollectionButton.Text" xml:space="preserve">
-    <value>СОЗДАТЬ
-
-</value>
+  <data name="CreateCollectionButton.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
   </data>
-  <data name="CreateCollectionButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft JhengHei UI Light, 13.8pt</value>
-  </data>
-  <data name="AddFavButton.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="ChooseButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>Constantia, 18pt</value>
   </data>
-  <data name="&gt;&gt;CreateCollectionButton.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="ChooseButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
-  <data name="&gt;&gt;AddCollectionBtn.Name" xml:space="preserve">
-    <value>AddCollectionBtn</value>
-  </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>415, 359</value>
-  </data>
-  <data name="&gt;&gt;AddCollectionBtn.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="Picture4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-1, -2</value>
-  </data>
-  <data name="&gt;&gt;ChooseButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DeleteComp.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
-  </data>
-  <data name="ChooseButton.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="ChooseButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>136, 229</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="CollectionsCombo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>349, 228</value>
-  </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="ChooseButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>154, 41</value>
-  </data>
-  <data name="&gt;&gt;Text1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="DeleteComp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>256, 155</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="button1.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>en</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
-    <value>ru</value>
   </metadata>
 </root>

@@ -48,7 +48,5 @@ namespace design
             this.Close();
             testSecondWindow.Show();
         }
-
-
     }
 }

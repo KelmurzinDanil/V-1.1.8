@@ -117,4 +117,107 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelCheckForm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 6</value>
+  </data>
+  <data name="Okbtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 110</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCode.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Okbtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 38</value>
+  </data>
+  <data name="&gt;&gt;Okbtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelCheckForm.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelCheckForm.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="TextBoxCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>373, 31</value>
+  </data>
+  <data name="&gt;&gt;labelCheckForm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelCheckForm.Text" xml:space="preserve">
+    <value>Вам на почту был выслан код. 
+Введите его:
+</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCode.Name" xml:space="preserve">
+    <value>TextBoxCode</value>
+  </data>
+  <data name="labelCheckForm.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI Semilight, 14pt</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TextBoxCode.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Okbtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Okbtn.Text" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>CheckСodeForm</value>
+  </data>
+  <data name="labelCheckForm.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 20</value>
+  </data>
+  <data name="&gt;&gt;Okbtn.Name" xml:space="preserve">
+    <value>Okbtn</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelCheckForm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>343, 64</value>
+  </data>
+  <data name="&gt;&gt;TextBoxCode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelCheckForm.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="TextBoxCode.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>397, 159</value>
+  </data>
+  <data name="&gt;&gt;Okbtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Okbtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI, 12pt</value>
+  </data>
+  <data name="TextBoxCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 73</value>
+  </data>
+  <data name="Okbtn.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;labelCheckForm.Name" xml:space="preserve">
+    <value>labelCheckForm</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>ru</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

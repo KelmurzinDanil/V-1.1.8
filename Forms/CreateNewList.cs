@@ -1,4 +1,5 @@
 ﻿using DB_993.Classes;
+using DB_993.Resourse;
 namespace design
 {
     /// <summary>
@@ -33,7 +34,7 @@ namespace design
                 var comp = context.Compilations.FirstOrDefault(d => d.Name == CollectionNameText.Text);
                 if (comp != null)
                 {
-                    MessageBox.Show("Такое название уже существует");
+                    MessageBox.Show(CreateNewListLocal.ListText);
                     return;
                 }
                 var newCompilation = new Compilation

@@ -117,81 +117,355 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;EmailLabel.Name" xml:space="preserve">
-    <value>EmailLabel</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>RegistrationWindow</value>
-  </data>
-  <data name="&gt;&gt;PasswordRegText.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="PaaswordLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LoginRegText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="&gt;&gt;label1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="RegistrationButton.Text" xml:space="preserve">
-    <value>Зарегистрироваться</value>
+  <data name="&gt;&gt;NameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LanguageComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>701, 0</value>
+  </data>
+  <data name="EmailLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 421</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LoginRegText.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="NameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 340</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="RegistrationButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
   </data>
+  <data name="&gt;&gt;NameRegText.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;NameRegText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>873, 796</value>
+  <data name="pictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
   </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
-  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
-    <value>pictureBox2</value>
+  <data name="NameRegText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 40</value>
   </data>
-  <data name="LanguageComboBox.Items1" xml:space="preserve">
-    <value>English</value>
+  <data name="&gt;&gt;LanguageComboBox.Name" xml:space="preserve">
+    <value>LanguageComboBox</value>
   </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;PasswordRegText.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="LoginRegText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI Light, 13.8pt</value>
+  </data>
+  <data name="RegistrationButton.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;PasswordRegText.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="RegistrationButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>269, 52</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>8, 20</value>
   </data>
+  <data name="PasswordRegText.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="RegistrationButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>318, 650</value>
+  </data>
+  <data name="PasswordRegText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="LanguageComboBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="PasswordLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>246, 501</value>
+  </data>
+  <data name="pictureBox2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="EmailLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Constantia, 16.2pt</value>
+  </data>
+  <data name="RegistrationButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NameRegText.Name" xml:space="preserve">
+    <value>NameRegText</value>
+  </data>
+  <data name="&gt;&gt;PaaswordLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RegistrationButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI Light, 13.8pt</value>
+  </data>
+  <data name="NameRegText.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LoginRegText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="PaaswordLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>267, 502</value>
   </data>
-  <data name="PaaswordLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 40</value>
-  </data>
-  <data name="EmailLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+  <data name="LoginRegText.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
   <data name="&gt;&gt;LanguageComboBox.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="LanguageComboBox.Items" xml:space="preserve">
-    <value>Русский</value>
+  <data name="LoginRegText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 421</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PaaswordLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 40</value>
+  </data>
+  <data name="PasswordRegText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 40</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="pictureBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="EmailLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 40</value>
+  </data>
+  <data name="LanguageComboBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI Light, 13.8pt</value>
+  </data>
+  <data name="NameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="NameRegText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 339</value>
+  </data>
+  <data name="&gt;&gt;PasswordRegText.Name" xml:space="preserve">
+    <value>PasswordRegText</value>
+  </data>
+  <data name="PaaswordLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="NameLabel.Text" xml:space="preserve">
+    <value>Имя:
+</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>549, 84</value>
+  </data>
+  <data name="RegistrationButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 52</value>
+  </data>
+  <data name="&gt;&gt;PasswordLabel.Name" xml:space="preserve">
+    <value>PasswordLabel</value>
+  </data>
+  <data name="EmailLabel.Text" xml:space="preserve">
+    <value>Электронная почта:</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>178, 191</value>
+  </data>
+  <data name="&gt;&gt;RegistrationButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>889, 808</value>
+  </data>
+  <data name="&gt;&gt;NameLabel.Name" xml:space="preserve">
+    <value>NameLabel</value>
+  </data>
+  <data name="&gt;&gt;EmailLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="LanguageComboBox.Items1" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="PaaswordLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 40</value>
+  </data>
+  <data name="&gt;&gt;EmailLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>873, 796</value>
   </data>
   <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Constantia, 28.2pt</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-8, -6</value>
+  </data>
+  <data name="PaaswordLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Constantia, 16.2pt</value>
+  </data>
+  <data name="&gt;&gt;RegistrationButton.Name" xml:space="preserve">
+    <value>RegistrationButton</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;LanguageComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LanguageComboBox.Items" xml:space="preserve">
+    <value>Русский</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>RegistrationWindow</value>
+  </data>
+  <data name="NameRegText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI Light, 13.8pt</value>
+  </data>
+  <data name="&gt;&gt;LoginRegText.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NameRegText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LanguageComboBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="PasswordLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
   </data>
   <data name="&gt;&gt;LoginRegText.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;PaaswordLabel.Type" xml:space="preserve">
+  <data name="RegistrationButton.Text" xml:space="preserve">
+    <value>Зарегистрироваться</value>
+  </data>
+  <data name="PasswordRegText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI Light, 13.8pt</value>
+  </data>
+  <data name="NameRegText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
+    <value>pictureBox2</value>
+  </data>
+  <data name="&gt;&gt;RegistrationButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RegistrationButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="LanguageComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;EmailLabel.Name" xml:space="preserve">
+    <value>EmailLabel</value>
+  </data>
+  <data name="NameRegText.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="PaaswordLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Твой дом там, где ты </value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="PasswordRegText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 501</value>
+  </data>
+  <data name="NameLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Constantia, 16.2pt</value>
+  </data>
+  <data name="&gt;&gt;NameLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="PasswordRegText.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;PaaswordLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LoginRegText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 40</value>
+  </data>
+  <data name="LanguageComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 38</value>
+  </data>
+  <data name="&gt;&gt;PaaswordLabel.Name" xml:space="preserve">
+    <value>PaaswordLabel</value>
+  </data>
+  <data name="&gt;&gt;RegistrationButton.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="pictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PaaswordLabel.Text" xml:space="preserve">
+    <value>Пароль:</value>
+  </data>
+  <data name="&gt;&gt;PasswordLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EmailLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;EmailLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PasswordRegText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EmailLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;LoginRegText.Name" xml:space="preserve">
+    <value>LoginRegText</value>
+  </data>
+  <data name="NameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;PasswordLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PasswordLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;NameLabel.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -13555,284 +13829,10 @@
         X56li6sjmsYPyx5XyP8HwPwzaQQ0sHkAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="&gt;&gt;LoginRegText.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;RegistrationButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="NameLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="LanguageComboBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei UI Light, 13.8pt</value>
-  </data>
-  <data name="&gt;&gt;EmailLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="RegistrationButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="PasswordRegText.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>178, 191</value>
-  </data>
-  <data name="EmailLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>275, 40</value>
-  </data>
-  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;NameRegText.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="EmailLabel.Text" xml:space="preserve">
-    <value>Электронная почта:</value>
-  </data>
-  <data name="&gt;&gt;LanguageComboBox.Name" xml:space="preserve">
-    <value>LanguageComboBox</value>
-  </data>
-  <data name="RegistrationButton.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;PaaswordLabel.Name" xml:space="preserve">
-    <value>PaaswordLabel</value>
-  </data>
-  <data name="&gt;&gt;LoginRegText.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
-  </data>
-  <data name="&gt;&gt;PasswordRegText.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;PasswordLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Твой дом там, где ты </value>
-  </data>
-  <data name="&gt;&gt;LoginRegText.Name" xml:space="preserve">
-    <value>LoginRegText</value>
-  </data>
-  <data name="&gt;&gt;RegistrationButton.Name" xml:space="preserve">
-    <value>RegistrationButton</value>
-  </data>
-  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-8, -6</value>
-  </data>
-  <data name="PasswordLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="pictureBox2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="&gt;&gt;NameRegText.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="PasswordRegText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>305, 40</value>
-  </data>
-  <data name="LoginRegText.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei UI Light, 13.8pt</value>
-  </data>
-  <data name="&gt;&gt;NameLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="NameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="EmailLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="NameRegText.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="NameLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Constantia, 16.2pt</value>
-  </data>
-  <data name="NameLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>101, 40</value>
-  </data>
-  <data name="NameRegText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>422, 339</value>
-  </data>
-  <data name="LanguageComboBox.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="PaaswordLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;PasswordRegText.Name" xml:space="preserve">
-    <value>PasswordRegText</value>
-  </data>
-  <data name="&gt;&gt;PasswordLabel.Name" xml:space="preserve">
-    <value>PasswordLabel</value>
-  </data>
-  <data name="NameRegText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="LanguageComboBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="&gt;&gt;EmailLabel.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;LanguageComboBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="LanguageComboBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>701, 0</value>
-  </data>
-  <data name="NameRegText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>305, 40</value>
-  </data>
-  <data name="&gt;&gt;NameLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;NameLabel.Name" xml:space="preserve">
-    <value>NameLabel</value>
-  </data>
-  <data name="PasswordRegText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>422, 501</value>
-  </data>
-  <data name="LoginRegText.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;LanguageComboBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="RegistrationButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei UI Light, 13.8pt</value>
-  </data>
-  <data name="LoginRegText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="RegistrationButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>318, 650</value>
-  </data>
-  <data name="EmailLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>120, 421</value>
-  </data>
-  <data name="PasswordLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>246, 501</value>
-  </data>
-  <data name="NameRegText.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei UI Light, 13.8pt</value>
-  </data>
-  <data name="LoginRegText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>422, 421</value>
-  </data>
-  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="PasswordRegText.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;PaaswordLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="LoginRegText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>305, 40</value>
-  </data>
-  <data name="RegistrationButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="pictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="pictureBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="&gt;&gt;NameRegText.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="LoginRegText.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;PasswordRegText.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="PasswordRegText.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei UI Light, 13.8pt</value>
-  </data>
-  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>889, 808</value>
-  </data>
-  <data name="&gt;&gt;RegistrationButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="PasswordRegText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="EmailLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Constantia, 16.2pt</value>
-  </data>
-  <data name="&gt;&gt;PasswordLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LanguageComboBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 38</value>
-  </data>
-  <data name="NameLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>294, 340</value>
-  </data>
-  <data name="PaaswordLabel.Text" xml:space="preserve">
-    <value>Пароль:</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>549, 84</value>
-  </data>
-  <data name="&gt;&gt;EmailLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="PaaswordLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Constantia, 16.2pt</value>
-  </data>
-  <data name="NameRegText.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;PaaswordLabel.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="NameLabel.Text" xml:space="preserve">
-    <value>Имя:
-</value>
-  </data>
-  <data name="&gt;&gt;RegistrationButton.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;NameRegText.Name" xml:space="preserve">
-    <value>NameRegText</value>
-  </data>
-  <data name="&gt;&gt;PasswordLabel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
-    <value>en</value>
+    <value>ru</value>
   </metadata>
 </root>

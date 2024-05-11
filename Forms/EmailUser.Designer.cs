@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EmailUser));
             labelEmailForm = new Label();
             TextBoxEmail = new TextBox();
             Okbtn = new Button();
@@ -35,41 +36,30 @@
             // 
             // labelEmailForm
             // 
-            labelEmailForm.AutoSize = true;
-            labelEmailForm.Location = new Point(12, 9);
+            resources.ApplyResources(labelEmailForm, "labelEmailForm");
             labelEmailForm.Name = "labelEmailForm";
-            labelEmailForm.Size = new Size(151, 20);
-            labelEmailForm.TabIndex = 0;
-            labelEmailForm.Text = "Введите свою почту:";
             // 
             // TextBoxEmail
             // 
-            TextBoxEmail.Location = new Point(12, 72);
+            resources.ApplyResources(TextBoxEmail, "TextBoxEmail");
             TextBoxEmail.Name = "TextBoxEmail";
-            TextBoxEmail.Size = new Size(373, 27);
-            TextBoxEmail.TabIndex = 1;
             // 
             // Okbtn
             // 
-            Okbtn.Location = new Point(291, 118);
+            resources.ApplyResources(Okbtn, "Okbtn");
             Okbtn.Name = "Okbtn";
-            Okbtn.Size = new Size(94, 29);
-            Okbtn.TabIndex = 2;
-            Okbtn.Text = "Ок";
             Okbtn.UseVisualStyleBackColor = true;
             Okbtn.Click += Okbtn_Click;
             Okbtn.KeyDown += Okbtn_KeyDown;
             // 
             // EmailUser
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(397, 159);
             Controls.Add(Okbtn);
             Controls.Add(TextBoxEmail);
             Controls.Add(labelEmailForm);
             Name = "EmailUser";
-            Text = "EmailUser";
             ResumeLayout(false);
             PerformLayout();
         }
