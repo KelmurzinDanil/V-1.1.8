@@ -301,7 +301,7 @@ namespace design
 
         private void FavButton_Click(object sender, EventArgs e)
         {
-            var favorite = new Favorite();
+            var favorite = new Favorite(Email!);
             favorite.Show();
         }
 
@@ -336,7 +336,7 @@ namespace design
         {
             if (SortList != null && CheckStringEmpty())
             {
-                new Favorite(IdRealryForFavBlMark);
+                new Favorite(IdRealryForFavBlMark, Email);
             }
         }
 

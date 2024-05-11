@@ -6,6 +6,7 @@ namespace DB_993.Forms
 {
     public partial class CheckСodeForm : Form
     {
+        public OpenWindow AutoWindow { get; set; }
         public WebAuto WebAuto { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
@@ -20,12 +21,13 @@ namespace DB_993.Forms
             Name = name;
             CodeInEmail();
         }
-        public CheckСodeForm(string email, WebAuto webAuto)
+        public CheckСodeForm(string email, WebAuto webAuto, OpenWindow auto)
         {
             InitializeComponent();
             Email = email;
             WebAuto = webAuto;
             CodeInEmail();
+            AutoWindow = auto;
         }
         public void CodeInEmail()
         {
@@ -75,6 +77,7 @@ namespace DB_993.Forms
                 context.SaveChanges();
                 MessageBox.Show(RegistrationWindowLocal.RegText);
                 var mainWindow = new MainWindow(Email);
+                AutoWindow.Visible = false;
                 mainWindow.Show();
             }
         }

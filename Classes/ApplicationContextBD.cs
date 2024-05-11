@@ -15,7 +15,11 @@ namespace DB_993.Classes
         public DbSet<BlackListTable> BlackLists { get; set; } = null!;
         public DbSet<Favourites> Favourites { get; set; } = null!;
 
-        public void ApplicationContext() => Database.EnsureCreated();
+        public void ApplicationContext()
+        {
+            //Database.EnsureDeleted();
+            Database.EnsureCreated();
+        }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlite("Data Source=ProectDB3.db; foreign keys=True");

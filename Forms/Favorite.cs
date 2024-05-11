@@ -1,5 +1,6 @@
 ﻿using DB_993.Classes;
 using DB_993.Resourse;
+using Microsoft.VisualBasic.ApplicationServices;
 namespace design
 {
     /// <summary>
@@ -7,22 +8,23 @@ namespace design
     /// </summary>
     public partial class Favorite : Form
     {
+        public string? Email { get; set; }
         public int IdRealryForFav { get; set; }
         public List<Realty>? ListRealty { get; set; }
-        public Favorite()
+        public Favorite(string email)
         {
 
             InitializeComponent();
+            Email = email;
             LoadData();
-
         }
-        public Favorite(int idRealty)
+        public Favorite(int idRealty, string email)
         {
             IdRealryForFav = idRealty;
+            Email = email;
             FillTableFavourites();
             InitializeComponent();
-
-
+            
         }
 
         private void FillTableFavourites()
@@ -40,7 +42,8 @@ namespace design
                 }
                 var newFav = new Favourites
                 {
-                    Realtys = { context!.Realtys!.FirstOrDefault(fav => fav!.Id == IdRealryForFav)! }
+                    Realtys = { context!.Realtys!.FirstOrDefault(fav => fav!.Id == IdRealryForFav)! },
+                    EmailUser = Email
                 };
                 context.Favourites.Add(newFav);
                 context.SaveChanges();
@@ -52,7 +55,12 @@ namespace design
             {
                 var imageList = new ImageList();
                 imageList.ImageSize = new Size(100, 100);
-                var listRealty = context.Favourites.Select(u => u.Realtys).SingleOrDefault();
+                var listFav = context.Favourites.Where(w => w.EmailUser == Email).Select(u => u.Id).ToList();
+                var listRealty = new List<Realty>();
+                for (int i = 0; i < listFav.Count; i++)
+                {
+                    listRealty.Add(context.Realtys.FirstOrDefault(f => f.FavouritesId == listFav[i])!);
+                }
                 if (listRealty != null)
                 {
                     for (int i = 0; i < listRealty!.Count; i++)

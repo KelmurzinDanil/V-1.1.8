@@ -1,15 +1,18 @@
 ﻿using DB_993.Classes;
 using DB_993.Resourse;
+using design;
 
 namespace DB_993.Forms
 {
     public partial class EmailUser : Form
     {
         public WebAuto WebAuto { get; set; }
-        public EmailUser(WebAuto webAuto)
+        public OpenWindow AutoWindow{ get; set; }
+        public EmailUser(WebAuto webAuto, OpenWindow auto)
         {
             InitializeComponent();
             WebAuto = webAuto;
+            AutoWindow = auto;
         }
 
         private void Okbtn_KeyDown(object sender, KeyEventArgs e)
@@ -31,7 +34,7 @@ namespace DB_993.Forms
                 var patern = new PatternLogin();
                 if (TextBoxEmail.Text != String.Empty && patern.CheckPattern(TextBoxEmail.Text) && TextBoxEmail.Text.Contains("@mail.ru"))
                 {
-                    var ccf = new CheckСodeForm(TextBoxEmail.Text, WebAuto);
+                    var ccf = new CheckСodeForm(TextBoxEmail.Text, WebAuto, AutoWindow);
                     this.Close();
                     ccf.Show();
                 }
