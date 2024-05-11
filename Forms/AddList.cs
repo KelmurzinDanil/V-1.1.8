@@ -72,11 +72,22 @@ namespace design
 
         private void DeleteComp_Click(object sender, EventArgs e)
         {
-            if(CollectionsCombo.Text != String.Empty)
+            if (CollectionsCombo.Text != String.Empty)
             {
-                using(var context = new ApplicationContextBD())
+                using (var context = new ApplicationContextBD())
                 {
-
+                    var compilation = context.Compilations.FirstOrDefault(f => f.Name == CollectionsCombo.Text);
+                    if (compilation != null)
+                    {
+                        if (compilation != null)
+                        {
+                            context.Entry(compilation)
+                             .Collection(c => c.Users)
+                             .Load();
+                            context.Compilations.Remove(compilation);
+                            context.SaveChanges();
+                        }
+                    }
                 }
             }
         }

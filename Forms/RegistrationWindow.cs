@@ -1,7 +1,6 @@
 ﻿using DB_993.Classes;
 using DB_993.Forms;
 using DB_993.Resourse;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 namespace design
 {
     /// <summary>
@@ -57,7 +56,7 @@ namespace design
             if (editInput.CheckPattern(LoginRegText.Text) && LoginRegText.Text.Contains("@mail.ru"))
             {
                 var check = new CheckСodeForm(LoginRegText.Text, PasswordRegText.Text, NameRegText.Text);
-            check.Show();
+                check.Show();
             }
             else
             {

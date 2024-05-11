@@ -1,12 +1,6 @@
 ﻿using DB_993.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Mail;
 using System.Net;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
+using System.Net.Mail;
 
 namespace DB_993.Classes
 {

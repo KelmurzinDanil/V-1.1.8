@@ -1,6 +1,5 @@
 ﻿using DB_993.Classes;
 using DB_993.Resourse;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace DB_993.Forms
 {
@@ -21,7 +20,7 @@ namespace DB_993.Forms
 
         private void Okbtn_Click(object sender, EventArgs e)
         {
-            using(var context = new ApplicationContextBD())
+            using (var context = new ApplicationContextBD())
             {
                 var existingUser = context.Users.FirstOrDefault(user => user.Email == TextBoxEmail.Text);
                 if (existingUser != null)
@@ -39,7 +38,7 @@ namespace DB_993.Forms
                 {
                     MessageBox.Show("Неправильный формат почты. Потча должна быть обязательно с \"@mail.ru\" ");
                 }
-            }       
+            }
         }
     }
 }

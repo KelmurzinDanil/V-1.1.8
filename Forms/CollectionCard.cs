@@ -1,6 +1,4 @@
 ﻿using DB_993.Classes;
-using System.Net;
-using System.Net.Mail;
 namespace design
 {
     /// <summary>

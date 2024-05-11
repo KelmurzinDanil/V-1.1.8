@@ -126,22 +126,25 @@ namespace design
 
         private void LoginVKButton_Click(object sender, EventArgs e)
         {
-            using(var context = new ApplicationContextBD())
+            using (var context = new ApplicationContextBD())
             {
                 var vkApi = new WebAuto();
                 bool status = vkApi.Authorize();
-                string[] profile = vkApi.GetMyProfile();
-                var userVK = context.Users.FirstOrDefault(f => f.VkId == int.Parse(profile[2]));
-                if (status && userVK == null)
+                if(status)
                 {
-                    var mWin = new EmailUser(vkApi);
-                    mWin.Show();
-                }
-                else
-                {
-                    var mWin = new MainWindow(userVK!.Email!);
-                    mWin.Show();
-                }
+                    string[] profile = vkApi.GetMyProfile();
+                    var userVK = context.Users.FirstOrDefault(f => f.VkId == int.Parse(profile[2]));
+                    if (userVK == null)
+                    {
+                        var mWin = new EmailUser(vkApi);
+                        mWin.Show();
+                    }
+                    else if (userVK != null)
+                    {
+                        var mWin = new MainWindow(userVK!.Email!);
+                        mWin.Show();
+                    }
+                }               
             }
         }
     }

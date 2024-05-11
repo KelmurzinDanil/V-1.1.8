@@ -1,8 +1,6 @@
 ﻿using DB_993.Classes;
 using DB_993.Resourse;
 using design;
-using System.Net;
-using System.Net.Mail;
 
 namespace DB_993.Forms
 {
