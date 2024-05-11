@@ -69,5 +69,16 @@ namespace design
                 }
             }
         }
+
+        private void DeleteComp_Click(object sender, EventArgs e)
+        {
+            if(CollectionsCombo.Text != String.Empty)
+            {
+                using(var context = new ApplicationContextBD())
+                {
+
+                }
+            }
+        }
     }
 }

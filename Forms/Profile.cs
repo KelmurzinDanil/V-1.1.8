@@ -92,8 +92,8 @@ namespace design
 
         private void EmailText_KeyPress(object? sender, KeyPressEventArgs e)
         {
-            var edit = new EditInput();
-            edit.FalseText(e);
+            var edit = new FalseText();
+            edit.ProcessingText(e);
         }
 
         private void SaveButton_Click_1(object sender, EventArgs e)
@@ -114,8 +114,8 @@ namespace design
                     return;
                 }
                 var user = context.Users.FirstOrDefault(user => user.Email == Email_);
-                var editInput = new EditInput();
-                if (editInput.CheckLogin(EmailText.Text) && Email_!.Contains("@mail.ru"))
+                var editInput = new PatternLogin();
+                if (editInput.CheckPattern(EmailText.Text) && Email_!.Contains("@mail.ru"))
                 {
                     if (user != null)
                     {

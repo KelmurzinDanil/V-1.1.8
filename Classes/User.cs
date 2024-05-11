@@ -9,6 +9,7 @@
         public string? Name { get; set; }
         public string? Email { get; set; }
         public string? Password { get; set; }
+        public int? VkId { get; set; }
         public Recommendations? Recommendations { get; set; }
         public int? UserId { get; set; }
         public Compilation? Compilation { get; set; }

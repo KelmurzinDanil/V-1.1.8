@@ -72,7 +72,8 @@ namespace DB_993.Forms
 
             string[] profile = new string[3];
             profile[0] = (string)response[0]["first_name"]!;
-            profile[1] = (string)response[0]["last_name"]!;            
+            profile[1] = (string)response[0]["last_name"]!;
+            profile[2] = (string)response[0]["id"]!;
             return profile;
         }
     }

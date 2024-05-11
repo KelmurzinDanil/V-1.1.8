@@ -34,23 +34,8 @@ namespace DB_993.Forms
             var generator = new Random();
             var r = generator.Next(0, 1000000).ToString("D6");
             Generate = r;
-            try
-            {
-                var from = new MailAddress("testikovich77@mail.ru", "ООО ДДД");
-                var to = new MailAddress(Email);
-                var m = new MailMessage(from, to);
-                m.Subject = "Подборка";
-                m.Body = $"<h2>{r}</h2>";
-                m.IsBodyHtml = true;
-                var smtp = new SmtpClient("smtp.mail.ru", 587);
-                smtp.Credentials = new NetworkCredential("testikovich77@mail.ru", "SS9rxQxQp63Yhi1jgXvx");
-                smtp.EnableSsl = true;
-                smtp.Send(m);
-            }
-            catch
-            {
-                MessageBox.Show("Произошла ошибка. Возможно ваша почта не существует");
-            }
+            var emailMessageCode = new EmailMessageCode();
+            emailMessageCode.PushEmailMessage(Email, Generate);
         }
 
         private void TextBoxCode_TextChanged(object sender, EventArgs e)
@@ -66,13 +51,7 @@ namespace DB_993.Forms
         {
             using (var context = new DB_993.Classes.ApplicationContextBD())
             {
-                var existingUser = context.Users.FirstOrDefault(user => user.Email == Email);              
-                if (existingUser != null)
-                {
-                    MessageBox.Show(RegistrationWindowLocal.EmailTextReg);
-                    return;
-                }
-                var editInput = new EditInput();
+                var editInput = new PatternLogin();
                 User newUser;
                 if (Name != null && Password != null)
                 {
@@ -90,7 +69,8 @@ namespace DB_993.Forms
                     newUser = new User
                     {
                         Email = Email,
-                        Name = profile[0] + " " + profile[1]
+                        Name = profile[0] + " " + profile[1],
+                        VkId = int.Parse(profile[2])
                     };
                 }
                 context.Users.Add(newUser);
@@ -98,8 +78,6 @@ namespace DB_993.Forms
                 MessageBox.Show(RegistrationWindowLocal.RegText);
                 var mainWindow = new MainWindow(Email);
                 mainWindow.Show();
-
-
             }
         }
     }

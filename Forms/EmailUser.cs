@@ -1,4 +1,6 @@
 ﻿using DB_993.Classes;
+using DB_993.Resourse;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace DB_993.Forms
 {
@@ -19,16 +21,25 @@ namespace DB_993.Forms
 
         private void Okbtn_Click(object sender, EventArgs e)
         {
-            var patern = new EditInput();
-            if (TextBoxEmail.Text != String.Empty && patern.CheckLogin(TextBoxEmail.Text) && TextBoxEmail.Text.Contains("@mail.ru"))
+            using(var context = new ApplicationContextBD())
             {
-                var ccf = new CheckСodeForm(TextBoxEmail.Text, WebAuto);
-                ccf.Show();
-            }
-            else
-            {
-                MessageBox.Show("Неправильный формат почты. Потча должна быть обязательно с \"@mail.ru\" ");
-            }
+                var existingUser = context.Users.FirstOrDefault(user => user.Email == TextBoxEmail.Text);
+                if (existingUser != null)
+                {
+                    MessageBox.Show(RegistrationWindowLocal.EmailTextReg);
+                    return;
+                }
+                var patern = new PatternLogin();
+                if (TextBoxEmail.Text != String.Empty && patern.CheckPattern(TextBoxEmail.Text) && TextBoxEmail.Text.Contains("@mail.ru"))
+                {
+                    var ccf = new CheckСodeForm(TextBoxEmail.Text, WebAuto);
+                    ccf.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Неправильный формат почты. Потча должна быть обязательно с \"@mail.ru\" ");
+                }
+            }       
         }
     }
 }

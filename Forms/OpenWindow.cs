@@ -37,8 +37,8 @@ namespace design
 
         private void PasswordTextAutho_KeyPress(object? sender, KeyPressEventArgs e)
         {
-            var edit = new EditInput();
-            edit.PasswordEnter(e);
+            var edit = new PasswordEnter();
+            edit.ProcessingText(e);
         }
 
         private void PasswordTextAutho_Enter(object? sender, EventArgs e)
@@ -52,8 +52,8 @@ namespace design
 
         private void LoginTextAutho_KeyPress(object? sender, KeyPressEventArgs e)
         {
-            var edit = new EditInput();
-            edit.FalseText(e);
+            var edit = new FalseText();
+            edit.ProcessingText(e);
 
             LoginTextAutho.GotFocus += (sender, e) =>
             {
@@ -126,11 +126,22 @@ namespace design
 
         private void LoginVKButton_Click(object sender, EventArgs e)
         {
-            var vkApi = new WebAuto();
-            if (vkApi.Authorize())
+            using(var context = new ApplicationContextBD())
             {
-                var mWin = new EmailUser(vkApi);
-                mWin.Show();
+                var vkApi = new WebAuto();
+                bool status = vkApi.Authorize();
+                string[] profile = vkApi.GetMyProfile();
+                var userVK = context.Users.FirstOrDefault(f => f.VkId == int.Parse(profile[2]));
+                if (status && userVK == null)
+                {
+                    var mWin = new EmailUser(vkApi);
+                    mWin.Show();
+                }
+                else
+                {
+                    var mWin = new MainWindow(userVK!.Email!);
+                    mWin.Show();
+                }
             }
         }
     }

@@ -34,6 +34,7 @@
             CollectionsCombo = new ComboBox();
             CreateCollectionButton = new Button();
             AddCollectionBtn = new Button();
+            DeleteComp = new Button();
             ((System.ComponentModel.ISupportInitialize)Picture4).BeginInit();
             SuspendLayout();
             // 
@@ -74,11 +75,20 @@
             AddCollectionBtn.UseVisualStyleBackColor = false;
             AddCollectionBtn.Click += AddCollectionBtn_Click;
             // 
+            // DeleteComp
+            // 
+            resources.ApplyResources(DeleteComp, "DeleteComp");
+            DeleteComp.BackColor = Color.Gainsboro;
+            DeleteComp.Name = "DeleteComp";
+            DeleteComp.UseVisualStyleBackColor = false;
+            DeleteComp.Click += DeleteComp_Click;
+            // 
             // AddList
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
+            Controls.Add(DeleteComp);
             Controls.Add(AddCollectionBtn);
             Controls.Add(CreateCollectionButton);
             Controls.Add(CollectionsCombo);
@@ -97,5 +107,6 @@
         private System.Windows.Forms.ComboBox CollectionsCombo;
         private Button CreateCollectionButton;
         private Button AddCollectionBtn;
+        private Button DeleteComp;
     }
 }

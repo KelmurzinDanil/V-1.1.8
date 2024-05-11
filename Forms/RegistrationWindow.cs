@@ -36,14 +36,14 @@ namespace design
 
         private void PasswordRegText_KeyPress(object? sender, KeyPressEventArgs e)
         {
-            var edit = new EditInput();
-            edit.PasswordEnter(e);
+            var edit = new PasswordEnter();
+            edit.ProcessingText(e);
         }
 
         private void LoginRegText_KeyPress(object? sender, KeyPressEventArgs e)
         {
-            var edit = new EditInput();
-            edit.FalseText(e);
+            var edit = new FalseText();
+            edit.ProcessingText(e);
         }
         private void RegistrationButton_Click(object sender, EventArgs e)
         {
@@ -53,8 +53,8 @@ namespace design
                 MessageBox.Show(RegistrationWindowLocal.FieldsTextReg);
                 return;
             }
-            var editInput = new EditInput();
-            if (editInput.CheckLogin(LoginRegText.Text) && LoginRegText.Text.Contains("@mail.ru"))
+            var editInput = new PatternLogin();
+            if (editInput.CheckPattern(LoginRegText.Text) && LoginRegText.Text.Contains("@mail.ru"))
             {
                 var check = new CheckСodeForm(LoginRegText.Text, PasswordRegText.Text, NameRegText.Text);
             check.Show();
