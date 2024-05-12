@@ -55,7 +55,7 @@ namespace design
             var editInput = new PatternLogin();
             if (editInput.CheckPattern(LoginRegText.Text) && LoginRegText.Text.Contains("@mail.ru"))
             {
-                var check = new CheckСodeForm(LoginRegText.Text, PasswordRegText.Text, NameRegText.Text);
+                var check = new CheckСodeForm(LoginRegText.Text, PasswordRegText.Text, NameRegText.Text, this);
                 check.Show();
             }
             else

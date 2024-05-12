@@ -7,19 +7,21 @@ namespace DB_993.Forms
     public partial class CheckСodeForm : Form
     {
         public OpenWindow AutoWindow { get; set; }
+        public RegistrationWindow Registration { get; set; }
         public WebAuto WebAuto { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
         public string Name { get; set; }
         public string Generate { get; set; }
         public int Status { get; set; } = 0;
-        public CheckСodeForm(string email, string password, string name)
+        public CheckСodeForm(string email, string password, string name, RegistrationWindow registration)
         {
             InitializeComponent();
             Email = email;
             Password = password;
             Name = name;
             CodeInEmail();
+            Registration = registration;
         }
         public CheckСodeForm(string email, WebAuto webAuto, OpenWindow auto)
         {
@@ -75,9 +77,17 @@ namespace DB_993.Forms
                 }
                 context.Users.Add(newUser);
                 context.SaveChanges();
-                MessageBox.Show(CheckCodeLocal.CheckCodeText);
+                //MessageBox.Show(CheckCodeLocal.CheckCodeText);
                 var mainWindow = new MainWindow(Email);
-                AutoWindow.Visible = false;
+                if(AutoWindow != null)
+                {
+                    AutoWindow.Visible = false;
+
+                }
+                else
+                {
+                    Registration.Visible = false;
+                }
                 mainWindow.Show();
             }
         }

@@ -30,24 +30,28 @@ namespace design
                 imageList.ImageSize = new Size(100, 100);
                 var listComp = context.Compilations.ToList();
                 var listRealty = context.Compilations.Select(u => u.Realtys).FirstOrDefault();
-                for (int i = 0; i < listRealty!.Count; i++)
+                if (listRealty != null)
                 {
-                    imageList.Images.Add(new Bitmap(listRealty[i].PhotoRealty!));
-                }
-                CompList.SmallImageList = imageList;
+                    for (int i = 0; i < listRealty!.Count; i++)
+                    {
+                        imageList.Images.Add(new Bitmap(listRealty[i].PhotoRealty!));
+                    }
+                    CompList.SmallImageList = imageList;
 
-                var listGeneral = context.Realtys.OrderByDescending(o => o.Mark).First();
-                var listViewCompGeneral = new ListViewItem(new string[] { string.Empty, "Общая подборка" });
-                listViewCompGeneral.ImageIndex = 0;
-                CompList.Items.Add(listViewCompGeneral);
+                    var listGeneral = context.Realtys.OrderByDescending(o => o.Mark).First();
+                    var listViewCompGeneral = new ListViewItem(new string[] { string.Empty, "Общая подборка" });
+                    listViewCompGeneral.ImageIndex = 0;
+                    CompList.Items.Add(listViewCompGeneral);
 
-                for (int i = 1; i < listComp.Count; i++)
-                {
-                    var listViewComp = new ListViewItem(new string[] { string.Empty, listComp[i]!.Name!.ToString()! });
-                    Dict.Add(listComp[i].Id, listComp[i].Name!);
-                    listViewComp.ImageIndex = i;
-                    CompList.Items.Add(listViewComp);
+                    for (int i = 0; i < listComp.Count; i++)
+                    {
+                        var listViewComp = new ListViewItem(new string[] { string.Empty, listComp[i]!.Name!.ToString()! });
+                        Dict.Add(listComp[i].Id, listComp[i].Name!);
+                        listViewComp.ImageIndex = i;
+                        CompList.Items.Add(listViewComp);
+                    }
                 }
+               
             }
         }
         private void CompList_ItemActivate_1(object sender, EventArgs e)

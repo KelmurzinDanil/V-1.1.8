@@ -82,8 +82,11 @@ namespace design
                         if (compilation != null)
                         {
                             context.Entry(compilation)
-                             .Collection(c => c.Users)
+                             .Collection(c => c.Realtys)
                              .Load();
+                            context.Entry(compilation)
+                            .Collection(c => c.Users)
+                            .Load();
                             context.Compilations.Remove(compilation);
                             context.SaveChanges();
                         }
