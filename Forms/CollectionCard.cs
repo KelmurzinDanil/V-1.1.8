@@ -7,11 +7,11 @@ namespace design
     public partial class CollectionCard : Form
     {
         public string Email { get; set; }
-        public int IdComp { get; set; }
-        public CollectionCard(int idComp, string email)
+        public string Name { get; set; }
+        public CollectionCard(string name, string email)
         {
             InitializeComponent();
-            IdComp = idComp;
+            Name = name;
             Email = email;
             LoadData();
 
@@ -20,11 +20,9 @@ namespace design
         {
             using (var context = new ApplicationContextBD())
             {
-                if (IdComp != 0)
+                if (Name != "Общая подборка")
                 {
-                    var imageList = new ImageList();
-                    imageList.ImageSize = new Size(100, 100);
-                    var listRealty = context.Compilations.Where(w => w.Id == IdComp).Select(u => u.Realtys).FirstOrDefault();
+                    var listRealty = context.Compilations.Where(w => w.Email == Email && w.Name == Name).Select(u => u.Realtys).FirstOrDefault();
                     if (listRealty != null)
                     {
                         FillListRealty(listRealty);
@@ -32,10 +30,30 @@ namespace design
                 }
                 else
                 {
-                    var listGeneral = context.Realtys.OrderByDescending(o => o.Mark).ToList();
+                    var listRealtyId = new List<int>();
+                    var sortListRealtyId = new List<int>();
+                    var listRealty = new List<Realty>();
+                    var listGeneral = context.Compilations.Select(s => s.Realtys).ToList();
                     if (listGeneral != null)
                     {
-                        FillListRealty(listGeneral);
+                        for (int i = 0; i < listGeneral.Count; i++)
+                        {
+                            for (int j = 0; j < listGeneral[i].Count; j++)
+                            {
+                                listRealtyId.Add(listGeneral[i][j].Id);
+                            }
+                        }
+                        sortListRealtyId = listRealtyId
+                            .GroupBy(x => x)
+                            .OrderByDescending(g => g.Count())
+                            .Select(g => g.Key)
+                            .ToList();
+                        for (int i = 0; i < sortListRealtyId.Count; i++)
+                        {
+                            listRealty.Add(context.Realtys.FirstOrDefault(f => f.Id == sortListRealtyId[i])!);
+                        }
+
+                        FillListRealty(listRealty);
                     }
                 }
 
@@ -62,7 +80,7 @@ namespace design
         private void EditButton_Click(object sender, EventArgs e)
         {
             var emailMComp = new EmailMessageCompilation();
-            emailMComp.PushEmailMessage(Email, IdComp);
+            emailMComp.PushEmailMessage(Email, Name);
         }
     }
 }

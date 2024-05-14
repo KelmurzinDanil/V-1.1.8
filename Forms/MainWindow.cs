@@ -294,7 +294,7 @@ namespace design
         }
 
         private void FormMyRecommendationButton_Click(object sender, EventArgs e)
-        {          
+        {
             var testFirstWindow = new TestFirstWindow(Email!, this);
             testFirstWindow.Show();
         }

@@ -6,7 +6,7 @@ namespace design
     /// </summary>
     public partial class TestFirstWindow : Form
     {
-        MainWindow MainWindow {  get; set; } // Нужно чтобы потом закрыть форму
+        MainWindow MainWindow { get; set; } // Нужно чтобы потом закрыть форму
         string? Email { get; set; }
         public TestFirstWindow()
         {

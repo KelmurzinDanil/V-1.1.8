@@ -131,7 +131,7 @@ namespace design
             {
                 var vkApi = new WebAuto();
                 bool status = vkApi.Authorize();
-                if(status)
+                if (status)
                 {
                     string[] profile = vkApi.GetMyProfile();
                     var userVK = context.Users.FirstOrDefault(f => f.VkId == int.Parse(profile[2]));
@@ -139,7 +139,7 @@ namespace design
                     {
                         var mWin = new EmailUser(vkApi, this);
                         mWin.Show();
-                        
+
                     }
                     else if (userVK != null)
                     {
@@ -147,7 +147,7 @@ namespace design
                         var mWin = new MainWindow(userVK!.Email!);
                         mWin.Show();
                     }
-                }               
+                }
             }
         }
     }

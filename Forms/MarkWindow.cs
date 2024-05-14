@@ -129,7 +129,7 @@ namespace design
         {
             this.Close();
             MarkInDb();
-            MessageBox.Show(MarkWindowLocal.MarkText);         
+            MessageBox.Show(MarkWindowLocal.MarkText);
         }
 
         private void CancelButton_Click(object sender, EventArgs e)

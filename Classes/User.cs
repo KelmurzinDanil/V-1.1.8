@@ -13,7 +13,7 @@
         public Recommendations? Recommendations { get; set; }
         public Compilation? Compilation { get; set; }
         public Favourites? Favourites { get; set; }
-        public BlackListTable? BlackListTable { get; set;}
+        public BlackListTable? BlackListTable { get; set; }
 
     }
 }

@@ -1,7 +1,5 @@
 ﻿using DB_993.Classes;
 using DB_993.Resourse;
-using Microsoft.VisualBasic.ApplicationServices;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace design
 {
@@ -11,7 +9,7 @@ namespace design
         /// Класс используется для добавления объектов в черный список, отображения информации об объектах и удаления объекта из черного списка.
         /// </summary>
         public int IdRealryForFav { get; set; }
-        public string? Email {  get; set; }
+        public string? Email { get; set; }
         public BlackList()
         {
             InitializeComponent();

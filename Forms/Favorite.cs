@@ -1,6 +1,5 @@
 ﻿using DB_993.Classes;
 using DB_993.Resourse;
-using Microsoft.VisualBasic.ApplicationServices;
 namespace design
 {
     /// <summary>
@@ -24,7 +23,7 @@ namespace design
             Email = email;
             FillTableFavourites();
             InitializeComponent();
-            
+
         }
 
         private void FillTableFavourites()
@@ -106,8 +105,8 @@ namespace design
 
         private void Favorite_Load(object sender, EventArgs e)
         {
-            var t = new ToolTip();
-            t.SetToolTip(BlackListButton, FavoriteLocal.ClearFavoriteText);
+            var toolTip = new ToolTip();
+            toolTip.SetToolTip(BlackListButton, FavoriteLocal.ClearFavoriteText);
         }
     }
 }

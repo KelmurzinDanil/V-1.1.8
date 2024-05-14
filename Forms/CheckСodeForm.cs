@@ -1,5 +1,4 @@
 ﻿using DB_993.Classes;
-using DB_993.Resourse;
 using design;
 
 namespace DB_993.Forms
@@ -79,7 +78,7 @@ namespace DB_993.Forms
                 context.SaveChanges();
                 //MessageBox.Show(CheckCodeLocal.CheckCodeText);
                 var mainWindow = new MainWindow(Email);
-                if(AutoWindow != null)
+                if (AutoWindow != null)
                 {
                     AutoWindow.Visible = false;
 

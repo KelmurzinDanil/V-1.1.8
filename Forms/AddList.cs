@@ -60,9 +60,10 @@ namespace design
                 using (var context = new ApplicationContextBD())
                 {
                     var realty = context.Realtys.FirstOrDefault(i => i.Id == IdRealty);
+                    var compilation = context.Compilations.FirstOrDefault(f => f.Name == CollectionsCombo.Text);
                     if (realty != null)
                     {
-                        realty!.CompilationId = Dict.Keys.First(f => Dict[f] == CollectionsCombo.Text);
+                        compilation.Realtys.Add(realty);
                         context.SaveChanges();
                     }
                 }
@@ -79,18 +80,16 @@ namespace design
                     var compilation = context.Compilations.FirstOrDefault(f => f.Name == CollectionsCombo.Text);
                     if (compilation != null)
                     {
-                        if (compilation != null)
-                        {
-                            context.Entry(compilation)
-                             .Collection(c => c.Realtys)
-                             .Load();
-                            context.Entry(compilation)
-                            .Collection(c => c.Users)
-                            .Load();
-                            context.Compilations.Remove(compilation);
-                            context.SaveChanges();
-                        }
+                        context.Entry(compilation)
+                         .Collection(c => c.Realtys)
+                         .Load();
+                        context.Entry(compilation)
+                        .Collection(c => c.Users)
+                        .Load();
+                        context.Compilations.Remove(compilation);
+                        context.SaveChanges();
                     }
+
                 }
             }
         }

@@ -7,7 +7,7 @@ namespace DB_993.Forms
     public partial class EmailUser : Form
     {
         public WebAuto WebAuto { get; set; }
-        public OpenWindow AutoWindow{ get; set; }
+        public OpenWindow AutoWindow { get; set; }
         public EmailUser(WebAuto webAuto, OpenWindow auto)
         {
             InitializeComponent();

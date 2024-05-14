@@ -14,6 +14,7 @@ namespace DB_993.Classes
         public DbSet<Compilation> Compilations { get; set; } = null!;
         public DbSet<BlackListTable> BlackLists { get; set; } = null!;
         public DbSet<Favourites> Favourites { get; set; } = null!;
+        public DbSet<IntermediateRealtyAndComp> IntermediateRealtyAndComps { get; set; } = null!;
 
         public void ApplicationContext()
         {

@@ -28,30 +28,33 @@ namespace design
             {
                 var imageList = new ImageList();
                 imageList.ImageSize = new Size(100, 100);
-                var listComp = context.Compilations.ToList();
-                var listRealty = context.Compilations.Select(u => u.Realtys).FirstOrDefault();
-                if (listRealty != null)
+                var listComp = context.Compilations.Where(w => w.Email == Email).ToList();
+                var image = context.Compilations.Where(w => w.Email == Email).Select(u => u.Realtys).FirstOrDefault();
+                Dict.Add(0, "Общая подборка");
+                if (listComp != null)
                 {
-                    for (int i = 0; i < listRealty!.Count; i++)
+                    if (image != null)
                     {
-                        imageList.Images.Add(new Bitmap(listRealty[i].PhotoRealty!));
+                        for (int j = 0; j < image!.Count; j++)
+                        {
+                            imageList.Images.Add(new Bitmap(image[j].PhotoRealty!));
+                        }
                     }
                     CompList.SmallImageList = imageList;
 
                     var listGeneral = context.Realtys.OrderByDescending(o => o.Mark).First();
                     var listViewCompGeneral = new ListViewItem(new string[] { string.Empty, "Общая подборка" });
-                    listViewCompGeneral.ImageIndex = 0;
                     CompList.Items.Add(listViewCompGeneral);
 
                     for (int i = 0; i < listComp.Count; i++)
                     {
                         var listViewComp = new ListViewItem(new string[] { string.Empty, listComp[i]!.Name!.ToString()! });
-                        Dict.Add(listComp[i].Id, listComp[i].Name!);
+                        Dict.Add(i + 1, listComp[i].Name!);
                         listViewComp.ImageIndex = i;
                         CompList.Items.Add(listViewComp);
                     }
                 }
-               
+
             }
         }
         private void CompList_ItemActivate_1(object sender, EventArgs e)
@@ -59,7 +62,7 @@ namespace design
             ListView.SelectedIndexCollection indices = CompList.SelectedIndices;
             if (indices.Count > 0)
             {
-                var cCard = new CollectionCard(indices[0], Email);
+                var cCard = new CollectionCard(Dict[indices[0]], Email);
                 cCard.Show();
             }
         }

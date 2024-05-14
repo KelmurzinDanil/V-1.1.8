@@ -26,10 +26,10 @@ namespace DB_993.Classes
         public Favourites Favourites { get; set; }
         public int? BlackListId { get; set; }
         public BlackListTable BlackList { get; set; }
-        public int? CompilationId { get; set; }
-        public Compilation Compilation { get; set; }
+        public List<Compilation> Compilations { get; set; }
         public int? RecommendationsId { get; set; }
         public Recommendations Recommendations { get; set; }
+        public List<IntermediateRealtyAndComp> intermediateRealtyAndComps { get; set; } = new();
     }
 }
 

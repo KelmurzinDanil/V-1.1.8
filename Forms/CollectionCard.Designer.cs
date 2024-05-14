@@ -87,7 +87,7 @@
             Controls.Add(EditButton);
             Controls.Add(Picture7);
             FormBorderStyle = FormBorderStyle.SizableToolWindow;
-            Name = "CollectionCard";
+            base.Name = "CollectionCard";
             ((System.ComponentModel.ISupportInitialize)Picture7).EndInit();
             ResumeLayout(false);
         }
