@@ -6,6 +6,14 @@ namespace design
     /// </summary>
     public partial class CollectionCard : Form
     {
+        public int Column1 { get; set; }
+        public int Column2 { get; set; }
+        public int Column3 { get; set; }
+        public int Column4 { get; set; }
+        public int HeightLoc { get; set; }
+        public int WidthLoc { get; set; }
+        public int HeightF { get; set; }
+        public int WidthF { get; set; }
         public string Email { get; set; }
         public string Name { get; set; }
         public CollectionCard(string name, string email)
@@ -14,6 +22,24 @@ namespace design
             Name = name;
             Email = email;
             LoadData();
+            Design();
+        }
+        public void Design()
+        {
+            Column1 = ListRealtyComp.Columns[0].Width;
+            Column2 = ListRealtyComp.Columns[1].Width;
+            Column3 = ListRealtyComp.Columns[2].Width;
+            Column4 = ListRealtyComp.Columns[3].Width;
+            ListRealtyComp.Anchor = AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Top | AnchorStyles.Bottom;
+            EditButton.Anchor = AnchorStyles.Left;
+            tableLayoutPanel1.BackColor = Color.Transparent;
+            tableLayoutPanel1.Width = 634;
+            WidthF = this.Width;
+            HeightF = this.Height;
+            tableLayoutPanel1.Height = 760;
+            HeightLoc = 760;
+            WidthLoc = 634;
+            Picture7.Anchor = AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Top | AnchorStyles.Bottom;
 
         }
         public void LoadData()
@@ -81,6 +107,23 @@ namespace design
         {
             var emailMComp = new EmailMessageCompilation();
             emailMComp.PushEmailMessage(Email, Name);
+        }
+
+        private void CollectionCard_SizeChanged(object sender, EventArgs e)
+        {
+            tableLayoutPanel1.Width = (int)(((float)WidthLoc * ((float)this.Width / (float)WidthF)));
+            tableLayoutPanel1.Height = (int)(((float)HeightLoc * ((float)this.Height / (float)HeightF)));
+
+
+            ListRealtyComp.Columns[0].Width = (int)(Column1 * ((float)tableLayoutPanel1.Width / (float)WidthLoc));
+            ListRealtyComp.Columns[1].Width = (int)(Column2 * ((float)tableLayoutPanel1.Width / (float)WidthLoc));
+            ListRealtyComp.Columns[2].Width = (int)(Column3 * ((float)tableLayoutPanel1.Width / (float)WidthLoc));
+            ListRealtyComp.Columns[3].Width = (int)(Column4 * ((float)tableLayoutPanel1.Width / (float)WidthLoc));
+
+            int newX = (this.ClientSize.Width - tableLayoutPanel1.Width) / 2;
+            int newY = (this.ClientSize.Height - tableLayoutPanel1.Height) / 2;
+            tableLayoutPanel1.Location = new Point(newX, newY);
+
         }
     }
 }

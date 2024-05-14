@@ -117,11 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Picture7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="Picture7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAx0AAANSCAYAAAAAl6MqAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DgAACw4BQL7hQQAA/7JJREFUeF7svfV/G1m29f38Wc/MdCcxW5bMtmzLsi2DzMzMzMzMFGMMYeZ0Ot1h
+        DAAACwwBP0AiyAAA/7JJREFUeF7svfV/G1m29f38Wc/MdCcxW5bMtmzLsi2DzMzMzMzMFGMMYeZ0Ot1h
         6iTN3TPTNHCH7rPetY8kx3E7TQPv3Dv9w/pUqVQqlapOVa2v9tln/5+bG2Ow6e09urU5vq/e2ZrYIy7b
         HrPoKOf36N2jE7h9bHJf3Tk+pXR7j+6c2F93T05bNfOK7p2aVbp/enFHD84c3tHDs7u1tKNH55aVHp9f
         2dGT86sWXeD8xWU8ubSEx9TDyyt4eGkd9y9t4cmN8/jLbz/B//vyS/z1i6/xt69+jz9/8Xv86cvf4c9f
@@ -15526,22 +15530,19 @@
         iVIAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="Text1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Yu Gothic UI Semilight, 18pt</value>
+  <data name="Picture7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>793, 850</value>
   </data>
-  <data name="Text1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>264, 49</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="Text1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>262, 48</value>
-  </data>
-  <data name="Text1.Text" xml:space="preserve">
-    <value>MY COLLECTIONS</value>
+  <data name="CompList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
   </data>
   <data name="PhotoFirst.Text" xml:space="preserve">
     <value>Image</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="PhotoFirst.Width" type="System.Int32, mscorlib">
     <value>120</value>
   </data>
@@ -15552,9 +15553,36 @@
     <value>260</value>
   </data>
   <data name="CompList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>76, 100</value>
+    <value>3, 12</value>
   </data>
   <data name="CompList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>639, 705</value>
+    <value>633, 705</value>
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 83</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>639, 720</value>
+  </data>
+  <data name="Text1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Text1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI Semilight, 18pt</value>
+  </data>
+  <data name="Text1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Text1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, -2</value>
+  </data>
+  <data name="Text1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 38</value>
+  </data>
+  <data name="Text1.Text" xml:space="preserve">
+    <value>MY COLLECTIONS</value>
   </data>
 </root>

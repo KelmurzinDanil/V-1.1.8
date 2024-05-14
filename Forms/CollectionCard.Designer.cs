@@ -36,7 +36,9 @@
             PriceList = new ColumnHeader();
             AddressList = new ColumnHeader();
             NameList = new ColumnHeader();
+            tableLayoutPanel1 = new TableLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)Picture7).BeginInit();
+            tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
             // Picture7
@@ -79,16 +81,24 @@
             // 
             resources.ApplyResources(NameList, "NameList");
             // 
+            // tableLayoutPanel1
+            // 
+            resources.ApplyResources(tableLayoutPanel1, "tableLayoutPanel1");
+            tableLayoutPanel1.Controls.Add(ListRealtyComp, 0, 0);
+            tableLayoutPanel1.Controls.Add(EditButton, 0, 1);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
+            // 
             // CollectionCard
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(ListRealtyComp);
-            Controls.Add(EditButton);
+            Controls.Add(tableLayoutPanel1);
             Controls.Add(Picture7);
             FormBorderStyle = FormBorderStyle.SizableToolWindow;
-            base.Name = "CollectionCard";
+            Name = "CollectionCard";
+            SizeChanged += CollectionCard_SizeChanged;
             ((System.ComponentModel.ISupportInitialize)Picture7).EndInit();
+            tableLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -100,5 +110,6 @@
         private ColumnHeader PriceList;
         private ColumnHeader AddressList;
         private ColumnHeader NameList;
+        private TableLayoutPanel tableLayoutPanel1;
     }
 }

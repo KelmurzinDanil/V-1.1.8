@@ -121,7 +121,7 @@
   <data name="Picture7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAx0AAANSCAYAAAAAl6MqAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EAAACxABrSO9dQAA/7JJREFUeF7svfV/G1m29f38Wc/MdCcxW5bMtmzLsi2DzMzMzMzMFGMMYeZ0Ot1h
+        DAAACwwBP0AiyAAA/7JJREFUeF7svfV/G1m29f38Wc/MdCcxW5bMtmzLsi2DzMzMzMzMFGMMYeZ0Ot1h
         6iTN3TPTNHCH7rPetY8kx3E7TQPv3Dv9w/pUqVQqlapOVa2v9tln/5+bG2Ow6e09urU5vq/e2ZrYIy7b
         HrPoKOf36N2jE7h9bHJf3Tk+pXR7j+6c2F93T05bNfOK7p2aVbp/enFHD84c3tHDs7u1tKNH55aVHp9f
         2dGT86sWXeD8xWU8ubSEx9TDyyt4eGkd9y9t4cmN8/jLbz/B//vyS/z1i6/xt69+jz9/8Xv86cvf4c9f
@@ -15534,19 +15534,13 @@
     <value>Yu Gothic UI, 13.8pt</value>
   </data>
   <data name="EditButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>489, 735</value>
+    <value>3, 703</value>
   </data>
   <data name="EditButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 55</value>
+    <value>211, 53</value>
   </data>
   <data name="EditButton.Text" xml:space="preserve">
     <value>SEND BY EMAIL</value>
-  </data>
-  <data name="ListRealtyComp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>76, 40</value>
-  </data>
-  <data name="ListRealtyComp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>639, 688</value>
   </data>
   <data name="PhotoList.Text" xml:space="preserve">
     <value>Image</value>
@@ -15572,5 +15566,20 @@
   </data>
   <data name="NameList.Width" type="System.Int32, mscorlib">
     <value>120</value>
+  </data>
+  <data name="ListRealtyComp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="ListRealtyComp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>628, 693</value>
+  </data>
+  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>634, 760</value>
   </data>
 </root>

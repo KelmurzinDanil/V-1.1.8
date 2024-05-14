@@ -1,9 +1,16 @@
 ﻿using DB_993.Classes;
+using System.Windows.Forms;
 namespace design
 
 {
     public partial class MyCollections : Form
     {
+        public int Column1 { get; set; }
+        public int Column2 { get; set; }
+        public int HeightLoc { get; set; }
+        public int WidthLoc { get; set; }
+        public int HeightF { get; set; }
+        public int WidthF { get; set; }
         public string Email { get; set; }
         public Dictionary<int, string> Dict { get; set; } = new Dictionary<int, string>();
         public MyCollections(string email)
@@ -18,8 +25,20 @@ namespace design
         /// </summary>
         public void Design()
         {
+            Column1 = CompList.Columns[0].Width;
+            Column2 = CompList.Columns[1].Width;
+            Text1.Location = new Point((this.ClientSize.Width - Text1.Width) / 2, 4);
+            CompList.Anchor = AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Top | AnchorStyles.Bottom;
+            tableLayoutPanel1.BackColor = Color.Transparent;
             Text1.Parent = Picture7;
             Text1.BackColor = Color.Transparent;
+            Picture7.Anchor = AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Top | AnchorStyles.Bottom;
+            tableLayoutPanel1.Width = 639;
+            WidthF = this.Width;
+            HeightF = this.Height;
+            tableLayoutPanel1.Height = 764;
+            HeightLoc = 764;
+            WidthLoc = 639;
         }
         public void LoadData()
         {
@@ -65,6 +84,22 @@ namespace design
                 var cCard = new CollectionCard(Dict[indices[0]], Email);
                 cCard.Show();
             }
+        }
+
+        private void MyCollections_SizeChanged(object sender, EventArgs e)
+        {
+
+            tableLayoutPanel1.Width = (int)(((float)WidthLoc * ((float)this.Width / (float)WidthF)));
+            tableLayoutPanel1.Height = (int)(((float)HeightLoc * ((float)this.Height / (float)HeightF)));
+
+            CompList.Columns[0].Width = (int)(Column1 * ((float)tableLayoutPanel1.Width / (float)WidthLoc));
+            CompList.Columns[1].Width = (int)(Column2 * ((float)tableLayoutPanel1.Width / (float)WidthLoc));
+
+            int newX = (this.ClientSize.Width - tableLayoutPanel1.Width) / 2;
+            int newY = (this.ClientSize.Height - tableLayoutPanel1.Height) / 2;
+            tableLayoutPanel1.Location = new Point(newX, newY);
+
+            Text1.Location = new Point((this.ClientSize.Width - Text1.Width) / 2, 4);
         }
     }
 }

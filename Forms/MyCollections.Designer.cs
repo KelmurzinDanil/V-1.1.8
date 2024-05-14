@@ -30,11 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MyCollections));
             Picture7 = new PictureBox();
+            tableLayoutPanel1 = new TableLayoutPanel();
             Text1 = new Label();
             CompList = new ListView();
             PhotoFirst = new ColumnHeader();
             NameList = new ColumnHeader();
             ((System.ComponentModel.ISupportInitialize)Picture7).BeginInit();
+            tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
             // Picture7
@@ -42,6 +44,13 @@
             resources.ApplyResources(Picture7, "Picture7");
             Picture7.Name = "Picture7";
             Picture7.TabStop = false;
+            // 
+            // tableLayoutPanel1
+            // 
+            resources.ApplyResources(tableLayoutPanel1, "tableLayoutPanel1");
+            tableLayoutPanel1.BackColor = Color.Transparent;
+            tableLayoutPanel1.Controls.Add(CompList, 0, 1);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
             // 
             // Text1
             // 
@@ -71,12 +80,14 @@
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(CompList);
             Controls.Add(Text1);
+            Controls.Add(tableLayoutPanel1);
             Controls.Add(Picture7);
             FormBorderStyle = FormBorderStyle.SizableToolWindow;
             Name = "MyCollections";
+            SizeChanged += MyCollections_SizeChanged;
             ((System.ComponentModel.ISupportInitialize)Picture7).EndInit();
+            tableLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -86,5 +97,6 @@
         private ListView CompList;
         private ColumnHeader PhotoFirst;
         private ColumnHeader NameList;
+        private TableLayoutPanel tableLayoutPanel1;
     }
 }
