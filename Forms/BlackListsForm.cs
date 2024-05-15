@@ -68,6 +68,7 @@ namespace design
                 };
                 context.BlackLists.Add(newBL);
                 context.SaveChanges();
+                MessageBox.Show(BlackListLocal.AddBlackListText);
             }
         }
         private void LoadData()

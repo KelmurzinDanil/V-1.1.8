@@ -51,6 +51,16 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>CheckCodeLocal.resx</DependentUpon>
     </Compile>
+    <Compile Update="Resourse\CollectionCardLocal.en.Designer.cs">
+      <DependentUpon>CollectionCardLocal.en.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Resourse\CollectionCardLocal.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CollectionCardLocal.resx</DependentUpon>
+    </Compile>
     <Compile Update="Resourse\CreateNewListLocal.en.Designer.cs">
       <DependentUpon>CreateNewListLocal.en.resx</DependentUpon>
       <DesignTime>True</DesignTime>
@@ -173,6 +183,14 @@
     <EmbeddedResource Update="Resourse\CheckCodeLocal.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>CheckCodeLocal.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resourse\CollectionCardLocal.en.resx">
+      <LastGenOutput>CollectionCardLocal.en.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resourse\CollectionCardLocal.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CollectionCardLocal.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Update="Resourse\CreateNewListLocal.en.resx">
       <LastGenOutput>CreateNewListLocal.en.Designer.cs</LastGenOutput>

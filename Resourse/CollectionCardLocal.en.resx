@@ -117,13 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AddFavoriteText" xml:space="preserve">
-    <value>Объект добавлен в избранное.</value>
-  </data>
-  <data name="ClearFavoriteText" xml:space="preserve">
-    <value>Очистить избранное</value>
-  </data>
-  <data name="FavoriteText" xml:space="preserve">
-    <value>У вас уже есть этот объект в избранном.</value>
+  <data name="CollectionCardText" xml:space="preserve">
+    <value>The selection has been sent by email.</value>
   </data>
 </root>
