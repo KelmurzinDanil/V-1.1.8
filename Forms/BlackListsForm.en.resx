@@ -118,16 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="BlackListButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>248, 743</value>
-  </data>
-  <data name="BlackListButton.Text" xml:space="preserve">
-    <value>CLEAN BLACK LIST</value>
-  </data>
   <data name="Picture6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAx0AAANSCAYAAAAAl6MqAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DgAACw4BQL7hQQAA/7JJREFUeF7svXVzXNfWr3s+z603O7EtVrUa1CQoMUOJGUrMUqnEaKlkgYWGMrNd
+        DAAACwwBP0AiyAAA/7JJREFUeF7svXVzXNfWr3s+z603O7EtVrUa1CQoMUOJGUrMUqnEaKlkgYWGMrNd
         ZqYys122Y8fhpML5ved+gfsbc/WSWu2W7WQn79n73P3HU3Ot1atbDQvGozHHnP/r5v5p6Nw6MPNhHNzs
         Abcd4vPJ7UMzq7hzeLPCc13n7pHZNbl31INjc29x/9j8Kh4cX3iLhycWvfLo5GpWbT8lLCkentqCB6e2
         km24f2oH7p3egW8fXsQvn97CL6/u4qdP7+Dn1/fJA/z46X38+Oo+fuL6j/LYa+EOfnp1Cz+8vIVvn13F
@@ -24113,6 +24107,20 @@
         mv3/pPIm6kU7FPwAAAAASUVORK5CYII=
 </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BlackListButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BlackListButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 699</value>
+  </data>
+  <data name="BlackListButton.Text" xml:space="preserve">
+    <value>CLEAN BLACK LIST</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
   <data name="PhotoList.Text" xml:space="preserve">
     <value>Image</value>
   </data>
@@ -24125,7 +24133,21 @@
   <data name="NameList.Text" xml:space="preserve">
     <value>Name</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="listView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="listView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>729, 689</value>
+  </data>
+  <data name="listView1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>740, 769</value>
+  </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
   </data>
