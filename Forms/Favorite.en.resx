@@ -24110,11 +24110,47 @@
   <data name="BlackListButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>Yu Gothic UI, 12pt</value>
   </data>
+  <data name="BlackListButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        QmCC
+</value>
+  </data>
   <data name="BlackListButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>272, 577</value>
+    <value>3, 573</value>
   </data>
   <data name="BlackListButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>271, 58</value>
+    <value>271, 52</value>
   </data>
   <data name="BlackListButton.Text" xml:space="preserve">
     <value>CLEAN FAVORITE</value>
@@ -24132,6 +24168,19 @@
     <value>Name</value>
   </data>
   <data name="listView1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>30, 42</value>
+    <value>3, 3</value>
+  </data>
+  <data name="listView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>729, 563</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>740, 629</value>
   </data>
 </root>
