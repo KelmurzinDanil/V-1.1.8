@@ -117,13 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AddBlackListText" xml:space="preserve">
-    <value>The object has been added to the blacklist.</value>
-  </data>
-  <data name="BlackListClearText" xml:space="preserve">
-    <value>Clear the blacklist</value>
-  </data>
-  <data name="BlackListText" xml:space="preserve">
-    <value>You have this object already in a blacklist.</value>
+  <data name="CollectionCardText" xml:space="preserve">
+    <value>The selection has been sent by email.</value>
   </data>
 </root>

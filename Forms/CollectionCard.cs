@@ -1,4 +1,5 @@
 ﻿using DB_993.Classes;
+using DB_993.Resourse;
 namespace design
 {
     /// <summary>
@@ -107,6 +108,7 @@ namespace design
         {
             var emailMComp = new EmailMessageCompilation();
             emailMComp.PushEmailMessage(Email, Name);
+            MessageBox.Show(CollectionCardLocal.CollectionCardText);
         }
 
         private void CollectionCard_SizeChanged(object sender, EventArgs e)

@@ -22,14 +22,14 @@ namespace DB_993.Resourse {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class BlackListLocal {
+    internal class CollectionCardLocal___Копировать {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal BlackListLocal() {
+        internal CollectionCardLocal___Копировать() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace DB_993.Resourse {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DB_993.Resourse.BlackListLocal", typeof(BlackListLocal).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DB_993.Resourse.CollectionCardLocal - Копировать", typeof(CollectionCardLocal___Копировать).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -57,33 +57,6 @@ namespace DB_993.Resourse {
             }
             set {
                 resourceCulture = value;
-            }
-        }
-        
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на Объект добавлен в черный список..
-        /// </summary>
-        internal static string AddBlackListText {
-            get {
-                return ResourceManager.GetString("AddBlackListText", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на Очистить черный список.
-        /// </summary>
-        internal static string BlackListClearText {
-            get {
-                return ResourceManager.GetString("BlackListClearText", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на У вас этот объект уже находится в черном списке..
-        /// </summary>
-        internal static string BlackListText {
-            get {
-                return ResourceManager.GetString("BlackListText", resourceCulture);
             }
         }
     }
