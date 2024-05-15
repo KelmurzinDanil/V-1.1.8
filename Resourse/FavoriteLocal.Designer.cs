@@ -61,6 +61,15 @@ namespace DB_993.Resourse {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Объект добавлен в избранное..
+        /// </summary>
+        internal static string AddFavoriteText {
+            get {
+                return ResourceManager.GetString("AddFavoriteText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Очистить избранное.
         /// </summary>
         internal static string ClearFavoriteText {

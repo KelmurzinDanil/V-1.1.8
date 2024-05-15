@@ -74,6 +74,7 @@ namespace design
                 };
                 context.Favourites.Add(newFav);
                 context.SaveChanges();
+                MessageBox.Show(FavoriteLocal.AddFavoriteText);
             }
         }
         private void LoadData()
