@@ -52,6 +52,15 @@ namespace design
         {
             using (var context = new ApplicationContextBD())
             {
+                for (int i = 0; i < context.Favourites.Count(); i++)
+                {
+                    var existingUser = context.Favourites.FirstOrDefault(bl => bl.Realtys[i].Id == IdRealryForFav);
+                    if (existingUser != null)
+                    {
+                        MessageBox.Show("Этот объект есть в избранном, вы не можете его добавить в ЧС");
+                        return;
+                    }
+                }
                 for (int i = 0; i < context.BlackLists.Count(); i++)
                 {
                     var existingUser = context.BlackLists.FirstOrDefault(bl => bl.Realtys[i].Id == IdRealryForFav);
