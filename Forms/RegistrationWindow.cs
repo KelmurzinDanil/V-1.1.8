@@ -46,6 +46,15 @@ namespace design
         }
         private void RegistrationButton_Click(object sender, EventArgs e)
         {
+            using (var context = new ApplicationContextBD())
+            {
+                var existingUser = context.Users.FirstOrDefault(user => user.Email == LoginRegText.Text);
+                if (existingUser != null)
+                {
+                    MessageBox.Show(RegistrationWindowLocal.EmailTextReg);
+                    return;
+                }
+            }
 
             if (string.IsNullOrWhiteSpace(NameRegText.Text) || string.IsNullOrWhiteSpace(LoginRegText.Text) || string.IsNullOrWhiteSpace(PasswordRegText.Text))
             {
