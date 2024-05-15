@@ -1,7 +1,6 @@
 ﻿using DB_993.Classes;
 using DB_993.Forms;
 using DB_993.Resourse;
-using System.Windows.Forms;
 
 namespace design
 {
@@ -11,7 +10,7 @@ namespace design
     /// </summary>
     public partial class MainWindow : Form
     {
-        public int InitialDistanceS {  get; set; }
+        public int InitialDistanceS { get; set; }
         public int HeightLoc { get; set; }
         public int WidthLoc { get; set; }
         public int HeightF { get; set; }
@@ -331,7 +330,7 @@ namespace design
             Square.Anchor = AnchorStyles.Left;
             AmountOfFloors.Anchor = AnchorStyles.Left;
             FormMyRecommendationButton.Anchor = AnchorStyles.Bottom;
-           StraightButton.Anchor = AnchorStyles.Right;
+            StraightButton.Anchor = AnchorStyles.Right;
             BackButton.Anchor = AnchorStyles.Left;
 
         }
@@ -487,7 +486,7 @@ namespace design
 
         }
 
-      
+
     }
-    
+
 }

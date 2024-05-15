@@ -48,7 +48,7 @@ namespace design
             tableLayoutPanel1.Width = 740;
             WidthF = this.Width;
             HeightF = this.Height;
-            tableLayoutPanel1.Height = 629; 
+            tableLayoutPanel1.Height = 629;
             HeightLoc = 629;
             WidthLoc = 740;
             Picture6.Anchor = AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Top | AnchorStyles.Bottom;

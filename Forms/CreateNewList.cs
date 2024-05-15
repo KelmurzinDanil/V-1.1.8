@@ -29,6 +29,11 @@ namespace design
 
         private void CreateCollectionButton_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrEmpty(CollectionNameText.Text))
+            {
+                MessageBox.Show("Название не должно быть пустым");
+                return;
+            }
             using (var context = new ApplicationContextBD())
             {
                 var comp = context.Compilations.FirstOrDefault(d => d.Name == CollectionNameText.Text);

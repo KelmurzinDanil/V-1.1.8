@@ -8,9 +8,9 @@ namespace DB_993.Classes
     {
         public void PushEmailMessage(string email, int idComp)
         {
-            
+
         }
-        public void PushEmailMessage(string email, string r) 
+        public void PushEmailMessage(string email, string r)
         {
             using (var context = new ApplicationContextBD())
             {

@@ -63,7 +63,7 @@ namespace design
             label4.Parent = Picture4;
             label4.BackColor = Color.Transparent;
 
-            TypeText.ReadOnly = true ;
+            TypeText.ReadOnly = true;
             TypeText.Size = new Size(491, 52);
             label4.Size = new Size(121, 56);
         }

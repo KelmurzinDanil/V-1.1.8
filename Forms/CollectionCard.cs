@@ -80,7 +80,7 @@ namespace design
                             listRealty.Add(context.Realtys.FirstOrDefault(f => f.Id == sortListRealtyId[i])!);
                         }
 
-                        FillListRealty(listRealty);
+                        FillListRealty(listRealty.Take(10).ToList());
                     }
                 }
 
