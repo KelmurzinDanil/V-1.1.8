@@ -68,6 +68,7 @@ namespace design
                     }
                 }
                 this.Close();
+                MessageBox.Show("Добавлено");
             }
         }
 
@@ -91,6 +92,8 @@ namespace design
                     }
 
                 }
+                this.Close();
+                MessageBox.Show("Удалено");
             }
         }
     }
