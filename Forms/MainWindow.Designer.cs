@@ -51,8 +51,14 @@
             FloorText = new Label();
             button1 = new Button();
             MyCollectionsButton = new Button();
+            tableLayoutPanel1 = new TableLayoutPanel();
+            tableLayoutPanel2 = new TableLayoutPanel();
+            tableLayoutPanel3 = new TableLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)Picture3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)RealtyPhoto).BeginInit();
+            tableLayoutPanel1.SuspendLayout();
+            tableLayoutPanel2.SuspendLayout();
+            tableLayoutPanel3.SuspendLayout();
             SuspendLayout();
             // 
             // Picture3
@@ -209,37 +215,59 @@
             MyCollectionsButton.UseVisualStyleBackColor = true;
             MyCollectionsButton.Click += MyCollectionsButton_Click;
             // 
+            // tableLayoutPanel1
+            // 
+            resources.ApplyResources(tableLayoutPanel1, "tableLayoutPanel1");
+            tableLayoutPanel1.Controls.Add(Address, 0, 0);
+            tableLayoutPanel1.Controls.Add(Price, 0, 1);
+            tableLayoutPanel1.Controls.Add(Square, 0, 2);
+            tableLayoutPanel1.Controls.Add(FloorText, 1, 3);
+            tableLayoutPanel1.Controls.Add(AmountOfFloors, 0, 3);
+            tableLayoutPanel1.Controls.Add(AddressText, 1, 0);
+            tableLayoutPanel1.Controls.Add(PriceText, 1, 1);
+            tableLayoutPanel1.Controls.Add(SquareText, 1, 2);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
+            // 
+            // tableLayoutPanel2
+            // 
+            resources.ApplyResources(tableLayoutPanel2, "tableLayoutPanel2");
+            tableLayoutPanel2.Controls.Add(AddBlackListButton, 0, 0);
+            tableLayoutPanel2.Controls.Add(button1, 1, 0);
+            tableLayoutPanel2.Controls.Add(EstimateButton, 2, 0);
+            tableLayoutPanel2.Controls.Add(AddFavButton, 3, 0);
+            tableLayoutPanel2.Name = "tableLayoutPanel2";
+            // 
+            // tableLayoutPanel3
+            // 
+            resources.ApplyResources(tableLayoutPanel3, "tableLayoutPanel3");
+            tableLayoutPanel3.Controls.Add(label1, 0, 0);
+            tableLayoutPanel3.Controls.Add(tableLayoutPanel2, 0, 3);
+            tableLayoutPanel3.Controls.Add(FormMyRecommendationButton, 0, 4);
+            tableLayoutPanel3.Controls.Add(RealtyPhoto, 0, 1);
+            tableLayoutPanel3.Controls.Add(tableLayoutPanel1, 0, 2);
+            tableLayoutPanel3.Name = "tableLayoutPanel3";
+            // 
             // MainWindow
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(tableLayoutPanel3);
             Controls.Add(MyCollectionsButton);
-            Controls.Add(button1);
-            Controls.Add(FloorText);
-            Controls.Add(AddBlackListButton);
-            Controls.Add(AddFavButton);
-            Controls.Add(SquareText);
-            Controls.Add(PriceText);
-            Controls.Add(AddressText);
-            Controls.Add(AmountOfFloors);
-            Controls.Add(Address);
-            Controls.Add(Square);
-            Controls.Add(Price);
-            Controls.Add(RealtyPhoto);
-            Controls.Add(EstimateButton);
-            Controls.Add(FormMyRecommendationButton);
             Controls.Add(BackButton);
             Controls.Add(StraightButton);
             Controls.Add(BlackListButton);
             Controls.Add(FavButton);
             Controls.Add(ProfileButton);
-            Controls.Add(label1);
             Controls.Add(Picture3);
             FormBorderStyle = FormBorderStyle.SizableToolWindow;
             Name = "MainWindow";
             Load += MainWindow_Load;
+            SizeChanged += MainWindow_SizeChanged;
             ((System.ComponentModel.ISupportInitialize)Picture3).EndInit();
             ((System.ComponentModel.ISupportInitialize)RealtyPhoto).EndInit();
+            tableLayoutPanel1.ResumeLayout(false);
+            tableLayoutPanel2.ResumeLayout(false);
+            tableLayoutPanel3.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -267,5 +295,8 @@
         private Label FloorText;
         private Button button1;
         private Button MyCollectionsButton;
+        private TableLayoutPanel tableLayoutPanel1;
+        private TableLayoutPanel tableLayoutPanel2;
+        private TableLayoutPanel tableLayoutPanel3;
     }
 }

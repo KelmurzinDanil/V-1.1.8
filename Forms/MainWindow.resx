@@ -117,219 +117,193 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;Picture3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;AddBlackListButton.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="RealtyPhoto.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;StraightButton.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="Square.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 42</value>
+  <data name="ProfileButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 26</value>
   </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Address.ZOrder" xml:space="preserve">
-    <value>9</value>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainWindow</value>
   </data>
   <data name="&gt;&gt;FloorText.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
-  <data name="&gt;&gt;AddressText.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;BlackListButton.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
-  <data name="&gt;&gt;StraightButton.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;ProfileButton.Name" xml:space="preserve">
-    <value>ProfileButton</value>
-  </data>
-  <data name="&gt;&gt;AddFavButton.Name" xml:space="preserve">
-    <value>AddFavButton</value>
-  </data>
-  <data name="AmountOfFloors.Location" type="System.Drawing.Point, System.Drawing">
-    <value>207, 732</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="BackButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="&gt;&gt;FavButton.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;RealtyPhoto.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="SquareText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>241, 41</value>
-  </data>
-  <data name="Address.Text" xml:space="preserve">
-    <value>Адрес:
-</value>
-  </data>
-  <data name="BackButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>73, 498</value>
-  </data>
-  <data name="FloorText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 41</value>
+  <data name="&gt;&gt;MyCollectionsButton.Name" xml:space="preserve">
+    <value>MyCollectionsButton</value>
   </data>
   <data name="SquareText.Location" type="System.Drawing.Point, System.Drawing">
     <value>346, 664</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="FavButton.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+  <data name="BackButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 498</value>
   </data>
-  <data name="Picture3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+  <data name="&gt;&gt;StraightButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="EstimateButton.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
   </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="&gt;&gt;MyCollectionsButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="StraightButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="AddBlackListButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-        QmCC
-</value>
-  </data>
-  <data name="BlackListButton.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+  <data name="&gt;&gt;tableLayoutPanel3.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="AddressText.Size" type="System.Drawing.Size, System.Drawing">
     <value>275, 41</value>
   </data>
-  <data name="&gt;&gt;EstimateButton.Name" xml:space="preserve">
-    <value>EstimateButton</value>
+  <data name="tableLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
   </data>
-  <data name="&gt;&gt;AmountOfFloors.Parent" xml:space="preserve">
+  <data name="BackButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="Address.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 41</value>
+  </data>
+  <data name="EstimateButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="&gt;&gt;FavButton.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="ProfileButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 58</value>
+  </data>
+  <data name="EstimateButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 804</value>
+  </data>
+  <data name="AddressText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Constantia, 13.8pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="RealtyPhoto.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>Zoom</value>
   </data>
-  <data name="&gt;&gt;AmountOfFloors.Name" xml:space="preserve">
-    <value>AmountOfFloors</value>
+  <data name="AddBlackListButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
-  <data name="&gt;&gt;FavButton.Name" xml:space="preserve">
-    <value>FavButton</value>
+  <data name="&gt;&gt;FormMyRecommendationButton.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
-  <data name="&gt;&gt;AddressText.Name" xml:space="preserve">
-    <value>AddressText</value>
+  <data name="&gt;&gt;AmountOfFloors.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
   </data>
-  <data name="&gt;&gt;FloorText.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;EstimateButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="ProfileButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
   </data>
-  <data name="&gt;&gt;SquareText.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
   </data>
-  <data name="BackButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-</value>
+  <data name="&gt;&gt;BackButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="FavButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>253, 26</value>
+  <data name="Picture3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="Square.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 664</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Name" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;Picture3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Price.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="BlackListButton.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="FormMyRecommendationButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="PriceText.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;FavButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PriceText.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="BlackListButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>475, 26</value>
+  </data>
+  <data name="AmountOfFloors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 732</value>
+  </data>
+  <data name="&gt;&gt;AddFavButton.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;SquareText.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;ProfileButton.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="PriceText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Constantia, 13.8pt</value>
+  </data>
+  <data name="Picture3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="BlackListButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
   </data>
-  <data name="&gt;&gt;AddressText.ZOrder" xml:space="preserve">
-    <value>7</value>
+  <data name="&gt;&gt;tableLayoutPanel2.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="&gt;&gt;AddBlackListButton.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="AddFavButton.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
   </data>
-  <data name="&gt;&gt;AddBlackListButton.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="EstimateButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="&gt;&gt;AmountOfFloors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="RealtyPhoto.Location" type="System.Drawing.Point, System.Drawing">
     <value>232, 211</value>
-  </data>
-  <data name="SquareText.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Constantia, 13.8pt</value>
-  </data>
-  <data name="&gt;&gt;RealtyPhoto.Name" xml:space="preserve">
-    <value>RealtyPhoto</value>
-  </data>
-  <data name="&gt;&gt;SquareText.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>791, 974</value>
   </data>
   <data name="BlackListButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -367,174 +341,113 @@
         QmCC
 </value>
   </data>
-  <data name="ProfileButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
+  <data name="AddressText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 535</value>
   </data>
-  <data name="Price.Text" xml:space="preserve">
-    <value>Цена:</value>
-  </data>
-  <data name="&gt;&gt;MyCollectionsButton.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;Picture3.Name" xml:space="preserve">
-    <value>Picture3</value>
-  </data>
-  <data name="FormMyRecommendationButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="Price.Location" type="System.Drawing.Point, System.Drawing">
-    <value>207, 604</value>
+  <data name="FormMyRecommendationButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 904</value>
   </data>
   <data name="&gt;&gt;Square.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>tableLayoutPanel1</value>
   </data>
-  <data name="Address.Location" type="System.Drawing.Point, System.Drawing">
-    <value>207, 535</value>
+  <data name="AddBlackListButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
-  <data name="&gt;&gt;FormMyRecommendationButton.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="tableLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 713</value>
   </data>
   <data name="&gt;&gt;FormMyRecommendationButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="PriceText.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Constantia, 13.8pt</value>
+  <data name="&gt;&gt;MyCollectionsButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Picture3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-1, 0</value>
+  <data name="&gt;&gt;ProfileButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Constantia, 18pt</value>
+  <data name="Picture3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
   </data>
-  <data name="&gt;&gt;BlackListButton.Name" xml:space="preserve">
-    <value>BlackListButton</value>
-  </data>
-  <data name="AddFavButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-        +NLUAAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="&gt;&gt;FloorText.Name" xml:space="preserve">
-    <value>FloorText</value>
-  </data>
-  <data name="&gt;&gt;Price.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 20</value>
-  </data>
-  <data name="FavButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 58</value>
-  </data>
-  <data name="RealtyPhoto.Size" type="System.Drawing.Size, System.Drawing">
-    <value>335, 291</value>
-  </data>
-  <data name="BackButton.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="AddressText.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+  <data name="&gt;&gt;PriceText.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;PriceText.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="FloorText.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
   </data>
-  <data name="&gt;&gt;ProfileButton.ZOrder" xml:space="preserve">
-    <value>19</value>
+  <data name="&gt;&gt;Address.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
   </data>
-  <data name="Address.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
+  <data name="tableLayoutPanel3.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
   </data>
-  <data name="&gt;&gt;PriceText.Name" xml:space="preserve">
-    <value>PriceText</value>
+  <data name="FavButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
-  <data name="&gt;&gt;BlackListButton.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="FloorText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 41</value>
   </data>
-  <data name="&gt;&gt;PriceText.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="&gt;&gt;StraightButton.Name" xml:space="preserve">
+    <value>StraightButton</value>
   </data>
-  <data name="button1.TabIndex" type="System.Int32, mscorlib">
-    <value>32</value>
+  <data name="&gt;&gt;AddressText.Name" xml:space="preserve">
+    <value>AddressText</value>
   </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+  <data name="&gt;&gt;StraightButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Price.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 40</value>
+  </data>
+  <data name="&gt;&gt;AmountOfFloors.Name" xml:space="preserve">
+    <value>AmountOfFloors</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FormMyRecommendationButton.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
   </data>
   <data name="&gt;&gt;Address.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AmountOfFloors.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="RealtyPhoto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>335, 291</value>
+  </data>
+  <data name="&gt;&gt;SquareText.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Price.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SquareText.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="Price.Text" xml:space="preserve">
+    <value>Цена:</value>
+  </data>
+  <data name="&gt;&gt;Address.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="StraightButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
   <data name="FloorText.Font" type="System.Drawing.Font, System.Drawing">
     <value>Constantia, 13.8pt</value>
   </data>
-  <data name="FormMyRecommendationButton.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
+  <data name="BackButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
-  <data name="FloorText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>440, 732</value>
-  </data>
-  <data name="&gt;&gt;AddBlackListButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="FavButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-        M+Pm5n9mF2vGrExMOwAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="&gt;&gt;RealtyPhoto.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;RealtyPhoto.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="Picture3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -18086,35 +17999,199 @@
         ZCliv42PccUAyIrpz/F03Cz4/wGmjd6QnTU9VQAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="&gt;&gt;EstimateButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="FavButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        M+Pm5n9mF2vGrExMOwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>617, 808</value>
+  </data>
+  <data name="FormMyRecommendationButton.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="AddFavButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>528, 804</value>
+  </data>
+  <data name="SquareText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>241, 41</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="BlackListButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 58</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BackButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="PriceText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 602</value>
+  </data>
   <data name="AddBlackListButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>212, 804</value>
   </data>
-  <data name="&gt;&gt;RealtyPhoto.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
   </data>
-  <data name="Picture3.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="&gt;&gt;tableLayoutPanel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="AddFavButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+  <data name="&gt;&gt;Price.Name" xml:space="preserve">
+    <value>Price</value>
   </data>
-  <data name="BackButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
   </data>
-  <data name="PriceText.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
+  <data name="&gt;&gt;AddressText.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
   </data>
-  <data name="StraightButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="FormMyRecommendationButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI Light, 12pt</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Constantia, 18pt</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 116</value>
+  </data>
+  <data name="&gt;&gt;BackButton.Name" xml:space="preserve">
+    <value>BackButton</value>
+  </data>
+  <data name="&gt;&gt;ProfileButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AddBlackListButton.Name" xml:space="preserve">
+    <value>AddBlackListButton</value>
+  </data>
+  <data name="&gt;&gt;Square.Name" xml:space="preserve">
+    <value>Square</value>
+  </data>
+  <data name="&gt;&gt;AddFavButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Address.Text" xml:space="preserve">
+    <value>Адрес:
+</value>
+  </data>
+  <data name="FormMyRecommendationButton.Text" xml:space="preserve">
+    <value>СФОРМИРОВАТЬ МОИ РЕКОМЕНДАЦИИ</value>
+  </data>
+  <data name="RealtyPhoto.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
   </data>
-  <data name="AddFavButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="StraightButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>639, 498</value>
+  </data>
+  <data name="Address.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
   </data>
-  <data name="&gt;&gt;BlackListButton.ZOrder" xml:space="preserve">
-    <value>17</value>
+  <data name="&gt;&gt;PriceText.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
-  <data name="AddBlackListButton.TabIndex" type="System.Int32, mscorlib">
-    <value>29</value>
+  <data name="AmountOfFloors.Text" xml:space="preserve">
+    <value>Количество этажей:
+</value>
+  </data>
+  <data name="MyCollectionsButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>540, 28</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Name" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FavButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlackListButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FormMyRecommendationButton.Name" xml:space="preserve">
+    <value>FormMyRecommendationButton</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Возможно, вам понравится</value>
+  </data>
+  <data name="&gt;&gt;Square.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 699</value>
+  </data>
+  <data name="FormMyRecommendationButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>503, 55</value>
+  </data>
+  <data name="&gt;&gt;BlackListButton.Name" xml:space="preserve">
+    <value>BlackListButton</value>
   </data>
   <data name="ProfileButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -18145,194 +18222,228 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANCMh4dfnHo7jXRdawkAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="FormMyRecommendationButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>195, 116</value>
-  </data>
-  <data name="EstimateButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="ProfileButton.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;FormMyRecommendationButton.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="FormMyRecommendationButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="Price.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="&gt;&gt;FloorText.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Picture3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
-  </data>
-  <data name="AddBlackListButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="SquareText.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="AmountOfFloors.Text" xml:space="preserve">
-    <value>Количество этажей:
-</value>
-  </data>
-  <data name="&gt;&gt;FavButton.Parent" xml:space="preserve">
+  <data name="&gt;&gt;BlackListButton.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;Square.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Возможно, вам понравится</value>
-  </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>617, 808</value>
-  </data>
-  <data name="&gt;&gt;EstimateButton.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;Address.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="FavButton.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
   <data name="Square.Font" type="System.Drawing.Font, System.Drawing">
     <value>Constantia, 13.8pt</value>
   </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>20</value>
+  <data name="FavButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>253, 26</value>
   </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="Square.Location" type="System.Drawing.Point, System.Drawing">
-    <value>207, 664</value>
-  </data>
-  <data name="&gt;&gt;ProfileButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SquareText.Name" xml:space="preserve">
-    <value>SquareText</value>
-  </data>
-  <data name="FormMyRecommendationButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei UI Light, 12pt</value>
-  </data>
-  <data name="StraightButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 70</value>
-  </data>
-  <data name="EstimateButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-</value>
-  </data>
-  <data name="AddFavButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>528, 804</value>
-  </data>
-  <data name="&gt;&gt;Price.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Picture3.ZOrder" xml:space="preserve">
-    <value>21</value>
-  </data>
-  <data name="MyCollectionsButton.TabIndex" type="System.Int32, mscorlib">
-    <value>33</value>
-  </data>
-  <data name="&gt;&gt;MyCollectionsButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;AddBlackListButton.Name" xml:space="preserve">
-    <value>AddBlackListButton</value>
+  <data name="Price.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 604</value>
   </data>
   <data name="Square.Text" xml:space="preserve">
     <value>Площадь:
 </value>
   </data>
+  <data name="&gt;&gt;AmountOfFloors.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>791, 974</value>
+  </data>
+  <data name="MyCollectionsButton.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="Price.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Constantia, 13.8pt</value>
+  </data>
+  <data name="FloorText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>440, 732</value>
+  </data>
+  <data name="BackButton.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="BackButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="AmountOfFloors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 42</value>
+  </data>
+  <data name="FavButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 58</value>
+  </data>
+  <data name="SquareText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Constantia, 13.8pt</value>
+  </data>
+  <data name="&gt;&gt;ProfileButton.Name" xml:space="preserve">
+    <value>ProfileButton</value>
+  </data>
+  <data name="&gt;&gt;Square.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="EstimateButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="Picture3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="&gt;&gt;AddBlackListButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;Picture3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FormMyRecommendationButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;AddFavButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;PriceText.Name" xml:space="preserve">
+    <value>PriceText</value>
+  </data>
+  <data name="StraightButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="PriceText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 41</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="AddFavButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;EstimateButton.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;BackButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;SquareText.Name" xml:space="preserve">
+    <value>SquareText</value>
+  </data>
+  <data name="StraightButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="StraightButton.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;EstimateButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AddFavButton.Name" xml:space="preserve">
+    <value>AddFavButton</value>
+  </data>
+  <data name="&gt;&gt;RealtyPhoto.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;AddressText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AddressText.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="AmountOfFloors.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Constantia, 13.8pt</value>
+  </data>
+  <data name="&gt;&gt;FloorText.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="AddBlackListButton.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="Square.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;Price.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;MyCollectionsButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 20</value>
+  </data>
+  <data name="&gt;&gt;Address.Name" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="FormMyRecommendationButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="AddFavButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>453, 59</value>
   </data>
-  <data name="&gt;&gt;PriceText.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="AddressText.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Constantia, 13.8pt</value>
-  </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
-  </data>
-  <data name="EstimateButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 50</value>
-  </data>
-  <data name="&gt;&gt;Square.Name" xml:space="preserve">
-    <value>Square</value>
-  </data>
-  <data name="EstimateButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>340, 804</value>
-  </data>
-  <data name="&gt;&gt;BackButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="BackButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 70</value>
-  </data>
-  <data name="&gt;&gt;StraightButton.Name" xml:space="preserve">
-    <value>StraightButton</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="&gt;&gt;BlackListButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="MyCollectionsButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>540, 28</value>
-  </data>
-  <data name="RealtyPhoto.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="Picture3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>797, 974</value>
-  </data>
-  <data name="&gt;&gt;BackButton.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;EstimateButton.Name" xml:space="preserve">
+    <value>EstimateButton</value>
   </data>
   <data name="Address.Font" type="System.Drawing.Font, System.Drawing">
     <value>Constantia, 13.8pt</value>
   </data>
-  <data name="RealtyPhoto.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+  <data name="Picture3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 0</value>
   </data>
-  <data name="Price.Size" type="System.Drawing.Size, System.Drawing">
-    <value>90, 40</value>
+  <data name="&gt;&gt;BackButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AddressText.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RealtyPhoto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddBlackListButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;FloorText.Name" xml:space="preserve">
+    <value>FloorText</value>
+  </data>
+  <data name="AddFavButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="AddBlackListButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="&gt;&gt;SquareText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RealtyPhoto.Name" xml:space="preserve">
+    <value>RealtyPhoto</value>
+  </data>
+  <data name="tableLayoutPanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 124</value>
+  </data>
+  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="ProfileButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="&gt;&gt;FavButton.Name" xml:space="preserve">
+    <value>FavButton</value>
   </data>
   <data name="StraightButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -18367,163 +18478,115 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAICVWVv7D+R9ABey1npCAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="AddBlackListButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 50</value>
-  </data>
-  <data name="&gt;&gt;AddFavButton.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="EstimateButton.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="PriceText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>312, 602</value>
-  </data>
-  <data name="BlackListButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 58</value>
-  </data>
-  <data name="Picture3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="ProfileButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 58</value>
-  </data>
-  <data name="Price.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Constantia, 13.8pt</value>
-  </data>
-  <data name="StraightButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>639, 498</value>
-  </data>
-  <data name="AddBlackListButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;EstimateButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Square.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="FavButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="BlackListButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>475, 26</value>
-  </data>
-  <data name="&gt;&gt;AddFavButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;FormMyRecommendationButton.Name" xml:space="preserve">
-    <value>FormMyRecommendationButton</value>
-  </data>
-  <data name="FloorText.TabIndex" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="&gt;&gt;AddressText.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;AmountOfFloors.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Picture3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>MainWindow</value>
-  </data>
-  <data name="FormMyRecommendationButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>156, 904</value>
-  </data>
-  <data name="&gt;&gt;ProfileButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;BackButton.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="AddFavButton.TabIndex" type="System.Int32, mscorlib">
-    <value>28</value>
-  </data>
-  <data name="&gt;&gt;Price.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Address.Name" xml:space="preserve">
-    <value>Address</value>
-  </data>
-  <data name="FormMyRecommendationButton.Text" xml:space="preserve">
-    <value>СФОРМИРОВАТЬ МОИ РЕКОМЕНДАЦИИ</value>
-  </data>
-  <data name="&gt;&gt;StraightButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="AddFavButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 50</value>
-  </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;StraightButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;AddFavButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="Address.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 41</value>
-  </data>
-  <data name="&gt;&gt;MyCollectionsButton.Name" xml:space="preserve">
-    <value>MyCollectionsButton</value>
-  </data>
-  <data name="&gt;&gt;BackButton.Name" xml:space="preserve">
-    <value>BackButton</value>
-  </data>
-  <data name="AddressText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>312, 535</value>
-  </data>
-  <data name="FormMyRecommendationButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>503, 55</value>
-  </data>
-  <data name="AmountOfFloors.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Constantia, 13.8pt</value>
-  </data>
-  <data name="StraightButton.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;Price.Name" xml:space="preserve">
-    <value>Price</value>
-  </data>
-  <data name="&gt;&gt;Square.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Picture3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>797, 974</value>
   </data>
   <data name="EstimateButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="AmountOfFloors.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
+  <data name="Square.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 42</value>
   </data>
-  <data name="PriceText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>275, 41</value>
+  <data name="Address.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 535</value>
   </data>
-  <data name="AmountOfFloors.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 42</value>
+  <data name="AddBlackListButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        QmCC
+</value>
   </data>
-  <data name="&gt;&gt;AmountOfFloors.ZOrder" xml:space="preserve">
-    <value>8</value>
+  <data name="ProfileButton.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
-  <data name="&gt;&gt;SquareText.Parent" xml:space="preserve">
+  <data name="tableLayoutPanel3.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="label1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel2" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="FormMyRecommendationButton" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="RealtyPhoto" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel1" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,5,4333763,Percent,49,54722,Percent,35,876842,Percent,9,236948,Absolute,56" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;MyCollectionsButton.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;FavButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;tableLayoutPanel2.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
   </data>
-  <data name="ProfileButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>156, 26</value>
+  <data name="tableLayoutPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="AddBlackListButton" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="button1" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="EstimateButton" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="AddFavButton" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,25,Percent,25,Percent,25,Percent,25" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="&gt;&gt;FloorText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Picture3.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="AddFavButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        +NLUAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;Picture3.Name" xml:space="preserve">
+    <value>Picture3</value>
+  </data>
+  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="Address" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Price" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Square" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="FloorText" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="AmountOfFloors" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="AddressText" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="PriceText" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="SquareText" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,53,448277,Percent,46,551723" /&gt;&lt;Rows Styles="Percent,25,Percent,25,Percent,25,Percent,25" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;Price.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
     <value>en</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
   </metadata>
 </root>

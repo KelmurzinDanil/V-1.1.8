@@ -1,6 +1,7 @@
 ﻿using DB_993.Classes;
 using DB_993.Forms;
 using DB_993.Resourse;
+using System.Windows.Forms;
 
 namespace design
 {
@@ -10,6 +11,11 @@ namespace design
     /// </summary>
     public partial class MainWindow : Form
     {
+        public int InitialDistanceS {  get; set; }
+        public int HeightLoc { get; set; }
+        public int WidthLoc { get; set; }
+        public int HeightF { get; set; }
+        public int WidthF { get; set; }
         string? Email { get; set; }
         public int I { get; set; }
         int IdRealryForFavBlMark { get; set; }
@@ -271,6 +277,63 @@ namespace design
             button1.BackColor = Color.Transparent;
             button1.FlatAppearance.BorderSize = 0;
             button1.FlatStyle = FlatStyle.Flat;
+
+
+            WidthF = this.Width;
+            HeightF = this.Height;
+            HeightLoc = 773;
+            WidthLoc = 464;
+
+            tableLayoutPanel3.Width = 464;
+            tableLayoutPanel3.Height = 773;
+            tableLayoutPanel3.MaximumSize = new Size(612, 773);
+
+            StraightButton.Location = new Point(662, 557);
+            BackButton.Location = new Point(61, 557);
+
+            MaximizeBox = true;
+            tableLayoutPanel1.Controls.Add(Address, 0, 0);
+            tableLayoutPanel1.Controls.Add(Price, 0, 1);
+            tableLayoutPanel1.Controls.Add(Square, 0, 2);
+            tableLayoutPanel1.Controls.Add(AmountOfFloors, 0, 3);
+            tableLayoutPanel1.Controls.Add(AddressText, 1, 0);
+            tableLayoutPanel1.Controls.Add(PriceText, 1, 1);
+            tableLayoutPanel1.Controls.Add(SquareText, 1, 2);
+            tableLayoutPanel1.Controls.Add(FloorText, 1, 3);
+
+            tableLayoutPanel2.Controls.Add(AddBlackListButton, 0, 0);
+            tableLayoutPanel2.Controls.Add(button1, 1, 0);
+            tableLayoutPanel2.Controls.Add(EstimateButton, 2, 0);
+            tableLayoutPanel2.Controls.Add(AddFavButton, 3, 0);
+
+            tableLayoutPanel3.Controls.Add(label1, 0, 0);
+            tableLayoutPanel3.Controls.Add(RealtyPhoto, 0, 1);
+            tableLayoutPanel3.Controls.Add(tableLayoutPanel1, 0, 2);
+            tableLayoutPanel3.Controls.Add(tableLayoutPanel2, 0, 3);
+            tableLayoutPanel3.Controls.Add(FormMyRecommendationButton, 0, 4);
+
+            ProfileButton.Anchor = AnchorStyles.Top;
+            FavButton.Anchor = AnchorStyles.Top;
+            BlackListButton.Anchor = AnchorStyles.Top;
+            MyCollectionsButton.Anchor = AnchorStyles.Top;
+            FormMyRecommendationButton.Anchor = AnchorStyles.Bottom;
+            Picture3.Anchor = AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Top | AnchorStyles.Bottom;
+            tableLayoutPanel1.Anchor = AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Top | AnchorStyles.Bottom;
+            tableLayoutPanel2.Anchor = AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Top | AnchorStyles.Bottom;
+            RealtyPhoto.Anchor = AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Top | AnchorStyles.Bottom;
+            AddBlackListButton.Anchor = AnchorStyles.Left;
+            button1.Anchor = AnchorStyles.Right;
+            EstimateButton.Anchor = AnchorStyles.Left;
+            AddFavButton.Anchor = AnchorStyles.Right;
+            label1.Anchor = AnchorStyles.None;
+            Address.Anchor = AnchorStyles.Left;
+            Price.Anchor = AnchorStyles.Left;
+            Square.Anchor = AnchorStyles.Left;
+            AmountOfFloors.Anchor = AnchorStyles.Left;
+            FormMyRecommendationButton.Anchor = AnchorStyles.Bottom;
+           StraightButton.Anchor = AnchorStyles.Right;
+            BackButton.Anchor = AnchorStyles.Left;
+
         }
 
         private void ProfileButton_Click(object sender, EventArgs e)
@@ -412,5 +475,19 @@ namespace design
             var compList = new MyCollections(Email!);
             compList.Show();
         }
+
+        private void MainWindow_SizeChanged(object sender, EventArgs e)
+        {
+            tableLayoutPanel3.Width = (int)(((float)WidthLoc * ((float)this.Width / (float)WidthF)));
+            tableLayoutPanel3.Height = (int)(((float)HeightLoc * ((float)this.Height / (float)HeightF)));
+
+            int newX = (this.ClientSize.Width - tableLayoutPanel3.Width) / 2;
+            int newY = (this.ClientSize.Height - tableLayoutPanel3.Height) / 2;
+            tableLayoutPanel3.Location = new Point(newX, newY + 4);
+
+        }
+
+      
     }
+    
 }

@@ -121,7 +121,7 @@
   <data name="Picture3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAx0AAAPOCAYAAABqM3USAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAA/7JJREFUeF7s/eV/G2n6LXqfP2vPdCcxW7IlS7ItMzMzMzPFzI4hzMzMzJzuNDPN
+        DAAACwwBP0AiyAAA/7JJREFUeF7s/eV/G2n6LXqfP2vPdCcxW7IlS7ItMzMzMzPFzI4hzMzMzJzuNDPN
         7PO8Xs+67lLZsiwn6Z7uOfPbe16sT5VKYLGur2/6f24dnIGe2x+YO4dmXcJjh7XcPeKSo7NaXE87cu/o
         3Lq5f2zLqjw4Pr8mD0+45OTCmjw6ueg2j08trYrz8SenJVvxmHl0ZhseqmxnduLB2Z345tEl/PzmNn7+
         5B5+en0XP33ygHmIH988wA+MnP7xzX1uef4nd7l/Gz+8uo1vn1/HV0+v4MvHF/H2/hl8cucU3tw+iVc3
@@ -20980,18 +20980,22 @@
     <value>Yu Gothic UI Semilight, 16.2pt</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>267, 131</value>
+    <value>3, 0</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>272, 59</value>
+    <value>272, 40</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>YOU MIGHT LIKE IT</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ProfileButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
   <data name="ProfileButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAJ0AAACdCAYAAACuJnrWAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAABsRJREFUeF7tnetx6joUhVMCJaQE8mAmP9PBpYPQQdIBdHDogHRAOqAESqAESsjd
+        DAAACwwBP0AiyAAABsRJREFUeF7tnetx6joUhVMCJaQE8mAmP9PBpYPQQdIBdHDogHRAOqAESqAESsjd
         yyP5bBSRkwfYsvi+mTXYki05s1e2jB/iCgAAAACgI+amvem9Um1M1yYohD+mXKBq0840MkEB1JzhUs1M
         UAC54NQqTFcIueDUKkxXCLng1CpMVwi54NQqTFcIueDUKkxXCLng1CpMVwi54Bzo+vo6W/4bjUajs7T7
         D2G6QsgFp9Hz8/P7brd732w2zed8Ps9u9xXJYE9PT+36er1u2vfb/FRqOx5jrt4J0xVCLjhNJlIQYzbS
@@ -21024,7 +21028,7 @@
 </value>
   </data>
   <data name="ProfileButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>176, 28</value>
+    <value>174, 13</value>
   </data>
   <data name="ProfileButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 80</value>
@@ -21032,7 +21036,7 @@
   <data name="FavButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAJ0AAACdCAYAAACuJnrWAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAABdZJREFUeF7tnO1xwjgURVMCJVACk4+Z/KSDTQehg9BB6GDpgHSQdEA6SAmUQAns
+        DAAACwwBP0AiyAAABdZJREFUeF7tnO1xwjgURVMCJVACk4+Z/KSDTQehg9BB6GDpgHSQdEA6SAmUQAns
         ux6LdZwHgYAsWT5n5g7Glm2he5Ft2XADAAAAANARr6ataVe41qaxCRLzr8kzqFRtTCMTJGQIPVxbUxMk
         xDOldM1MkBDPlNJF6BLjmVK6CF1iPFNKF6FLjGdK6SJ0ifFMKV2ELjGeKd80Ho/d+ZdoNBpF2e6JInSJ
         8Uyp9PLysttsNrv1el29vr6+uuVOkQL2/Py8f//+/l5tv1nmGlI9V6uVu6whQpcYz5SqJ5KBoTfS+6+v
@@ -21061,7 +21065,7 @@
 </value>
   </data>
   <data name="FavButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>299, 28</value>
+    <value>297, 13</value>
   </data>
   <data name="FavButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 80</value>
@@ -21069,7 +21073,7 @@
   <data name="BlackListButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAJ0AAACdCAYAAACuJnrWAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAAB5dJREFUeF7tnT9v1EgYximvzEdISbnijwTdVnANukg0oUoqRAFKEM1RZRukK5Bu
+        DAAACwwBP0AiyAAAB5dJREFUeF7tnT9v1EgYximvzEdISbnijwTdVnANukg0oUoqRAFKEM1RZRukK5Bu
         JSqqRKJFCjTouojq6PIRtrx0K/EFfPNYnsg7vE68u54Zx/v7SY/Wa4+9zrxPZjzvjr23AAAAAAASceQ0
         dyoGLP19fztBD1AgrCANVRMnyMzQW7hQMyfIjBWYoQsyYwVl6ILMWEEZuiAzVlCGLsiMFZShCzJjBWXo
         gsxYQVnQ9va2uX4dbW1tRTluS0FmrKCUOjg4KGazWXF2dla+Hh0dmeXaSAbb29u7fH96eloev15mVe3s
@@ -21105,7 +21109,7 @@
 </value>
   </data>
   <data name="BlackListButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>418, 28</value>
+    <value>416, 13</value>
   </data>
   <data name="BlackListButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 80</value>
@@ -21113,7 +21117,7 @@
   <data name="StraightButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAI4AAACOCAYAAADn/TAIAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAABpRJREFUeF7tnT1P40oUhim35CdQbolEs2XooIJyOxDVdtBxO5Bobkd+wUJ3bwfd
+        DAAACwwBP0AiyAAABpRJREFUeF7tnT1P40oUhim35CdQbolEs2XooIJyOxDVdtBxO5Bobkd+wUJ3bwfd
         LfkJEaLgq0BCQumIaJGQ73kjD7K840DsGXsSnkd6lcTEjuecNzPjeGZYAAAAAIBuuL+/P7i9vR2ZsnnU
         3d3dxfX19VJeXAiBBfV4OBxmb29v2bzy/PwsAz0MBoPFvNjQFAvo6PX1NQ/x/PL4+JhZrbOdFxuaoqr8
         K6BaFeMEBONALTAO1ALjQC0wDtQC40AtPmOch4eH/Fk4RqNRlONWgXECM8k4/X4/W1paynq93vjx8PAw
@@ -21150,7 +21154,7 @@
   <data name="BackButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAI4AAACOCAYAAADn/TAIAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAABq5JREFUeF7tnT1P40oUhim35CdQbolEs2XooIJyOxDVdtBxOxDV7cgvALp7Oyhv
+        DAAACwwBP0AiyAAABq5JREFUeF7tnT1P40oUhim35CdQbolEs2XooIJyOxDVdtBxOxDV7cgvALp7Oyhv
         x09AiIKvAkSTMi1CQr7njWZWxjvOx3jixM7zSK+SOPHEc86bmTH2DEsAAAAAMBuen5+PHh8f+6asxeqr
         nq7KUJWnp6fTXq+XfX5+Zm3m4+Mje319ze7v749d1aEK+iUqqIuA6mn1fXFVhyqoGV8UME5CMA5EgXEg
         CowDUWAciALjQBTjGOfl5cU9S0e/309e7qjyME5Chhmn2+1mKysrWafTGTweHx+7dyZHSb24uHCvsmxr
@@ -21185,7 +21189,6 @@
   <data name="BackButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>61, 557</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="FormMyRecommendationButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Standard</value>
   </data>
@@ -21193,10 +21196,10 @@
     <value>Yu Gothic UI, 12pt</value>
   </data>
   <data name="FormMyRecommendationButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>166, 904</value>
+    <value>3, 751</value>
   </data>
   <data name="FormMyRecommendationButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>464, 55</value>
+    <value>458, 50</value>
   </data>
   <data name="FormMyRecommendationButton.Text" xml:space="preserve">
     <value>FORM MY RECOMMENDATIONS</value>
@@ -21204,7 +21207,7 @@
   <data name="EstimateButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAYAAAA5ZDbSAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAABjRJREFUeF7tmz1IJEkYho03MtjNTTcTDIXFwOA2EIVNTPYUow0E5S4wWVBU2HDG
+        DAAACwwBP0AiyAAABjRJREFUeF7tmz1IJEkYho03MtjNTTcTDIXFwOA2EIVNTPYUow0E5S4wWVBU2HDG
         fFGjSzzQixbkQLjkUO4QbgN/hkPxAm9Bd5ILPEH6vrepb6iprerpv5n1et4HXnr6r6b6e7u+rq7uHiCE
         EEIICdFoNJbPzs6aoqjCauI4zSH3D+fn57Xr6+vo4eEhqjL39/fR5eVldHJysmIOvT/AmY2D7wdwnHK8
         F+bQ+wOkr36BBlccGlxxaHDFocEVhwZXHBoc4OLiwvwqj2azWXq5ncqjwQ71ej0aGhqKxsbG4unKyopZ
@@ -21235,7 +21238,19 @@
 </value>
   </data>
   <data name="EstimateButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>408, 826</value>
+    <value>231, 4</value>
+  </data>
+  <data name="EstimateButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 49</value>
+  </data>
+  <data name="RealtyPhoto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 44</value>
+  </data>
+  <data name="RealtyPhoto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>458, 362</value>
+  </data>
+  <data name="Price.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
   </data>
   <data name="Price.Font" type="System.Drawing.Font, System.Drawing">
     <value>Yu Gothic UI Semilight, 13.8pt</value>
@@ -21244,10 +21259,16 @@
     <value>NoControl</value>
   </data>
   <data name="Price.Location" type="System.Drawing.Point, System.Drawing">
-    <value>197, 603</value>
+    <value>3, 76</value>
+  </data>
+  <data name="Price.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 31</value>
   </data>
   <data name="Price.Text" xml:space="preserve">
     <value>PRICE:</value>
+  </data>
+  <data name="Square.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
   </data>
   <data name="Square.Font" type="System.Drawing.Font, System.Drawing">
     <value>Yu Gothic UI Semilight, 13.8pt</value>
@@ -21256,36 +21277,42 @@
     <value>NoControl</value>
   </data>
   <data name="Square.Location" type="System.Drawing.Point, System.Drawing">
-    <value>197, 664</value>
+    <value>3, 137</value>
   </data>
   <data name="Square.Size" type="System.Drawing.Size, System.Drawing">
-    <value>90, 42</value>
+    <value>90, 31</value>
   </data>
   <data name="Square.Text" xml:space="preserve">
     <value>AREA:
 </value>
   </data>
+  <data name="Address.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
   <data name="Address.Font" type="System.Drawing.Font, System.Drawing">
     <value>Yu Gothic UI Semilight, 13.8pt</value>
   </data>
   <data name="Address.Location" type="System.Drawing.Point, System.Drawing">
-    <value>197, 535</value>
+    <value>3, 15</value>
   </data>
   <data name="Address.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 41</value>
+    <value>110, 31</value>
   </data>
   <data name="Address.Text" xml:space="preserve">
     <value>ADRESS:
 </value>
   </data>
+  <data name="AmountOfFloors.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
   <data name="AmountOfFloors.Font" type="System.Drawing.Font, System.Drawing">
     <value>Yu Gothic UI Semilight, 13.8pt</value>
   </data>
   <data name="AmountOfFloors.Location" type="System.Drawing.Point, System.Drawing">
-    <value>193, 731</value>
+    <value>3, 198</value>
   </data>
   <data name="AmountOfFloors.Size" type="System.Drawing.Size, System.Drawing">
-    <value>255, 42</value>
+    <value>238, 32</value>
   </data>
   <data name="AmountOfFloors.Text" xml:space="preserve">
     <value>AMOUNT OF FLOORS:
@@ -21295,27 +21322,33 @@
     <value>Yu Gothic UI Semilight, 13.8pt</value>
   </data>
   <data name="AddressText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>328, 535</value>
+    <value>247, 0</value>
+  </data>
+  <data name="AddressText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 31</value>
   </data>
   <data name="PriceText.Font" type="System.Drawing.Font, System.Drawing">
     <value>Yu Gothic UI Semilight, 13.8pt</value>
   </data>
   <data name="PriceText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>328, 603</value>
+    <value>247, 61</value>
+  </data>
+  <data name="PriceText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 31</value>
   </data>
   <data name="SquareText.Font" type="System.Drawing.Font, System.Drawing">
     <value>Yu Gothic UI Semilight, 13.8pt</value>
   </data>
   <data name="SquareText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>328, 664</value>
+    <value>247, 122</value>
   </data>
   <data name="SquareText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>275, 41</value>
+    <value>208, 41</value>
   </data>
   <data name="AddFavButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAYAAAA5ZDbSAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAABh1JREFUeF7tmz9IJGcYxq2vsrjrba8TLIXDwiJX+Aeu0Oai5RWCkhRaHCgoXKnb
+        DAAACwwBP0AiyAAABh1JREFUeF7tmz9IJGcYxq2vsrjrba8TLIXDwiJX+Aeu0Oai5RWCkhRaHCgoXKnb
         H2plE0FTBSQgqQISEJLCdZdEsTGBNdukEmTyPsP7Lt9Ovtmdv3tm9vnBw87Mzp9v3mfeb77vm5kRQggh
         hJA4ms3m5vX1dVsUVFmNRuP86upqTE97OJCT3r2/vw+enp6CqtNqtWD0jZ76cCAn3H58fNQQVJ/b21tk
         8riefvVB1TVM3N3dBVJNT+npVx8aXHFocMWhwRWHBlccGlxxkhh8c3OjU8XRbrcL3y/2h/32ggY77O3t
@@ -21345,12 +21378,15 @@
 </value>
   </data>
   <data name="AddFavButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>570, 826</value>
+    <value>345, 4</value>
+  </data>
+  <data name="AddFavButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 49</value>
   </data>
   <data name="AddBlackListButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAYAAAA5ZDbSAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAABsFJREFUeF7tmz1IJEkYho03MtjNTTcTDIXFwOA28Ac2EIM9jWQDweUMNFhQUNhE
+        DAAACwwBP0AiyAAABsFJREFUeF7tmz1IJEkYho03MtjNTTcTDIXFwOA28Ac2EIM9jWQDweUMNFhQUNhE
         UENhUaNJTtTTQNAD2ehAPIS7wJ/hzsSfC/QG5CJB+r63qW8o+6pmqntmXK/nfeBlZrqnuqu/t7/qquru
         FkIIIYQQH8Vicer09LQkinKs0tnZ2bw55OYBB319fR09PDxEeeb+/j66uLiIjo+Pp82hNwc4s3HwzQCO
         U4733Bx6c4Dmq5nA8ZpDbw5ocM6hwTmHBuccGpxzaHDOCTH4/PzcfKsfpVKpIdutBg22WFhYiNra2qKu
@@ -21383,13 +21419,16 @@
 </value>
   </data>
   <data name="AddBlackListButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>176, 826</value>
+    <value>3, 4</value>
+  </data>
+  <data name="AddBlackListButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 49</value>
   </data>
   <data name="FloorText.Font" type="System.Drawing.Font, System.Drawing">
     <value>Yu Gothic UI Semilight, 13.8pt</value>
   </data>
   <data name="FloorText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>454, 732</value>
+    <value>247, 183</value>
   </data>
   <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -21397,7 +21436,7 @@
   <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAYAAAA5ZDbSAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAABSlJREFUeF7tm79P3EgYhqlTUSQ9bTok+oiC4lKBlDqBMh3oro0EEkVKSB8JqrRw
+        DAAACwwBP0AiyAAABSlJREFUeF7tm79P3EgYhqlTUSQ9bTok+oiC4lKBlDqBMh3oro0EEkVKSB8JqrRw
         fwF/wkrXALsFEhKiY4V0FRLyfe9qPuRY42W9Hi/c7PNIr/xrbY/f1zP2euwFAAAAgDoGg8Hu5eXl0FTk
         qH6/f3Z+fr4UDne+sIM/uL29LR4fH4tcubu7U9BXvV5vMRz2/GAHPnx4eAhW5Mv19XVhtXgrHPb8oCZs
         HlArRcAZQ8CZQ8CZQ8CZQ8CZQ8BjuLq6CmPpGA6HnWy3DgKOcHh4WCwtLRWrq6uj4d7eXljSHIV5fHwc
@@ -21423,7 +21462,7 @@
 </value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>352, 826</value>
+    <value>117, 3</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 50</value>
@@ -21431,7 +21470,7 @@
   <data name="MyCollectionsButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAJ0AAACdCAYAAACuJnrWAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EAAACxABrSO9dQAABh1JREFUeF7tnb1xFF0QRQlBISiELZEAJiYZSBkAEUgWrpSByGCVwTrYYGMRwoYg
+        DAAACwwBP0AiyAAABh1JREFUeF7tnb1xFF0QRQlBISiELZEAJiYZSBkAEUgWrpSByGCVwTrYYGMRwoYg
         5k71Uw3DXWlUfLXv7nznVN3a+d/uOs0bGSDeAAAAAAAciesh+yGPK8/9kLMh0JnbIU7QWrMbAp35P6xw
         87DadcZJWXvOh0BHnJS1h6HrjJOy9jB0nXFS1h6GrjNOytrD0HXGSVl7GLrOOCl/5Pz83B7/l5ydnf3n
         z9UzFXduFoauM07KmI8fPz7++vXrcbfbjZ/X19f2uiXRgF1eXj7tb7fb8fnTa/4lqvHHjx9L62ToOuOk
@@ -21463,11 +21502,48 @@
   <data name="MyCollectionsButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="MyCollectionsButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>538, 13</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="MyCollectionsButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
   </data>
   <data name="MyCollectionsButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 80</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 413</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>458, 246</value>
+  </data>
+  <data name="tableLayoutPanel2.ColumnCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tableLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 681</value>
+  </data>
+  <data name="tableLayoutPanel2.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>458, 57</value>
+  </data>
+  <data name="tableLayoutPanel3.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel3.RowCount" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tableLayoutPanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>464, 805</value>
   </data>
 </root>
