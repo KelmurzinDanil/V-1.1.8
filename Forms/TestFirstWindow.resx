@@ -117,66 +117,48 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;TypeOfRealty.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="Town.Location" type="System.Drawing.Point, System.Drawing">
-    <value>122, 111</value>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>TestFirstWindow</value>
   </data>
-  <data name="Picture7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>801, 482</value>
-  </data>
-  <data name="PurposeCombo.Items" xml:space="preserve">
-    <value>Купить</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Picture7.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="NextButtonButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="Purpose.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 49</value>
-  </data>
-  <data name="TypeOfRealty.Size" type="System.Drawing.Size, System.Drawing">
-    <value>343, 52</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="PurposeCombo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
   <data name="Picture7.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;PurposeCombo.Name" xml:space="preserve">
+    <value>PurposeCombo</value>
+  </data>
+  <data name="&gt;&gt;Town.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Town.Text" xml:space="preserve">
+    <value>Город:
+</value>
+  </data>
+  <data name="&gt;&gt;Picture7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PurposeCombo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="NextButtonButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="TownCombo.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="RealtyCombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>484, 192</value>
   </data>
-  <data name="PurposeCombo.Items1" xml:space="preserve">
-    <value>Снять посуточно</value>
-  </data>
-  <data name="&gt;&gt;NextButtonButton.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="TownCombo.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Constantia, 18pt</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 20</value>
-  </data>
-  <data name="NextButtonButton.Text" xml:space="preserve">
-    <value>ДАЛЕЕ</value>
-  </data>
-  <data name="&gt;&gt;RealtyCombo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Town.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="TownCombo.Items1" xml:space="preserve">
+    <value>Москва</value>
   </data>
   <data name="Purpose.Text" xml:space="preserve">
     <value>Для чего:
@@ -186,98 +168,134 @@
   <data name="Picture7.Location" type="System.Drawing.Point, System.Drawing">
     <value>-1, -4</value>
   </data>
-  <data name="&gt;&gt;Town.Name" xml:space="preserve">
-    <value>Town</value>
+  <data name="RealtyCombo.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
   </data>
-  <data name="&gt;&gt;PurposeCombo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Town.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 111</value>
   </data>
-  <data name="TypeOfRealty.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Picture7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>801, 482</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="PurposeCombo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;TypeOfRealty.Name" xml:space="preserve">
+    <value>TypeOfRealty</value>
+  </data>
+  <data name="&gt;&gt;Town.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TownCombo.Font" type="System.Drawing.Font, System.Drawing">
     <value>Constantia, 18pt</value>
   </data>
-  <data name="&gt;&gt;Picture7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="NextButtonButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>529, 386</value>
-  </data>
-  <data name="Town.Text" xml:space="preserve">
-    <value>Город:
-</value>
+  <data name="NextButtonButton.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
   </data>
   <data name="&gt;&gt;TownCombo.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="Purpose.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Constantia, 18pt</value>
+  <data name="&gt;&gt;PurposeCombo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="TownCombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 111</value>
   </data>
-  <data name="PurposeCombo.Items2" xml:space="preserve">
-    <value>Снять длительно</value>
+  <data name="NextButtonButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 55</value>
   </data>
-  <data name="&gt;&gt;Picture7.Name" xml:space="preserve">
-    <value>Picture7</value>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
-  <data name="&gt;&gt;NextButtonButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>478, 59</value>
+  <data name="&gt;&gt;Picture7.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <data name="TypeOfRealty.Text" xml:space="preserve">
     <value>Тип недвижимости:
 
 </value>
   </data>
-  <data name="&gt;&gt;NextButtonButton.Name" xml:space="preserve">
-    <value>NextButtonButton</value>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="&gt;&gt;TownCombo.Name" xml:space="preserve">
-    <value>TownCombo</value>
+  <data name="&gt;&gt;PurposeCombo.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="PurposeCombo.Items" xml:space="preserve">
+    <value>Купить</value>
+  </data>
+  <data name="&gt;&gt;TownCombo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RealtyCombo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 45</value>
+  </data>
+  <data name="NextButtonButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>529, 386</value>
+  </data>
+  <data name="&gt;&gt;RealtyCombo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="PurposeCombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 292</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 478</value>
+  </data>
+  <data name="&gt;&gt;Purpose.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="TypeOfRealty.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 22</value>
+  </data>
+  <data name="Town.Font" type="System.Drawing.Font, System.Drawing">
     <value>Constantia, 18pt</value>
   </data>
-  <data name="NextButtonButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="&gt;&gt;Purpose.Name" xml:space="preserve">
-    <value>Purpose</value>
-  </data>
-  <data name="PurposeCombo.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="TownCombo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+  <data name="Town.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
   <data name="Purpose.Location" type="System.Drawing.Point, System.Drawing">
     <value>122, 296</value>
   </data>
-  <data name="RealtyCombo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>484, 192</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Picture7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
   </data>
-  <data name="&gt;&gt;Town.Parent" xml:space="preserve">
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>478, 59</value>
+  </data>
+  <data name="&gt;&gt;Picture7.Name" xml:space="preserve">
+    <value>Picture7</value>
+  </data>
+  <data name="TownCombo.Items" xml:space="preserve">
+    <value>Казань</value>
+  </data>
+  <data name="&gt;&gt;Picture7.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="PurposeCombo.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="&gt;&gt;Town.Name" xml:space="preserve">
+    <value>Town</value>
+  </data>
+  <data name="TownCombo.Size" type="System.Drawing.Size, System.Drawing">
     <value>419, 45</value>
   </data>
-  <data name="&gt;&gt;Town.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="RealtyCombo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Constantia, 18pt</value>
   </data>
-  <data name="NextButtonButton.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
+  <data name="&gt;&gt;NextButtonButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;TypeOfRealty.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="TypeOfRealty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>343, 52</value>
   </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>175, 22</value>
+  <data name="&gt;&gt;NextButtonButton.Name" xml:space="preserve">
+    <value>NextButtonButton</value>
+  </data>
+  <data name="PurposeCombo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Constantia, 18pt</value>
   </data>
   <data name="Picture7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -9787,152 +9805,134 @@
         RK5CYII=
 </value>
   </data>
-  <data name="RealtyCombo.Items" xml:space="preserve">
-    <value>Дом</value>
-  </data>
-  <data name="&gt;&gt;Purpose.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Picture7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RealtyCombo.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>800, 478</value>
-  </data>
-  <data name="&gt;&gt;TypeOfRealty.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;Picture7.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="Picture7.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;NextButtonButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Town.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="NextButtonButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 55</value>
-  </data>
-  <data name="&gt;&gt;Purpose.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="TownCombo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>419, 45</value>
-  </data>
-  <data name="&gt;&gt;TownCombo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;TownCombo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="RealtyCombo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="TownCombo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>308, 111</value>
-  </data>
-  <data name="TownCombo.Items" xml:space="preserve">
-    <value>Казань</value>
-  </data>
-  <data name="&gt;&gt;PurposeCombo.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="TypeOfRealty.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="PurposeCombo.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Constantia, 18pt</value>
+  <data name="PurposeCombo.Items2" xml:space="preserve">
+    <value>Снять длительно</value>
   </data>
   <data name="Town.Size" type="System.Drawing.Size, System.Drawing">
     <value>137, 52</value>
   </data>
-  <data name="TypeOfRealty.Location" type="System.Drawing.Point, System.Drawing">
-    <value>122, 196</value>
+  <data name="PurposeCombo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>419, 45</value>
   </data>
-  <data name="RealtyCombo.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Constantia, 18pt</value>
+  <data name="&gt;&gt;TypeOfRealty.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
-  <data name="RealtyCombo.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 20</value>
+  </data>
+  <data name="PurposeCombo.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;Purpose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RealtyCombo.Items" xml:space="preserve">
+    <value>Дом</value>
+  </data>
+  <data name="&gt;&gt;Town.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="PurposeCombo.Items1" xml:space="preserve">
+    <value>Снять посуточно</value>
+  </data>
+  <data name="&gt;&gt;NextButtonButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="NextButtonButton.Text" xml:space="preserve">
+    <value>ДАЛЕЕ</value>
+  </data>
+  <data name="NextButtonButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="RealtyCombo.Items2" xml:space="preserve">
     <value>Комната</value>
   </data>
-  <data name="NextButtonButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft JhengHei UI Light, 13.8pt</value>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
   </data>
-  <data name="&gt;&gt;PurposeCombo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="NextButtonButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+  <data name="&gt;&gt;Purpose.Name" xml:space="preserve">
+    <value>Purpose</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
   </data>
-  <data name="&gt;&gt;Picture7.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="Town.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Constantia, 18pt</value>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Выберите один вариант ответа
 </value>
   </data>
-  <data name="Purpose.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+  <data name="Purpose.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Constantia, 18pt</value>
   </data>
-  <data name="&gt;&gt;RealtyCombo.Parent" xml:space="preserve">
+  <data name="&gt;&gt;RealtyCombo.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="RealtyCombo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="TypeOfRealty.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Constantia, 18pt</value>
+  </data>
+  <data name="&gt;&gt;TownCombo.Name" xml:space="preserve">
+    <value>TownCombo</value>
+  </data>
+  <data name="&gt;&gt;NextButtonButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TypeOfRealty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 196</value>
+  </data>
+  <data name="&gt;&gt;RealtyCombo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TownCombo.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="NextButtonButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft JhengHei UI Light, 13.8pt</value>
+  </data>
+  <data name="TownCombo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="TownCombo.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
   <data name="&gt;&gt;Purpose.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="TownCombo.Items1" xml:space="preserve">
-    <value>Москва</value>
+  <data name="Purpose.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>TestFirstWindow</value>
+  <data name="Purpose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 49</value>
   </data>
-  <data name="&gt;&gt;PurposeCombo.Name" xml:space="preserve">
-    <value>PurposeCombo</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Constantia, 18pt</value>
   </data>
   <data name="RealtyCombo.Items1" xml:space="preserve">
     <value>Квартира </value>
   </data>
-  <data name="PurposeCombo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>308, 292</value>
+  <data name="NextButtonButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
   </data>
-  <data name="RealtyCombo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>243, 45</value>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
-  <data name="&gt;&gt;TypeOfRealty.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;TypeOfRealty.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;RealtyCombo.Name" xml:space="preserve">
     <value>RealtyCombo</value>
   </data>
-  <data name="&gt;&gt;TypeOfRealty.Name" xml:space="preserve">
-    <value>TypeOfRealty</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
     <value>en</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
   </metadata>
 </root>

@@ -60,6 +60,12 @@ namespace design
             label2.BackColor = Color.Transparent;
             label3.Parent = Picture4;
             label3.BackColor = Color.Transparent;
+            label4.Parent = Picture4;
+            label4.BackColor = Color.Transparent;
+
+            TypeText.ReadOnly = true ;
+            TypeText.Size = new Size(491, 52);
+            label4.Size = new Size(121, 56);
         }
 
         private void EditButton_Click(object sender, EventArgs e)
@@ -74,6 +80,7 @@ namespace design
             string[] profile = WebAuto.GetMyProfile();
             NameText.Text = profile[0] + " " + profile[1];
             EmailText.Text = Email_;
+            TypeText.Text = "VK";
         }
         private void LoadUserData()
         {
@@ -85,6 +92,7 @@ namespace design
                 {
                     NameText.Text = user.Name ?? string.Empty;
                     EmailText.Text = user.Email ?? string.Empty;
+                    TypeText.Text = "Внутренний";
                 }
             }
         }

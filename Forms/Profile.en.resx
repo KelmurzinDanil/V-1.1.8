@@ -121,7 +121,7 @@
   <data name="Picture4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAx0AAAHlCAYAAACQx5HOAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EgAACxIB0t1+/AAA/7JJREFUeF7s/fdfFGnb7guv/2m/e++11/OsO08OjqOOOY85R8yiqCgoCihJJShB
+        EQAACxEBf2RfkQAA/7JJREFUeF7s/fdfFGnb7guv/2m/e++11/OsO08OjqOOOY85R8yiqCgoCihJJShB
         kkQlB4nmnLOYQAmCGFGP9ziuqmqq20Zx7rnnnudZ88Pxqe6q6lDVVdd1fvtM/2PJ2M8hLR79GQLGfGaW
         i0b9HSsmfoWwxSORuHEWkjfPQ0bEYuREL8P+qKUoSliLkqR1KE4MQsP+bXh8sRBvWmqpGi/1NB/CqwfV
         eHm/Es+aytB9pxRdt0rQebMIHdcPoP0apSXVwcdtlwrQejEfjy7kofnsftw/lYm7J9Jx53g6bh/d59HN
@@ -11323,7 +11323,7 @@
     <value>Yu Gothic UI Semilight, 19.800001pt</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>90, 244</value>
+    <value>90, 226</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 56</value>
@@ -11341,7 +11341,7 @@
     <value>Yu Gothic UI Semilight, 19.800001pt</value>
   </data>
   <data name="EmailText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>217, 248</value>
+    <value>217, 230</value>
   </data>
   <data name="EmailText.Size" type="System.Drawing.Size, System.Drawing">
     <value>491, 52</value>
@@ -11354,7 +11354,7 @@
     <value>Yu Gothic UI, 13.8pt</value>
   </data>
   <data name="EditButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>482, 365</value>
+    <value>482, 374</value>
   </data>
   <data name="EditButton.Text" xml:space="preserve">
     <value>EDIT</value>
@@ -11366,10 +11366,48 @@
     <value>Yu Gothic UI, 13.8pt</value>
   </data>
   <data name="SaveButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>217, 365</value>
+    <value>217, 374</value>
   </data>
   <data name="SaveButton.Text" xml:space="preserve">
     <value>SAVE</value>
+  </data>
+  <data name="TypeText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI Semilight, 19.800001pt</value>
+  </data>
+  <data name="TypeText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 305</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TypeText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TypeText.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TypeText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>491, 52</value>
+  </data>
+  <data name="TypeText.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Yu Gothic UI Semilight, 19.800001pt</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 305</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 56</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>TYPE:</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>794, 484</value>

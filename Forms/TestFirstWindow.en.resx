@@ -121,7 +121,7 @@
   <data name="Picture7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAyEAAAHhCAYAAAB5mbFuAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EgAACxIB0t1+/AAA/7JJREFUeF7s/fd/1Ni67Quf/+m+995zz95n5c4BaKDJOeeMyRkMNhhsgxPgAA44
+        EQAACxEBf2RfkQAA/7JJREFUeF7s/fd/1Ni67Quf/+m+995zz95n5c4BaKDJOeeMyRkMNhhsgxPgAA44
         4QjOAUdyzhmTbHDAxkSDxzvGlFRWFWUw3b16rb1P/zA+qpJUQSppzudbT/ofS8Z8CWnxqC8QMPoLs1w0
         8u9YMeEbhCwegfjNs5C4dR7SwhYjK3IZDkYsRUHcOhQlbEBh/HrUHdyBp5fz8a6pmqryUlfjEbx5VInX
         D8vxoqEEnfeK0XGnCO23C9B28xBab1BaUm183HIlD82Xc/HkUg4azx/EwzPpuH8qFfdOpuLu8QMe3T6W
@@ -11292,9 +11292,6 @@
   </data>
   <data name="RealtyCombo.Font" type="System.Drawing.Font, System.Drawing">
     <value>Yu Gothic UI Semilight, 18pt</value>
-  </data>
-  <data name="RealtyCombo.Items" xml:space="preserve">
-    <value>Дом </value>
   </data>
   <data name="RealtyCombo.Items1" xml:space="preserve">
     <value>Квартира</value>

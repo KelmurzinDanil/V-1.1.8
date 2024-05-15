@@ -37,6 +37,8 @@
             EmailText = new TextBox();
             EditButton = new Button();
             SaveButton = new Button();
+            TypeText = new TextBox();
+            label4 = new Label();
             ((System.ComponentModel.ISupportInitialize)Picture4).BeginInit();
             SuspendLayout();
             // 
@@ -101,10 +103,27 @@
             SaveButton.UseVisualStyleBackColor = false;
             SaveButton.Click += SaveButton_Click_1;
             // 
+            // TypeText
+            // 
+            resources.ApplyResources(TypeText, "TypeText");
+            TypeText.BackColor = Color.WhiteSmoke;
+            TypeText.BorderStyle = BorderStyle.None;
+            TypeText.ForeColor = SystemColors.ActiveCaptionText;
+            TypeText.Name = "TypeText";
+            // 
+            // label4
+            // 
+            resources.ApplyResources(label4, "label4");
+            label4.BackColor = Color.Transparent;
+            label4.ForeColor = SystemColors.ActiveCaptionText;
+            label4.Name = "label4";
+            // 
             // Profile
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(label4);
+            Controls.Add(TypeText);
             Controls.Add(SaveButton);
             Controls.Add(EditButton);
             Controls.Add(EmailText);
@@ -130,5 +149,7 @@
         private System.Windows.Forms.TextBox EmailText;
         private System.Windows.Forms.Button EditButton;
         private System.Windows.Forms.Button SaveButton;
+        private TextBox TypeText;
+        private Label label4;
     }
 }
