@@ -53,6 +53,12 @@ namespace design
         {
             Text1.Parent = Picture8;
             Text1.BackColor = Color.Transparent;
+
+            Picture8.Anchor = AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Top | AnchorStyles.Bottom;
+            Text1.Anchor = AnchorStyles.Left | AnchorStyles.Top;
+            Btn_GetRecom.Anchor = AnchorStyles.Right | AnchorStyles.Top;
+            tableLayoutPanel1.Anchor = AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Bottom | AnchorStyles.Top;
+            tableLayoutPanel1.Size = new Size(1279, 799);
         }
 
         /// <summary>

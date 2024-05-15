@@ -121,7 +121,7 @@
   <data name="Picture8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABP8AAAN7CAYAAAA6GD8bAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAA/7JJREFUeF7snWd3G0mStd///wN2uyV6EiQ8cOC99444IOi9JyVK5JGLdrPz3htV
+        EAAACxABrSO9dQAA/7JJREFUeF7snWd3G0mStd///wN2uyV6EiQ8cOC99444IOi9JyVK5JGLdrPz3htV
         BUdQonpGMz27/HAPPFCVlRmZ8SAy4v/dHHZlUrfPUm+gN0cbT+rtiPj4doomPzNNo98zXf3n6/jrujve
         /LZOHuvdV7X1tE4f6/3ptqmdR3pn6Wxb3p0/V3i/ahfaV7053Ze7i2O5v76QXz/cy99/+SJ/+2Lof+QX
         +Zv8Kn9Af5PfRsTHU/TLf7b+55ffXvQX0LRr8xz9z79Qg9/9FY9/5TFjrKgEY0HkD44hwRjCePr980f5
@@ -27862,6 +27862,60 @@
     <value>SELECT AT LEAST 3 OBLECTS(SELECT WITH THE RIGHT MOUSE BUTTON)
 </value>
   </data>
+  <data name="Photo2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 4</value>
+  </data>
+  <data name="Photo2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 389</value>
+  </data>
+  <data name="Photo3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>513, 4</value>
+  </data>
+  <data name="Photo3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 389</value>
+  </data>
+  <data name="Photo4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>768, 4</value>
+  </data>
+  <data name="Photo4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 389</value>
+  </data>
+  <data name="Photo5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1023, 4</value>
+  </data>
+  <data name="Photo6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 403</value>
+  </data>
+  <data name="Photo6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 389</value>
+  </data>
+  <data name="Photo7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 403</value>
+  </data>
+  <data name="Photo7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 389</value>
+  </data>
+  <data name="Photo8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>513, 403</value>
+  </data>
+  <data name="Photo8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 389</value>
+  </data>
+  <data name="Photo9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>768, 403</value>
+  </data>
+  <data name="Photo9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 389</value>
+  </data>
+  <data name="Photo10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1023, 403</value>
+  </data>
+  <data name="Photo1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="Photo1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 389</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Btn_GetRecom.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Standard</value>
@@ -27871,5 +27925,21 @@
   </data>
   <data name="Btn_GetRecom.Text" xml:space="preserve">
     <value>FORM</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 80</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1279, 799</value>
+  </data>
+  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
   </data>
 </root>

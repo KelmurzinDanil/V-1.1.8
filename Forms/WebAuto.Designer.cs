@@ -37,19 +37,20 @@
             webView21.AllowExternalDrop = true;
             webView21.CreationProperties = null;
             webView21.DefaultBackgroundColor = Color.White;
-            webView21.Location = new Point(-2, -2);
+            webView21.Dock = DockStyle.Fill;
+            webView21.Location = new Point(0, 0);
             webView21.Name = "webView21";
-            webView21.Size = new Size(804, 453);
+            webView21.Size = new Size(992, 450);
             webView21.TabIndex = 0;
             webView21.ZoomFactor = 1D;
             // 
-            // WebForm
+            // WebAuto
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(webView21);
-            Name = "WebForm";
+            Name = "WebAuto";
             Text = "WebForm";
             ((System.ComponentModel.ISupportInitialize)webView21).EndInit();
             ResumeLayout(false);

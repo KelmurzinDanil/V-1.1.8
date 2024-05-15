@@ -42,6 +42,7 @@
             Photo10 = new PictureBox();
             Photo1 = new PictureBox();
             Btn_GetRecom = new Button();
+            tableLayoutPanel1 = new TableLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)Picture8).BeginInit();
             ((System.ComponentModel.ISupportInitialize)Photo2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)Photo3).BeginInit();
@@ -53,6 +54,7 @@
             ((System.ComponentModel.ISupportInitialize)Photo9).BeginInit();
             ((System.ComponentModel.ISupportInitialize)Photo10).BeginInit();
             ((System.ComponentModel.ISupportInitialize)Photo1).BeginInit();
+            tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
             // Picture8
@@ -157,21 +159,27 @@
             Btn_GetRecom.UseVisualStyleBackColor = false;
             Btn_GetRecom.Click += Btn_GetRecom_Click;
             // 
+            // tableLayoutPanel1
+            // 
+            resources.ApplyResources(tableLayoutPanel1, "tableLayoutPanel1");
+            tableLayoutPanel1.Controls.Add(Photo1, 0, 0);
+            tableLayoutPanel1.Controls.Add(Photo2, 1, 0);
+            tableLayoutPanel1.Controls.Add(Photo10, 4, 1);
+            tableLayoutPanel1.Controls.Add(Photo3, 2, 0);
+            tableLayoutPanel1.Controls.Add(Photo9, 3, 1);
+            tableLayoutPanel1.Controls.Add(Photo4, 3, 0);
+            tableLayoutPanel1.Controls.Add(Photo8, 2, 1);
+            tableLayoutPanel1.Controls.Add(Photo5, 4, 0);
+            tableLayoutPanel1.Controls.Add(Photo7, 1, 1);
+            tableLayoutPanel1.Controls.Add(Photo6, 0, 1);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
+            // 
             // TestSecondWindow
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(tableLayoutPanel1);
             Controls.Add(Btn_GetRecom);
-            Controls.Add(Photo1);
-            Controls.Add(Photo10);
-            Controls.Add(Photo9);
-            Controls.Add(Photo8);
-            Controls.Add(Photo7);
-            Controls.Add(Photo6);
-            Controls.Add(Photo5);
-            Controls.Add(Photo4);
-            Controls.Add(Photo3);
-            Controls.Add(Photo2);
             Controls.Add(Text1);
             Controls.Add(Picture8);
             FormBorderStyle = FormBorderStyle.SizableToolWindow;
@@ -187,6 +195,7 @@
             ((System.ComponentModel.ISupportInitialize)Photo9).EndInit();
             ((System.ComponentModel.ISupportInitialize)Photo10).EndInit();
             ((System.ComponentModel.ISupportInitialize)Photo1).EndInit();
+            tableLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -205,5 +214,6 @@
         private System.Windows.Forms.PictureBox Photo10;
         private PictureBox Photo1;
         private Button Btn_GetRecom;
+        private TableLayoutPanel tableLayoutPanel1;
     }
 }

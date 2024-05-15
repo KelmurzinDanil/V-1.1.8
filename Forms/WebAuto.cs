@@ -10,6 +10,8 @@ namespace DB_993.Forms
         public WebAuto()
         {
             InitializeComponent();
+            webView21.Anchor = AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Top | AnchorStyles.Bottom;
+            webView21.Dock = DockStyle.Fill;
         }
         const int AppID = 51920258; //ID нашего приложения
 
