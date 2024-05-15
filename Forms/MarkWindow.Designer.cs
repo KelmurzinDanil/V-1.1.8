@@ -164,6 +164,7 @@
             Name = "MarkWindow";
             ((System.ComponentModel.ISupportInitialize)Picture9).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
