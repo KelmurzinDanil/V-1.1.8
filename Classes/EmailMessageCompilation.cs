@@ -8,6 +8,10 @@ namespace DB_993.Classes
     {
         public void PushEmailMessage(string email, int idComp)
         {
+            
+        }
+        public void PushEmailMessage(string email, string r) 
+        {
             using (var context = new ApplicationContextBD())
             {
                 try
@@ -16,13 +20,13 @@ namespace DB_993.Classes
                     var to = new MailAddress(email);
                     var m = new MailMessage(from, to);
                     List<Realty> realty;
-                    if (idComp == 0)
+                    if (r != String.Empty)
                     {
                         realty = context.Realtys.OrderByDescending(o => o.Mark).ToList();
                     }
                     else
                     {
-                        realty = context.Compilations.Where(w => w.Id == idComp).Select(u => u.Realtys).FirstOrDefault()!;
+                        realty = context.Compilations.Where(w => w.Name == r).Select(u => u.Realtys).FirstOrDefault()!;
                     }
                     string textComp = String.Empty;
                     string messegeText = String.Empty;
@@ -55,6 +59,5 @@ namespace DB_993.Classes
                 }
             }
         }
-        public void PushEmailMessage(string email, string r) { }
     }
 }

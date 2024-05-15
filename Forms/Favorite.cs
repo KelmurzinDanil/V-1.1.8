@@ -7,6 +7,14 @@ namespace design
     /// </summary>
     public partial class Favorite : Form
     {
+        public int Column1 { get; set; }
+        public int Column2 { get; set; }
+        public int Column3 { get; set; }
+        public int Column4 { get; set; }
+        public int HeightLoc { get; set; }
+        public int WidthLoc { get; set; }
+        public int HeightF { get; set; }
+        public int WidthF { get; set; }
         public string? Email { get; set; }
         public int IdRealryForFav { get; set; }
         public List<Realty>? ListRealty { get; set; }
@@ -14,6 +22,7 @@ namespace design
         {
 
             InitializeComponent();
+            Design();
             Email = email;
             LoadData();
         }
@@ -23,7 +32,26 @@ namespace design
             Email = email;
             FillTableFavourites();
             InitializeComponent();
+            Design();
 
+
+        }
+        public void Design()
+        {
+            Column1 = listView1.Columns[0].Width;
+            Column2 = listView1.Columns[1].Width;
+            Column3 = listView1.Columns[2].Width;
+            Column4 = listView1.Columns[3].Width;
+            listView1.Anchor = AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Top | AnchorStyles.Bottom;
+            BlackListButton.Anchor = AnchorStyles.Left;
+            tableLayoutPanel1.BackColor = Color.Transparent;
+            tableLayoutPanel1.Width = 740;
+            WidthF = this.Width;
+            HeightF = this.Height;
+            tableLayoutPanel1.Height = 629; 
+            HeightLoc = 629;
+            WidthLoc = 740;
+            Picture6.Anchor = AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Top | AnchorStyles.Bottom;
         }
 
         private void FillTableFavourites()
@@ -107,6 +135,22 @@ namespace design
         {
             var toolTip = new ToolTip();
             toolTip.SetToolTip(BlackListButton, FavoriteLocal.ClearFavoriteText);
+        }
+
+        private void Favorite_SizeChanged(object sender, EventArgs e)
+        {
+            tableLayoutPanel1.Width = (int)(((float)WidthLoc * ((float)this.Width / (float)WidthF)));
+            tableLayoutPanel1.Height = (int)(((float)HeightLoc * ((float)this.Height / (float)HeightF)));
+
+
+            listView1.Columns[0].Width = (int)(Column1 * ((float)tableLayoutPanel1.Width / (float)WidthLoc));
+            listView1.Columns[1].Width = (int)(Column2 * ((float)tableLayoutPanel1.Width / (float)WidthLoc));
+            listView1.Columns[2].Width = (int)(Column3 * ((float)tableLayoutPanel1.Width / (float)WidthLoc));
+            listView1.Columns[3].Width = (int)(Column4 * ((float)tableLayoutPanel1.Width / (float)WidthLoc));
+
+            int newX = (this.ClientSize.Width - tableLayoutPanel1.Width) / 2;
+            int newY = (this.ClientSize.Height - tableLayoutPanel1.Height) / 2;
+            tableLayoutPanel1.Location = new Point(newX, newY);
         }
     }
 }
