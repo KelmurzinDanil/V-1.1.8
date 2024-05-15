@@ -52,6 +52,8 @@ namespace design
                 context.SaveChanges();
             }
             this.Close();
+            MessageBox.Show("Создано");
+
 
         }
     }
